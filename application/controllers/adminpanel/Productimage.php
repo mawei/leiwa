@@ -22,7 +22,7 @@ class Productimage extends Admin_Controller {
         $this->load->helper(array('auto_codeIgniter_helper','array'));
         
         $this->method_config['upload'] = array(
-										'image'=>array('upload_size'=>100000,'upload_file_type'=>'jpg|png|gif','upload_path'=>'images','upload_url'=>'product'),
+										'image'=>array('upload_size'=>100000,'upload_file_type'=>'jpg|png|gif','upload_path'=>'images','upload_url'=>'images'),
 										);
   
 	}
