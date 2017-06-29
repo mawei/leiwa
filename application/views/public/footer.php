@@ -2,16 +2,16 @@
         <div class="footer1">
             <div class="container clearfix">
                 <div class="col-md-6 col-sm-6 col-xs-12 footer1_1">
-                    <img src="<?echo SITE_URL;?>/static/images/index_37.png">
+                    <img src="<?=SITE_URL;?>/static/images/index_37.png">
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-4 footer1_2">
-                    <img src="<?echo SITE_URL;?>/static/images/index_01_24.png">
+                    <img src="<?=SITE_URL;?>/static/images/index_01_24.png">
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-4 footer1_2">
-                    <img src="<?echo SITE_URL;?>/static/images/index_01_24.png">
+                    <img src="<?=SITE_URL;?>/static/images/index_01_24.png">
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-4 footer1_2">
-                    <img src="<?echo SITE_URL;?>/static/images/index_01_24.png">
+                    <img src="<?=SITE_URL;?>/static/images/index_01_24.png">
                 </div>
             </div>
         </div>
@@ -44,6 +44,6 @@
             <p>
                 ©2009-2015雷瓦版权所有，并保留所有权利&nbsp;沪ICP备13023603号-1
             </p>
-            <img src="<?echo SITE_URL;?>/static/images/index_45.png">
+            <img src="<?=SITE_URL;?>/static/images/index_45.png">
         </div>
     </div>

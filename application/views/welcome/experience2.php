@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title></title>
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/init.css">
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/main.css">
-    <script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="<?echo SITE_URL;?>/static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
+    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -34,7 +34,7 @@
         </div>
     </div>
     <div class="about_ban">
-        <img src="<?echo SITE_URL;?>/static/images/e2_02.png">
+        <img src="<?=SITE_URL;?>/static/images/e2_02.png">
     </div>
     <div class="exp1 container">
         <div class="exp1_1">
@@ -53,7 +53,7 @@
         雷瓦品牌始终秉承以人为本，专注服务，悦享生活的宗旨。<br> 在基础服务体系下，创造具有差异化的定制服务，
         <br> 做用户的私人造型师，解答用户的造型疑惑
         <div class="exp1_3">
-            <img src="<?echo SITE_URL;?>/static/images/e2_10.png">
+            <img src="<?=SITE_URL;?>/static/images/e2_10.png">
         </div>
         <div class="exp1_4">
             <span class="exp1_2 span_black">提供贴合用户需求且时尚的造型方案</span><br> 帮助用户轻松便捷做出百变造型，让用户爱上美，焕发美，
@@ -61,7 +61,7 @@
         </div>
     </div>
     <div class="exp2">
-        <img src="<?echo SITE_URL;?>/static/images/e2_13.png">
+        <img src="<?=SITE_URL;?>/static/images/e2_13.png">
         <div class="exp_2t">
             <div class="container clearfix">
                 <div class="right">

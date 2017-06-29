@@ -1,5 +1,5 @@
 <div class="head_t">
-    <a href="<?=SITE_URL?>index"> <img src="<?echo SITE_URL;?>/static/images/logo.png"></a>
+    <a href="<?=SITE_URL?>index"> <img src="<?=SITE_URL;?>/static/images/logo.png"></a>
 </div>
 <div class="menu">
     <div class="container">

@@ -6,11 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<title></title>
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/init.css">
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/main.css">
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -70,7 +70,7 @@
 				<li>
 					<a href="news.html#" class="clearfix">
 						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf">
-							<img src="<?echo SITE_URL;?>/static/images/news_09.png">
+							<img src="<?=SITE_URL;?>/static/images/news_09.png">
 						</div>
 						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt">
 							<p class="news_bmain_rttl">

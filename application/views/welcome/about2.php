@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title></title>
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/init.css">
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/main.css">
-    <script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="<?echo SITE_URL;?>/static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
+    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="about_ban">
-        <img src="<?echo SITE_URL;?>/static/images/about2ban_02.jpg">
+        <img src="<?=SITE_URL;?>/static/images/about2ban_02.jpg">
         <div class="about2_ban_text">
             <p class="about2_ban_tex1">
                 <span>BRAND </span>品牌理念
@@ -50,7 +50,7 @@
         </div>
     </div>
     <div class="ab2 container">
-        <img src="<?echo SITE_URL;?>/static/images/about2_03.png">
+        <img src="<?=SITE_URL;?>/static/images/about2_03.png">
         <div class="ab2_1 eng">
             <p>BEAUTY</p>
             IS EVERYWHERE
@@ -65,7 +65,7 @@
         </div>
     </div>
     <div class="ab3 container">
-        <img src="<?echo SITE_URL;?>/static/images/about2bg_05.jpg">
+        <img src="<?=SITE_URL;?>/static/images/about2bg_05.jpg">
         <div class="ab3_main">
             <p class="ab3_1 eng">
                 JUST DISCOVER
@@ -78,7 +78,7 @@
         </div>
     </div>
     <div class="ab4 container">
-        <img src="<?echo SITE_URL;?>/static/images/about2_07.png">
+        <img src="<?=SITE_URL;?>/static/images/about2_07.png">
         <div class="ab4_1">
             <span class="ab4_1_1">
 自由
@@ -103,7 +103,7 @@
         </div>
     </div>
     <div class="caitiao container">
-        <img src="<?echo SITE_URL;?>/static/images/about1_46.png">
+        <img src="<?=SITE_URL;?>/static/images/about1_46.png">
     </div>
             <?php echo template('public','footer')?>
 

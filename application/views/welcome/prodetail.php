@@ -8,15 +8,15 @@
 
 	<meta name="format-detection" content="telephone=no">
 	<title></title>
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/init.css">
-	<link rel="stylesheet" type="text/css" href="<?echo SITE_URL;?>/static/css/jquery.ad-gallery.css">
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/main.css">
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery.ad-gallery.js"></script>
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/zzsc.js"></script>
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery.flexslider-min.js"></script>
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
+	<link rel="stylesheet" type="text/css" href="<?=SITE_URL;?>/static/css/jquery.ad-gallery.css">
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery.ad-gallery.js"></script>
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/zzsc.js"></script>
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery.flexslider-min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -41,7 +41,7 @@
 		</div>
 	</div>
 	<div class="pro3_one">
-		<img src="<?echo SITE_URL;?>/static/images/pro3_02.jpg">
+		<img src="<?=SITE_URL;?>/static/images/pro3_02.jpg">
 		<div class="pro3_one_main">
 			<div class="container clearfix">
 				<div class="right pro3_one_main_rt">
@@ -68,7 +68,7 @@
 	<div class="pro3_three">
 		<div id="gallery" class="ad-gallery">
 			<div class="ad-image-wrapper">
-				<div class="ad-image" style="width: 997px; height: 581px; top: 0px; left: 0px;"><img src="<?echo SITE_URL;?>/static/images/pro4_03.jpg" width="997" height="581"></div><img class="ad-loader" src="<?echo SITE_URL;?>/static/images/loader.gif"
+				<div class="ad-image" style="width: 997px; height: 581px; top: 0px; left: 0px;"><img src="<?=SITE_URL;?>/static/images/pro4_03.jpg" width="997" height="581"></div><img class="ad-loader" src="<?=SITE_URL;?>/static/images/loader.gif"
 				 style="display: none;">
 				<div class="ad-next">
 					<div class="ad-next-image" style="opacity: 0.7;"></div>
@@ -86,73 +86,73 @@
 				<div class="ad-thumbs">
 					<ul class="ad-thumb-list" style="width: 1148px;">
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb0 ad-active">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image0" style="opacity: 1;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb0 ad-active">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image0" style="opacity: 1;">
 							</a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb1">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image1" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb1">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image1" style="opacity: 0.7;">
 							</a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb2">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image2" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb2">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image2" style="opacity: 0.7;">
 							</a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb3">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image3" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb3">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image3" style="opacity: 0.7;">
 							</a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb4">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image4" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb4">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image4" style="opacity: 0.7;">
 							</a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb5">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image5" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb5">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image5" style="opacity: 0.7;">
 							</a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb6">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image6" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb6">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image6" style="opacity: 0.7;">
 							</a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb7">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image7" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb7">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image7" style="opacity: 0.7;">
 							</a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb8">
-<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image8" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb8">
+<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image8" style="opacity: 0.7;">
 </a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb9">
-<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image9" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb9">
+<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image9" style="opacity: 0.7;">
 </a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb10">
-<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image10" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb10">
+<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image10" style="opacity: 0.7;">
 </a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb11">
-<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image11" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb11">
+<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image11" style="opacity: 0.7;">
 </a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb12">
-<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image12" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb12">
+<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image12" style="opacity: 0.7;">
 </a>
 						</li>
 						<li>
-							<a href="<?echo SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb13">
-							<img src="<?echo SITE_URL;?>/static/images/pro4_033.jpg" class="image13" style="opacity: 0.7;">
+							<a href="<?=SITE_URL;?>/static/images/pro4_03.jpg" class="ad-thumb13">
+							<img src="<?=SITE_URL;?>/static/images/pro4_033.jpg" class="image13" style="opacity: 0.7;">
 							</a>
 						</li>
 					</ul>
@@ -168,22 +168,22 @@
 						<ul class="slides" style="width: 800%; margin-left: 0px;">
 							<li class="clone" style="width: 0px; float: left; display: block;">
 								<a href="#">
-								<img src="<?echo SITE_URL;?>/static/images/pro4_03.jpg">
+								<img src="<?=SITE_URL;?>/static/images/pro4_03.jpg">
 								</a>
 							</li>
 							<li class="flex-active-slide" style="width: 0px; float: left; display: block;">
 								<a href="#">
-								<img src="<?echo SITE_URL;?>/static/images/pro4_03.jpg">
+								<img src="<?=SITE_URL;?>/static/images/pro4_03.jpg">
 								</a>
 							</li>
 							<li style="width: 0px; float: left; display: block;">
 								<a href="#">
-								<img src="<?echo SITE_URL;?>/static/images/pro4_03.jpg">
+								<img src="<?=SITE_URL;?>/static/images/pro4_03.jpg">
 								</a>
 							</li>
 							<li class="clone" style="width: 0px; float: left; display: block;">
 								<a href="#">
-								<img src="<?echo SITE_URL;?>/static/images/pro4_03.jpg">
+								<img src="<?=SITE_URL;?>/static/images/pro4_03.jpg">
 								</a>
 							</li>
 						</ul>
@@ -227,7 +227,7 @@
 					视频教程：
 				</p>
 				<div class="shipin_main">
-					<img src="<?echo SITE_URL;?>/static/images/pro3_05.jpg">
+					<img src="<?=SITE_URL;?>/static/images/pro3_05.jpg">
 				</div>
 				<p class="pro3_four_text">
 					只要10分钟<br> 教你打造自己的时尚发型
@@ -239,14 +239,14 @@
 				</p>
 				<div class="clearfix">
 					<div class="mai_main left">
-						<img src="<?echo SITE_URL;?>/static/images/pro3_07.jpg">
+						<img src="<?=SITE_URL;?>/static/images/pro3_07.jpg">
 						<p>雷瓦天猫官方旗舰店</p>
 						<a href="#" class="qijian_a">
 了解更多
 </a>
 					</div>
 					<div class="mai_main left">
-						<img src="<?echo SITE_URL;?>/static/images/pro305.jpg">
+						<img src="<?=SITE_URL;?>/static/images/pro305.jpg">
 						<p>
 							手机扫一扫<br> 了解更多详细信息
 						</p>
@@ -264,7 +264,7 @@
 		<ul class="clearfix pro2_three_ul container">
 			<li class="col-md-4 col-sm-4 col-xs-12">
 				<a href="#">
-<img src="<?echo SITE_URL;?>/static/images/pro_list_03.jpg">
+<img src="<?=SITE_URL;?>/static/images/pro_list_03.jpg">
 <p class="pro2_three_ul1">
 RC-7506
 </p>
@@ -281,7 +281,7 @@ more &gt;
 			</li>
 			<li class="col-md-4 col-sm-4 col-xs-12">
 				<a href="#">
-<img src="<?echo SITE_URL;?>/static/images/pro_list_03.jpg">
+<img src="<?=SITE_URL;?>/static/images/pro_list_03.jpg">
 <p class="pro2_three_ul1">
 RC-7506
 </p>
@@ -298,7 +298,7 @@ more &gt;
 			</li>
 			<li class="col-md-4 col-sm-4 col-xs-12">
 				<a href="#">
-<img src="<?echo SITE_URL;?>/static/images/pro_list_03.jpg">
+<img src="<?=SITE_URL;?>/static/images/pro_list_03.jpg">
 <p class="pro2_three_ul1">
 RC-7506
 </p>
@@ -321,7 +321,7 @@ more &gt;
 	<!--footer end-->
 
 
-	<div class="ad-preloads"><img src="<?echo SITE_URL;?>/static/images/pro4_03.jpg"></div>
+	<div class="ad-preloads"><img src="<?=SITE_URL;?>/static/images/pro4_03.jpg"></div>
 </body>
 
 </html>

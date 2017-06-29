@@ -7,12 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<title></title>
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/init.css">
-	<link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/main.css">
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery.flexslider-min.js"></script>
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
+	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery.flexslider-min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -37,7 +37,7 @@
 		</div>
 	</div>
 	<div class="pro2_one">
-		<img src="<?echo SITE_URL;?>/static/images/pr2.png">
+		<img src="<?=SITE_URL;?>/static/images/pr2.png">
 		<div class="pro2_one_main">
 			<div class="container">
 				<p class="pro2_one_main1">
@@ -67,27 +67,27 @@
 					<ul class="slides" style="width: 1000%; margin-left: -2560px;">
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-							<img src="<?echo SITE_URL;?>/static/images/pro2_04.png">
+							<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
 							</a>
 						</li>
 						<li class="" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-								<img src="<?echo SITE_URL;?>/static/images/pro2_04.png">
+								<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
 							</a>
 						</li>
 						<li class="flex-active-slide" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-								<img src="<?echo SITE_URL;?>/static/images/pro2_04.png">
+								<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
 							</a>
 						</li>
 						<li style="width: 1280px; float: left; display: block;">
 							<a href="#">
-								<img src="<?echo SITE_URL;?>/static/images/pro2_04.png">
+								<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
 							</a>
 						</li>
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-								<img src="<?echo SITE_URL;?>/static/images/pro2_04.png">
+								<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
 							</a>
 						</li>
 					</ul>
@@ -143,7 +143,7 @@ HAIR TOOLS
 			
 			<li class="col-md-4 col-sm-4 col-xs-12 pro2_last">
 				<a href="<?=SITE_URL?>prolist/<?=$type?>/<?=$page+1?>">
-					<img src="<?echo SITE_URL;?>/static/images/news_22.png">
+					<img src="<?=SITE_URL;?>/static/images/news_22.png">
 				</a>
 			</li>
 		</ul>

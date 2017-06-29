@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title></title>
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/init.css">
-    <link rel="stylesheet" href="<?echo SITE_URL;?>/static/css/main.css">
-    <script type="text/javascript" src="<?echo SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="<?echo SITE_URL;?>/static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
+    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
+    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -35,7 +35,7 @@
             <a href="<?=SITE_URL?>mystyle4">达人秀场</a>
         </div>
     </div>
-    <div class="my_style_ban" style="background: url(<?echo SITE_URL;?>/static/images/mystyle3_02.png) no-repeat center;background-size: cover;color: #ddb191;">
+    <div class="my_style_ban" style="background: url(<?=SITE_URL;?>/static/images/mystyle3_02.png) no-repeat center;background-size: cover;color: #ddb191;">
         <div class="container">
             <div class="my_ban_main" style="color: #ffffff;">
                 <p class="my_style_big_tl" style="margin-bottom: 0px;color: #faf2d4;">魔发秀</p>
@@ -111,7 +111,7 @@
             <a href="javascript:;" class="style3_img_main">
                 <div class="style3_img_main_t">
                     <em class="style3_play"></em>
-                    <img src="<?echo SITE_URL;?>/static/images/mystyle3_05.jpg">
+                    <img src="<?=SITE_URL;?>/static/images/mystyle3_05.jpg">
                 </div>
                 <div class="style3_img_main_b">
                     <p class="style3_img_main_b1"><?=$v['product']?></p>
@@ -134,7 +134,7 @@
         <video src="images/movie.ogg" controls="controls" width="100%" height="300">
         </video>
     </div>
-    <script type="text/javascript" src="<?echo SITE_URL;?>/static/js/main.js"></script>
+    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/main.js"></script>
 
 
 </body>
