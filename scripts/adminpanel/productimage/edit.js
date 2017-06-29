@@ -7,7 +7,7 @@
 	}
 	function getImage(v,s,w,h){
 		$("#image").val(v);
-		$("#image_SRC").attr("src",SITE_URL+"product/"+v);
+		$("#image_SRC").attr("src",SITE_URL+"images/"+v);
 		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
 	}
 	function  chooseWindowProduct_id(inputId,w,h,iscallback){
