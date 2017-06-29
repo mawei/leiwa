@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title></title>
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
-    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
+    <script type="text/javascript" src="<?=base_url();?>/static/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
 </head>
 
 <body style="background: #ebeaea;">
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="about_ban">
-        <img src="<?=SITE_URL;?>/static/images/about_02.jpg">
+        <img src="<?=base_url();?>/static/images/about_02.jpg">
         <div class="about1_ban_text">
             <p>
                 美，如此简单
@@ -47,13 +47,13 @@
     </div>
     <div class="about1 container clearfix">
         <div class="left abou1_1">
-            <img src="<?=SITE_URL;?>/static/images/about-01_05.png">
+            <img src="<?=base_url();?>/static/images/about-01_05.png">
         </div>
         <div class="left abou1_1">
-            <img src="<?=SITE_URL;?>/static/images/about-01_07.png">
+            <img src="<?=base_url();?>/static/images/about-01_07.png">
         </div>
         <div class="left abou1_2">
-            <img src="<?=SITE_URL;?>/static/images/lw_03.png">
+            <img src="<?=base_url();?>/static/images/lw_03.png">
             <div class="abou1_2_text">
                 RIWA雷瓦，轻松私人造型小家电品牌，源于REVOLUTIONARY ，
                 <br> 意为革命性、颠覆性的改变，旨在为每一位用户带去轻松便捷的造型产品，
@@ -63,28 +63,28 @@
 </span>
         </div>
         <div class="left abou1_1">
-            <img src="<?=SITE_URL;?>/static/images/about-01_09.png">
+            <img src="<?=base_url();?>/static/images/about-01_09.png">
         </div>
         <div class="left abou1_1">
-            <img src="<?=SITE_URL;?>/static/images/about-01_11.png">
+            <img src="<?=base_url();?>/static/images/about-01_11.png">
         </div>
         <div class="left abou1_1">
-            <img src="<?=SITE_URL;?>/static/images/about-01_12.png">
+            <img src="<?=base_url();?>/static/images/about-01_12.png">
         </div>
         <div class="left abou1_1">
-            <img src="<?=SITE_URL;?>/static/images/about-01_17.png">
+            <img src="<?=base_url();?>/static/images/about-01_17.png">
         </div>
         <div class="left abou1_1">
-            <img src="<?=SITE_URL;?>/static/images/about-01_17-08.png">
+            <img src="<?=base_url();?>/static/images/about-01_17-08.png">
         </div>
         <div class="left abou1_1">
-            <img src="<?=SITE_URL;?>/static/images/about1_21.png">
+            <img src="<?=base_url();?>/static/images/about1_21.png">
         </div>
     </div>
     <ul class="about_ul">
         <li class="clearfix container">
             <div class="col-md-7 col-sm-6 col-xs-12 about_ul_lf">
-                <img src="<?=SITE_URL;?>/static/images/about1_27.png">
+                <img src="<?=base_url();?>/static/images/about1_27.png">
             </div>
             <div class="col-md-5 col-sm-6 col-xs-12 about_ul_rt">
                 <p class="about_ul_rttl_big">
@@ -101,7 +101,7 @@
         </li>
         <li class="clearfix container about_ul_li2">
             <div class="col-md-7 col-sm-6 col-xs-12 about_ul_lf aboutt_lf">
-                <img src="<?=SITE_URL;?>/static/images/about1_31.png">
+                <img src="<?=base_url();?>/static/images/about1_31.png">
             </div>
             <div class="col-md-5 col-sm-6 col-xs-12 about_ul_rt aboutt_rt">
                 <p class="about_ul_rttl_big2">
@@ -114,7 +114,7 @@
         </li>
         <li class="clearfix container">
             <div class="col-md-7 col-sm-6 col-xs-12 about_ul_lf">
-                <img src="<?=SITE_URL;?>/static/images/about1_34.png">
+                <img src="<?=base_url();?>/static/images/about1_34.png">
             </div>
             <div class="col-md-5 col-sm-6 col-xs-12 about_ul_rt">
                 <p class="about_ul_rttl_big">
@@ -127,7 +127,7 @@
         </li>
         <li class="clearfix container about_ul_li2">
             <div class="col-md-7 col-sm-6 col-xs-12 about_ul_lf aboutt_lf">
-                <img src="<?=SITE_URL;?>/static/images/about-01_38.png">
+                <img src="<?=base_url();?>/static/images/about-01_38.png">
             </div>
             <div class="col-md-5 col-sm-6 col-xs-12 about_ul_rt aboutt_rt">
                 <p class="about_ul_rttl_big">
@@ -140,7 +140,7 @@
         </li>
     </ul>
     <div class="about2 container">
-        <img src="<?=SITE_URL;?>/static/images/about1_42.png">
+        <img src="<?=base_url();?>/static/images/about1_42.png">
     </div>
     <div class="about3 container">
         <p class="about3_1">
@@ -160,7 +160,7 @@
 </span>
     </div>
     <div class="caitiao container">
-        <img src="<?=SITE_URL;?>/static/images/about1_46.png">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
     </div>
     <?php echo template('public','footer')?>
 

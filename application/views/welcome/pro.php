@@ -6,12 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<title></title>
-	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
-	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
-	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery.flexslider-min.js"></script>
+	<link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
+	<link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
+	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery.flexslider-min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -30,10 +30,10 @@
 			PROFESSIONAL STYLING PRODUCTS
 		</p>
 		<div class="about_menu">
-			<a href="<?=SITE_URL?>prolist/1/1">01卷直发器</a>
-			<a href="<?=SITE_URL?>prolist/2/1">02电吹风</a>
-			<a href="<?=SITE_URL?>prolist/3/1">03理发器</a>
-			<a href="<?=SITE_URL?>prolist/4/1">04美容健康系列</a>
+			<a href="<?=base_url()?>prolist/1/1">01卷直发器</a>
+			<a href="<?=base_url()?>prolist/2/1">02电吹风</a>
+			<a href="<?=base_url()?>prolist/3/1">03理发器</a>
+			<a href="<?=base_url()?>prolist/4/1">04美容健康系列</a>
 		</div>
 	</div>
 	<div class="pro1_one">
@@ -44,7 +44,7 @@
 					<ul class="slides" style="width: 1000%; margin-left: -2560px;">
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
-								<img src="<?=SITE_URL;?>/static/images/pro_02.jpg">
+								<img src="<?=base_url();?>/static/images/pro_02.jpg">
 								<div class="pro1_one_main">
 									<div class="container">
 										<div class="pro1_one_main_con">
@@ -67,7 +67,7 @@
 						</li>
 						<li class="" style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
-								<img src="<?=SITE_URL;?>/static/images/pro_02.jpg">
+								<img src="<?=base_url();?>/static/images/pro_02.jpg">
 								<div class="pro1_one_main">
 									<div class="container">
 										<div class="pro1_one_main_con">
@@ -90,7 +90,7 @@
 						</li>
 						<li class="flex-active-slide" style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
-								<img src="<?=SITE_URL;?>/static/images/pro_02.jpg">
+								<img src="<?=base_url();?>/static/images/pro_02.jpg">
 								<div class="pro1_one_main">
 									<div class="container">
 										<div class="pro1_one_main_con">
@@ -113,7 +113,7 @@
 						</li>
 						<li style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
-								<img src="<?=SITE_URL;?>/static/images/pro_02.jpg">
+								<img src="<?=base_url();?>/static/images/pro_02.jpg">
 								<div class="pro1_one_main">
 									<div class="container">
 										<div class="pro1_one_main_con">
@@ -136,7 +136,7 @@
 						</li>
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
-								<img src="<?=SITE_URL;?>/static/images/pro_02.jpg">
+								<img src="<?=base_url();?>/static/images/pro_02.jpg">
 								<div class="pro1_one_main">
 									<div class="container">
 										<div class="pro1_one_main_con">
@@ -193,7 +193,7 @@
 			<ul class="clearfix index_three_ul container">
 				<li class="col-md-6 col-sm-6 col-xs-6">
 					<a href="prolist/1/1">
-						<img src="<?=SITE_URL;?>/static/images/products_03.png">
+						<img src="<?=base_url();?>/static/images/products_03.png">
 						<div class="index_three_fu index_three_fu10">
 						<p class="eng">
 						HAIR <br> TOOLS
@@ -209,7 +209,7 @@
 				</li>
 				<li class="col-md-6 col-sm-6 col-xs-6">
 					<a href="prolist/2/1">
-						<img src="<?=SITE_URL;?>/static/images/products_05.png">
+						<img src="<?=base_url();?>/static/images/products_05.png">
 						<div class="index_three_fu index_three_fu11">
 						<p class="eng">
 						HAIR <br> DRIER
@@ -229,7 +229,7 @@
 			<ul class="clearfix index_three_ul container">
 				<li class="col-md-6 col-sm-6 col-xs-6">
 					<a href="prolist/3/1">
-						<img src="<?=SITE_URL;?>/static/images/products_12.png">
+						<img src="<?=base_url();?>/static/images/products_12.png">
 						<div class="index_three_fu index_three_fu13">
 							<p class="eng">
 							HAIR
@@ -245,7 +245,7 @@
 				</li>
 				<li class="col-md-6 col-sm-6 col-xs-6">
 					<a href="prolist/4/1">
-						<img src="<?=SITE_URL;?>/static/images/products_10.png">
+						<img src="<?=base_url();?>/static/images/products_10.png">
 						<div class="index_three_fu index_three_fu14">
 						<p class="eng">
 						BEAUTY HEALTH <br> SERIES <br>
@@ -263,7 +263,7 @@
 		</div>
 	</div>
 	<div class="pro1_three">
-		<img src="<?=SITE_URL;?>/static/images/pro_06.jpg">
+		<img src="<?=base_url();?>/static/images/pro_06.jpg">
 		<div class="pro1_three_main">
 			<div class="container">
 				<div class="pro1_three_tl">
@@ -279,7 +279,7 @@
 	<ul class="container pro1_four clearfix">
 		<li class="col-md-4 col-sm-4 col-xs-12">
 			<div class="pro1_four_main">
-				<img src="<?=SITE_URL;?>/static/images/products_100.png">
+				<img src="<?=base_url();?>/static/images/products_100.png">
 				<p class="pro1_four_main_name">
 					简操作
 				</p>
@@ -292,7 +292,7 @@
 		</li>
 		<li class="col-md-4 col-sm-4 col-xs-12">
 			<div class="pro1_four_main">
-				<img src="<?=SITE_URL;?>/static/images/products_07.png">
+				<img src="<?=base_url();?>/static/images/products_07.png">
 				<p class="pro1_four_main_name">
 					可替换
 				</p>
@@ -305,7 +305,7 @@
 		</li>
 		<li class="col-md-4 col-sm-4 col-xs-12">
 			<div class="pro1_four_main">
-				<img src="<?=SITE_URL;?>/static/images/pro_07.png">
+				<img src="<?=base_url();?>/static/images/pro_07.png">
 				<p class="pro1_four_main_name">
 					易携带
 				</p>
@@ -322,7 +322,7 @@
 		<p class="color_red">
 			发现时下最流行
 		</p>
-		<a href="<?=SITE_URL;?>mystyle" class="eng">
+		<a href="<?=base_url();?>mystyle" class="eng">
 MORE
 </a>
 	</div>

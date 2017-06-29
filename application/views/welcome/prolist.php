@@ -7,12 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<title></title>
-	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
-	<link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
-	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery.flexslider-min.js"></script>
+	<link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
+	<link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
+	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery.flexslider-min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -30,14 +30,14 @@
 			PROFESSIONAL STYLING PRODUCTS
 		</p>
 		<div class="about_menu">
-			<a href="<?=SITE_URL?>prolist/1/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>01卷直发器</a>
-			<a href="<?=SITE_URL?>prolist/2/1" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>02电吹风</a>
-			<a href="<?=SITE_URL?>prolist/3/1" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>03理发器</a>
-			<a href="<?=SITE_URL?>prolist/4/1" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>04美容健康系列</a>
+			<a href="<?=base_url()?>prolist/1/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>01卷直发器</a>
+			<a href="<?=base_url()?>prolist/2/1" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>02电吹风</a>
+			<a href="<?=base_url()?>prolist/3/1" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>03理发器</a>
+			<a href="<?=base_url()?>prolist/4/1" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>04美容健康系列</a>
 		</div>
 	</div>
 	<div class="pro2_one">
-		<img src="<?=SITE_URL;?>/static/images/pr2.png">
+		<img src="<?=base_url();?>/static/images/pr2.png">
 		<div class="pro2_one_main">
 			<div class="container">
 				<p class="pro2_one_main1">
@@ -67,27 +67,27 @@
 					<ul class="slides" style="width: 1000%; margin-left: -2560px;">
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-							<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
+							<img src="<?=base_url();?>/static/images/pro2_04.png">
 							</a>
 						</li>
 						<li class="" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-								<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
+								<img src="<?=base_url();?>/static/images/pro2_04.png">
 							</a>
 						</li>
 						<li class="flex-active-slide" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-								<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
+								<img src="<?=base_url();?>/static/images/pro2_04.png">
 							</a>
 						</li>
 						<li style="width: 1280px; float: left; display: block;">
 							<a href="#">
-								<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
+								<img src="<?=base_url();?>/static/images/pro2_04.png">
 							</a>
 						</li>
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-								<img src="<?=SITE_URL;?>/static/images/pro2_04.png">
+								<img src="<?=base_url();?>/static/images/pro2_04.png">
 							</a>
 						</li>
 					</ul>
@@ -123,8 +123,8 @@ HAIR TOOLS
 		<ul class="clearfix pro2_three_ul container">
 			<?php foreach($products as $k=>$v):?>
 			<li class="col-md-4 col-sm-4 col-xs-12">
-				<a href="<?=SITE_URL?>prodetail/<?=$type?>/<?=$v['product_id']?>">
-				<img src="<?=SITE_URL?>images/<?=$v['image']?>">
+				<a href="<?=base_url()?>prodetail/<?=$type?>/<?=$v['product_id']?>">
+				<img src="<?=base_url()?>images/<?=$v['image']?>">
 				<p class="pro2_three_ul1">
 				<?=$v['style']?>
 				</p>
@@ -142,18 +142,18 @@ HAIR TOOLS
 			<?php endforeach;?>
 			
 			<li class="col-md-4 col-sm-4 col-xs-12 pro2_last">
-				<a href="<?=SITE_URL?>prolist/<?=$type?>/<?=$page+1?>">
-					<img src="<?=SITE_URL;?>/static/images/news_22.png">
+				<a href="<?=base_url()?>prolist/<?=$type?>/<?=$page+1?>">
+					<img src="<?=base_url();?>/static/images/news_22.png">
 				</a>
 			</li>
 		</ul>
 		<div class="page clearfix container">
 			<div class="right">
-				<a href="<?=SITE_URL?>prolist/<?=$type;?>/<?=$page-1?>">&lt;</a>
+				<a href="<?=base_url()?>prolist/<?=$type;?>/<?=$page-1?>">&lt;</a>
 				<input  id="pageinput" type="text" value="<?=$page?>">
 				<span>/<?=$maxpage?></span>
 				<a id="submit" href="#" style="background: #000000;color: #fff;">GO</a>
-				<a href="<?=SITE_URL?>prolist/<?=$type;?>/<?=$page+1?>">&gt;</a>
+				<a href="<?=base_url()?>prolist/<?=$type;?>/<?=$page+1?>">&gt;</a>
 			</div>
 		</div>
 	</div>
@@ -168,7 +168,7 @@ HAIR TOOLS
 </body>
 <script type="text/javascript">
 	$("#submit").click(function(){
-		self.location="<?=SITE_URL?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
+		self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
 	});
 </script>
 </html>

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title></title>
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
-    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
+    <script type="text/javascript" src="<?=base_url();?>/static/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="about_ban">
-        <img src="<?=SITE_URL;?>/static/images/about3ban_02.jpg">
+        <img src="<?=base_url();?>/static/images/about3ban_02.jpg">
         <div class="about3_banner">
             <div class="container">
                 <span class="about3_textba_main eng">
@@ -83,11 +83,11 @@
         <div class="at2_text">
             雷瓦品牌坚持以产品品质作为企业的生命理念，建立完善的质量管理体系，引进各种先进的检测仪器和设备，组建专业的质量监查检验团队，从产品生产、包装运输、入仓检测、出库发货等每个环节严格把控，确保所有产品符合质量标准要求，保证产品质量始终如一，大大提高消费者的满意度。
         </div>
-        <div class="imgbox"> <img src="<?=SITE_URL;?>/static/images/about3_05.jpg"></div>
+        <div class="imgbox"> <img src="<?=base_url();?>/static/images/about3_05.jpg"></div>
 
     </div>
     <div class="at3 container">
-        <img src="<?=SITE_URL;?>/static/images/about3bg_07.jpg">
+        <img src="<?=base_url();?>/static/images/about3bg_07.jpg">
         <div class="at3_main">
             <div class="at2_tl">
                 <span class="span_black">暖心</span>设计
@@ -127,7 +127,7 @@
         </div>
     </div>
     <div class="at4 container">
-        <img src="<?=SITE_URL;?>/static/images/about3bg_11.jpg">
+        <img src="<?=base_url();?>/static/images/about3bg_11.jpg">
         <div class="at4main">
             <div class="at4_main1">
                 <p class="at4_main1_t">

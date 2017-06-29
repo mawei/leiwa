@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <title></title>
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/init.css">
-    <link rel="stylesheet" href="<?=SITE_URL;?>/static/css/main.css">
-    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
+    <link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
+    <script type="text/javascript" src="<?=base_url();?>/static/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
 </head>
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
@@ -29,13 +29,13 @@
             DO YOUR OWN STYLE
         </p>
         <div class="about_menu">
-            <a href="<?=SITE_URL?>mystyle">潮流发型</a>
-            <a href="<?=SITE_URL?>mystyle2">未来发型趋势</a>
-            <a href="<?=SITE_URL?>mystyle3" class="ahover">魔法秀</a>
-            <a href="<?=SITE_URL?>mystyle4">达人秀场</a>
+            <a href="<?=base_url()?>mystyle">潮流发型</a>
+            <a href="<?=base_url()?>mystyle2">未来发型趋势</a>
+            <a href="<?=base_url()?>mystyle3" class="ahover">魔法秀</a>
+            <a href="<?=base_url()?>mystyle4">达人秀场</a>
         </div>
     </div>
-    <div class="my_style_ban" style="background: url(<?=SITE_URL;?>/static/images/mystyle3_02.png) no-repeat center;background-size: cover;color: #ddb191;">
+    <div class="my_style_ban" style="background: url(<?=base_url();?>/static/images/mystyle3_02.png) no-repeat center;background-size: cover;color: #ddb191;">
         <div class="container">
             <div class="my_ban_main" style="color: #ffffff;">
                 <p class="my_style_big_tl" style="margin-bottom: 0px;color: #faf2d4;">魔发秀</p>
@@ -49,10 +49,10 @@
     <div class="container clearfix style3_main">
         <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="style3_qhtl clearfix">
-                <a href="<?=SITE_URL?>mystyle3/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>卷直发器<em></em></a>
-                <a href="<?=SITE_URL?>mystyle3/2" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>电吹风<em></em></a>
-                <a href="<?=SITE_URL?>mystyle3/3" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>理发器<em></em></a>
-                <a href="<?=SITE_URL?>mystyle3/4" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康<em></em></a>
+                <a href="<?=base_url()?>mystyle3/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>卷直发器<em></em></a>
+                <a href="<?=base_url()?>mystyle3/2" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>电吹风<em></em></a>
+                <a href="<?=base_url()?>mystyle3/3" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>理发器<em></em></a>
+                <a href="<?=base_url()?>mystyle3/4" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康<em></em></a>
             </div>
             <div class="style3_qhmain">
                 <div class="style3_qhcon active">
@@ -111,7 +111,7 @@
             <a href="javascript:;" class="style3_img_main">
                 <div class="style3_img_main_t">
                     <em class="style3_play"></em>
-                    <img src="<?=SITE_URL;?>/static/images/mystyle3_05.jpg">
+                    <img src="<?=base_url();?>/static/images/mystyle3_05.jpg">
                 </div>
                 <div class="style3_img_main_b">
                     <p class="style3_img_main_b1"><?=$v['product']?></p>
@@ -134,7 +134,7 @@
         <video src="images/movie.ogg" controls="controls" width="100%" height="300">
         </video>
     </div>
-    <script type="text/javascript" src="<?=SITE_URL;?>/static/js/main.js"></script>
+    <script type="text/javascript" src="<?=base_url();?>/static/js/main.js"></script>
 
 
 </body>

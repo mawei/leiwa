@@ -1,5 +1,5 @@
 <div class="head_t">
-    <a href="<?=SITE_URL?>index"> <img src="<?=SITE_URL;?>/static/images/logo.png"></a>
+    <a href="<?=base_url()?>index"> <img src="<?=base_url();?>/static/images/logo.png"></a>
 </div>
 <div class="menu">
     <div class="container">
@@ -16,37 +16,37 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav clearfix">
                     <li>
-                        <a href="<?=SITE_URL?>about">
+                        <a href="<?=base_url()?>about">
                                         关于雷瓦
                                      </a>
                     </li>
                     <li>
-                        <a href="<?=SITE_URL?>pro">
+                        <a href="<?=base_url()?>pro">
                                     造型产品
                                     </a>
                     </li>
                     <li>
-                        <a href="<?=SITE_URL?>mystyle">
+                        <a href="<?=base_url()?>mystyle">
                                     我型我造
                                     </a>
                     </li>
                     <li>
-                        <a href="<?=SITE_URL?>experience">
+                        <a href="<?=base_url()?>experience">
                                     贴心体验
                                     </a>
                     </li>
                     <li>
-                        <a href="<?=SITE_URL?>news">
+                        <a href="<?=base_url()?>news">
                                     雷瓦资讯
                                     </a>
                     </li>
                     <li>
-                        <a href="<?=SITE_URL?>contactus">
+                        <a href="<?=base_url()?>contactus">
                                     联系我们
                                     </a>
                     </li>
                     <li>
-                        <a href="<?=SITE_URL?>#">
+                        <a href="<?=base_url()?>#">
                                     官方商城
                                     </a>
                     </li>

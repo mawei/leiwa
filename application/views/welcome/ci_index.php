@@ -11,7 +11,7 @@
               <h3 class="masthead-brand">ACI(AutoCodeigniter.com)</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="<?php echo site_url()?>">首页</a></li>
+                  <li class="active"><a href="<?php echo base_url()()?>">首页</a></li>
                   <li><a href="http://www.autoCodeigniter.com">联系</a></li>
                 </ul>
               </nav>
@@ -25,7 +25,7 @@
             <?php else:?>
               <?php if(!isRewriteMod()&&function_exists('apache_get_version')): ?>
                 <p class="lead">很抱歉您当前环境未开始 mod_rewrite </p>
-              <?php elseif(site_url()!=curPageURL()):?>
+              <?php elseif(base_url()()!=curPageURL()):?>
                 <p class="lead"> 安装说中的第一条不正确 ， 请修改 application/config/config.php 中的 $config['base_url'] = '<?php echo curPageURL()?>'; </p>
               <?php elseif($cache_chomd<755):?>
                 <p class="lead"> application/cache 文件夹 权限不够，要求权限>=755以上 </p>
@@ -35,7 +35,7 @@
                   <p>{title}</p>
                   <p>感谢@Alex 、 @青蛙 、 @zhanxing.tech </p>
 
-                  <a href="<?php echo site_url('adminpanel')?>" class="btn btn-lg btn-default">进入后台管理</a>
+                  <a href="<?php echo base_url()('adminpanel')?>" class="btn btn-lg btn-default">进入后台管理</a>
                 </p>
               <?php endif;?>
             <?php endif;?>
