@@ -22,7 +22,7 @@ class Magicshow extends Admin_Controller {
         $this->load->helper(array('auto_codeIgniter_helper','array'));
         
         $this->method_config['upload'] = array(
-										'video'=>array('upload_size'=>1024000,'upload_file_type'=>'jpg|png|gif','upload_path'=>'video','upload_url'=>'video'),
+										'video'=>array('upload_size'=>1024000,'upload_file_type'=>'jpg|png|gif','upload_path'=>'/video','upload_url'=>'/video'),
 										);
   
   
