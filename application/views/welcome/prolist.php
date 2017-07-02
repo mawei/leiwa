@@ -42,7 +42,7 @@
 			<div class="container">
 				<p class="pro2_one_main1">
 					<span>01</span>
-					<b>卷直发棒</b>
+					<b>烫发器</b>
 				</p>
 				<p class="pro2_one_main2 eng">
 					HAIR TOOLS

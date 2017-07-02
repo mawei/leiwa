@@ -199,7 +199,7 @@
 						HAIR <br> TOOLS
 						</p>
 						<p class="index_three_zw">
-						卷直发棒
+						烫发器
 						</p>
 						<p class="index_three_num">
 						01

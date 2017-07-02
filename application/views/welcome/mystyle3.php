@@ -60,7 +60,7 @@
                         HAIR
                     </p>
                     <p class="style3_qhcon2">
-                        卷直发棒
+                        烫发器
                     </p>
                     <p class="style3_qhcon1">
                         TOOLS
@@ -72,7 +72,7 @@
                         HAIR
                     </p>
                     <p class="style3_qhcon2">
-                        卷直发棒
+                        烫发器
                     </p>
                     <p class="style3_qhcon1">
                         TOOLS
@@ -84,7 +84,7 @@
                         HAIR
                     </p>
                     <p class="style3_qhcon2">
-                        卷直发棒
+                        烫发器
                     </p>
                     <p class="style3_qhcon1">
                         TOOLS
@@ -96,7 +96,7 @@
                         HAIR
                     </p>
                     <p class="style3_qhcon2">
-                        卷直发棒
+                        烫发器
                     </p>
                     <p class="style3_qhcon1">
                         TOOLS
