@@ -31,7 +31,7 @@
         <div class="about_menu">
             <a href="mystyle">潮流发型</a>
             <a href="mystyle2" class="ahover">未来发型趋势</a>
-            <a href="mystyle3">魔法秀</a>
+            <a href="mystyle3">魔发秀</a>
             <a href="mystyle4">达人秀场</a>
         </div>
     </div>

@@ -30,7 +30,7 @@
 			PROFESSIONAL STYLING PRODUCTS
 		</p>
 		<div class="about_menu">
-			<a href="<?=base_url()?>prolist/1/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>01卷直发器</a>
+			<a href="<?=base_url()?>prolist/1/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>01烫发器</a>
 			<a href="<?=base_url()?>prolist/2/1" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>02电吹风</a>
 			<a href="<?=base_url()?>prolist/3/1" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>03理发器</a>
 			<a href="<?=base_url()?>prolist/4/1" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>04美容健康系列</a>
@@ -118,7 +118,7 @@
 			<span class="eng">
 HAIR TOOLS
 </span>
-			<p>卷直发器产品</p>
+			<p>烫发器产品</p>
 		</div>
 		<ul class="clearfix pro2_three_ul container">
 			<?php foreach($products as $k=>$v):?>

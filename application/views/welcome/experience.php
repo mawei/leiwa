@@ -38,18 +38,18 @@
     <div class="e1_main">
         <div class="index_four_line ex_line">
             <span>
-卷直发器类
+烫发器类
 </span>
         </div>
         <ul class="container wenda_ul">
-            <?php foreach($questions['卷直发器'] as $k=>$v):?>
+            <?php foreach($questions['烫发器'] as $k=>$v):?>
             <li class="col-md-6 col-sm-6 col-xs-12">
                 <div class="wenda_main">
                     <div class="wen">
-                        <?=$questions['卷直发器'][$k]['title']?>
+                        <?=$questions['烫发器'][$k]['title']?>
                     </div>
                     <div class="da">
-                        <?=$questions['卷直发器'][$k]['content']?>
+                        <?=$questions['烫发器'][$k]['content']?>
                     </div>
                 </div>
             </li>

@@ -34,7 +34,7 @@
         <div class="contact_ban_main">
             <div class="cotainer">
                 <div class="col-md-6 col-sm-6 col-xs-12 right contact_ban_con">
-                    <span class="span_red">客服电话：400-805-5665</span><br> 邮箱：riwa@riwa.com.cn
+                    <span class="span_red">全国服务热线：400-805-5665</span><br> 邮箱：riwa@riwa.com.cn
                     <br> 地址：上海市松江区九亭镇沪松公路1399弄68号6层
                     <br> 邮政编码：201615
                 </div>

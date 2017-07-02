@@ -18,7 +18,7 @@
 				<div class="col-sm-9 ">
 					<select class="form-control  validate[required]"  name="type"  id="type">
 				<option value="">==请选择==</option>
-								<option value='卷直发器' <?php if(isset($data_info['type'])&&($data_info['type']=='卷直发器')) { ?> selected="selected" <?php } ?>            >卷直发器</option>
+								<option value='烫发器' <?php if(isset($data_info['type'])&&($data_info['type']=='烫发器')) { ?> selected="selected" <?php } ?>            >烫发器</option>
 				<option value='电吹风' <?php if(isset($data_info['type'])&&($data_info['type']=='电吹风')) { ?> selected="selected" <?php } ?>            >电吹风</option>
 				<option value='理发器' <?php if(isset($data_info['type'])&&($data_info['type']=='理发器')) { ?> selected="selected" <?php } ?>            >理发器</option>
 				<option value='美容健康' <?php if(isset($data_info['type'])&&($data_info['type']=='美容健康')) { ?> selected="selected" <?php } ?>            >美容健康</option>

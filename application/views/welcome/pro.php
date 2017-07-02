@@ -30,7 +30,7 @@
 			PROFESSIONAL STYLING PRODUCTS
 		</p>
 		<div class="about_menu">
-			<a href="<?=base_url()?>prolist/1/1">01卷直发器</a>
+			<a href="<?=base_url()?>prolist/1/1">01烫发器</a>
 			<a href="<?=base_url()?>prolist/2/1">02电吹风</a>
 			<a href="<?=base_url()?>prolist/3/1">03理发器</a>
 			<a href="<?=base_url()?>prolist/4/1">04美容健康系列</a>

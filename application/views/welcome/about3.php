@@ -105,7 +105,7 @@
                 </div>
                 <ul class="at32_ul">
                     <li>
-                        <span>迷你型卷直发器</span>
+                        <span>迷你型烫发器</span>
                     </li>
                     <li>
                         <span>防烫隔热套</span>

@@ -31,7 +31,7 @@
         <div class="about_menu">
             <a href="<?=base_url()?>mystyle">潮流发型</a>
             <a href="<?=base_url()?>mystyle2">未来发型趋势</a>
-            <a href="<?=base_url()?>mystyle3" class="ahover">魔法秀</a>
+            <a href="<?=base_url()?>mystyle3" class="ahover">魔发秀</a>
             <a href="<?=base_url()?>mystyle4">达人秀场</a>
         </div>
     </div>
@@ -49,7 +49,7 @@
     <div class="container clearfix style3_main">
         <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="style3_qhtl clearfix">
-                <a href="<?=base_url()?>mystyle3/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>卷直发器<em></em></a>
+                <a href="<?=base_url()?>mystyle3/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>烫发器<em></em></a>
                 <a href="<?=base_url()?>mystyle3/2" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>电吹风<em></em></a>
                 <a href="<?=base_url()?>mystyle3/3" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>理发器<em></em></a>
                 <a href="<?=base_url()?>mystyle3/4" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康<em></em></a>
