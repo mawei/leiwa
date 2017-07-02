@@ -80,14 +80,14 @@
             </span>
         </div>
         <ul class="container wenda_ul">
-<?php foreach($questions['理发器'] as $k=>$v):?>
+<?php foreach($questions['剃毛器'] as $k=>$v):?>
             <li class="col-md-6 col-sm-6 col-xs-12">
                 <div class="wenda_main">
                     <div class="wen">
-                        <?=$questions['理发器'][$k]['title']?>
+                        <?=$questions['剃毛器'][$k]['title']?>
                     </div>
                     <div class="da">
-                        <?=$questions['理发器'][$k]['content']?>
+                        <?=$questions['剃毛器'][$k]['content']?>
                     </div>
                 </div>
             </li>
