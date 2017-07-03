@@ -49,8 +49,8 @@
 				<?php foreach($news as $k=>$v):?>
 				<?php if ($k%2 == 0): ?>
 				<li>
-					<a href="news.html#" class="clearfix">
-						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf">
+					<a class="clearfix">
+						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf  style3_img_main">
 							<img src="images/<?=$v['image']?>">
 						</div>
 						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt">
@@ -60,7 +60,7 @@
 							<div class="news_bmian_text">
 								<?=$v['memo']?>
 							</div>
-							<p class="news_bmian_a">
+							<p class="news_bmian_a style3_img_main">
 								more &gt;
 							</p>
 						</div>
@@ -112,13 +112,50 @@
 	<!--footer start-->
 	<!--#include file="inc/footer.htm" -->
 	<!--footer end-->
+	<div class="bg"></div>
+	<div class="alert_main_bg">
+		<div class="alert_main detail box-detail">
+			<div class="wd1000">
+				<div class="wd900">
+					<em class="cha"></em>
+					<a href="#top-detail"><div class="upload"></div></a>
+					<div class="box-detail-ct">
+						<div class="detail-cont">
+							<p id="top-detail" style="color: white"><?=$v['title']?></p>
+							<p style="margin: 0; color: red;"><?=$v['createtime']?></p>
+							<p><?=$v['content']?></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
+
+
+		</div>
+	</div>
 
 </body>
 <script type="text/javascript">
 	$("#submit").click(function(){
 		self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
 	});
+</script>
+
+<script type="text/javascript" src="<?=base_url()?>/static/js/main.js"></script>
+<script>
+    var heightLeft= $(".news_bmain_lf").height();
+    var heightRight= $(".news_bmain_rt").height();
+
+    if(heightLeft<heightRight){
+        $(".news_bmain_lf").height(heightRight);
+	}
+
+    var detailCont= $(".detail-cont").height();
+
+
+	$(".upload").click(function () {
+		$(".detail-cont").addClass('donghua');
+    })
 </script>
 
 </html>

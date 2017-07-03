@@ -973,6 +973,14 @@ $config['aci_module'] = array (
         'menu_name' => '上传',
         'caption' => '上传',
       ),
+      9 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'news',
+        'method' => 'ueditor',
+        'menu_name' => '上传',
+        'caption' => '上传',
+      ),
     ),
   ),
   'product' => 

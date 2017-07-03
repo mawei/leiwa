@@ -40,6 +40,9 @@
                 </div>
             </div>
         </div>
+        <div class="caitiao container" style="    position: absolute;bottom:0;">
+                <img src="static/images/about1_46.png">
+            </div>
     </div>
         <?php echo template('public','footer')?>
 

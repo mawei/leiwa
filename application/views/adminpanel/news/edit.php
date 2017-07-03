@@ -53,24 +53,51 @@
 				</div>
 			</div>
 													
-	<div class="form-group">
+			<div class="form-group">
 				<label for="content" class="col-sm-2 control-label form-control-static">内容</label>
-				<div class="col-sm-9 ">
-					<textarea name="content"  id="content"  cols="45" rows="5" class="form-control  validate[required]" placeholder="请输入内容" ><?php echo isset($data_info['content'])?$data_info['content']:'' ?></textarea>
+				<div class="col-sm-9 "  >
+					<script id="content" name="content" type="text/plain"></script>
 				</div>
+				<!-- <div class="col-sm-9 " id="content" >
+					<textarea name="content"  cols="45" rows="5" class="form-control  validate[required]" placeholder="请输入内容" ><?php echo isset($data_info['content'])?$data_info['content']:'' ?></textarea>
+				</div> -->
 			</div>
+
 																								</fieldset>
-							<div class='form-actions'>
+			<div class='form-actions'>
 				<button class='btn btn-primary ' type='submit' id="dosubmit">保存</button>
 			</div>
 </form>
-			<script language="javascript" type="text/javascript">
+			<!-- 加载编辑器的容器 -->
+	    <script id="container" name="content" type="text/plain">
+	        这里写你的初始化内容
+	    </script>
+
+
+		<script language="javascript" type="text/javascript">
+			require(['<?=SITE_URL()?>scripts/lib/third-party/zeroclipboard/ZeroClipboard.js'], function (ZeroClipboard) {
+			    window['ZeroClipboard'] = ZeroClipboard;
+			});
+
 			var is_edit =<?php echo ($is_edit)?"true":"false" ?>;
 			var id =<?php echo $id;?>;
-
 			require(['<?php echo SITE_URL?>scripts/common.js'], function (common) {
 		        require(['<?php echo SITE_URL?>scripts/adminpanel/news/edit.js']);
 		    });
 		</script>
+		<!-- 配置文件 -->
+	    <script type="text/javascript" src="<?=base_url()?>scripts/lib/ueditor.config.js"></script>
+	    <!-- 编辑器源码文件 -->
+	    <script type="text/javascript" src="<?=base_url()?>scripts/lib/ueditor.all.min.js"></script>
+	    <!-- 实例化编辑器 -->
+	    <script type="text/javascript">
+	    var ue = UE.getEditor('content', {
+			    autoHeight: false
+			});
+	    ue.ready(function() {
+		    ue.setContent('<?php echo isset($data_info["content"])?htmlspecialchars_decode($data_info["content"]):"" ?>');
+		});
+	    
+	    </script>
 	
 	

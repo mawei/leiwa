@@ -54,18 +54,20 @@
 	</div>
 	<div class="pro3_two">
 		<div class="container">
-			<p class="pro3_two1 eng">
+			<p class="pro3_two1 eng"  style="padding-left:0px">
 				<?=$product['style']?>
 			</p>
-			<p class="pro3_two2 ">
-				<span class="eng"><?=$product['name']?></span>
+			<p class="pro3_two2 eng " style="padding-left:0px"  >
+				<span class="eng" style="padding-left:0px"><?=$product['name']?></span>
 			</p>
-			<p class="pro3_two3">
+			<p class="pro3_two3"  style="padding-left:0px">
+				<span class="eg" style="padding-left:0px">
 				<?=$product['info']?>
+				</span>
 			</p>
 		</div>
 	</div>
-	<div class="pro3_three">
+	<div class="pro3_three"  style="padding:0">
 		<div id="gallery" class="ad-gallery">
 			<div class="ad-image-wrapper">
 				<div class="ad-image" style="width: 997px; height: 581px; top: 0px; left: 0px;"><img src="<?=base_url();?>/static/images/pro4_03.jpg" width="997" height="581"></div><img class="ad-loader" src="<?=base_url();?>/static/images/loader.gif"

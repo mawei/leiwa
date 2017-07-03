@@ -41,11 +41,26 @@
 		<div class="pro2_one_main">
 			<div class="container">
 				<p class="pro2_one_main1">
-					<span>01</span>
-					<b>烫发器</b>
+					<span>
+					<?php if ($type == 1): ?>01<?php endif; ?>
+					<?php if ($type == 2): ?>02<?php endif; ?>
+					<?php if ($type == 3): ?>03<?php endif; ?>
+					<?php if ($type == 4): ?>04<?php endif; ?>
+
+					</span>
+					<b>
+					<?php if ($type == 1): ?>烫发器<?php endif; ?>
+					<?php if ($type == 2): ?>电吹风<?php endif; ?>
+					<?php if ($type == 3): ?>理发器<?php endif; ?>
+					<?php if ($type == 4): ?>美容健康系列<?php endif; ?>
+					</b>
 				</p>
-				<p class="pro2_one_main2 eng">
-					HAIR TOOLS
+				<p class="pro2_one_main2 eng" style="padding-left:0px">
+					
+					<?php if ($type == 1): ?>HAIR TOOLS<?php endif; ?>
+					<?php if ($type == 2): ?>HAIR DRIER<?php endif; ?>
+					<?php if ($type == 3): ?>HAIR CLIPPER<?php endif; ?>
+					<?php if ($type == 4): ?>BEAUTY HEALTH SERIES<?php endif; ?>
 				</p>
 				<p>欢迎光临在线商城购买</p>
 				<p class="pro2_one">
@@ -56,7 +71,7 @@
 	</div>
 	<div class="pro2_ban">
 		<div class="pro2_text">
-			<p class="eng pro2_ban_tl">
+			<p class="eng pro2_ban_tl"  style="padding-left:0px">
 				WHAT’S NEW
 			</p>新品推荐
 		</div>
@@ -113,16 +128,16 @@
 			</script>
 		</div>
 	</div>
-	<div class="pro2_three">
-		<div class="pro2_three_tl">
+<div class="pro2_three pro3">
+    <div class="pro2_three_tl">
 			<span class="eng">
 HAIR TOOLS
 </span>
-			<p>烫发器产品</p>
+			<p class="p1">烫发器产品</p>
 		</div>
-		<ul class="clearfix pro2_three_ul container">
+    <ul class="clearfix pro2_three_ul container pro3_container">
 			<?php foreach($products as $k=>$v):?>
-			<li class="col-md-4 col-sm-4 col-xs-12">
+			<li class="col-md-4 col-sm-4 col-xs-12  pro-list">
 				<a href="<?=base_url()?>prodetail/<?=$type?>/<?=$v['product_id']?>">
 				<img src="<?=base_url()?>images/<?=$v['image']?>">
 				<p class="pro2_three_ul1">
@@ -141,7 +156,7 @@ HAIR TOOLS
 			</li>
 			<?php endforeach;?>
 			
-			<li class="col-md-4 col-sm-4 col-xs-12 pro2_last">
+        <li class="col-md-4 col-sm-4 col-xs-12  pro2-list">
 				<a href="<?=base_url()?>prolist/<?=$type?>/<?=$page+1?>">
 					<img src="<?=base_url();?>/static/images/news_22.png">
 				</a>

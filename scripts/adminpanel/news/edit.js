@@ -98,6 +98,7 @@
 					url: is_edit?SITE_URL+"adminpanel/news/edit/"+id:SITE_URL+"adminpanel/news/add/",
 					data:  $("#validateform").serialize(),
 					success:function(response){
+
 						var dataObj=jQuery.parseJSON(response);
 						if(dataObj.status)
 						{

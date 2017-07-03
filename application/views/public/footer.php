@@ -4,15 +4,18 @@
                 <div class="col-md-6 col-sm-6 col-xs-12 footer1_1">
                     <img src="<?=base_url();?>/static/images/index_37.png">
                 </div>
-                <div class="col-md-2 col-sm-2 col-xs-4 footer1_2">
-                    <img src="<?=base_url();?>/static/images/index_01_24.png">
+                <div class="col-md-6 col-sm-6 col-xs-12 center">
+                    <div class="col-md-6 col-sm-6 col-xs-6 footer1_2">
+                        <img src="<?=base_url();?>/static/images/weixin.png">
+                        <p>官方微信</p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-6 footer1_2 center">
+                        <img src="<?=base_url();?>/static/images/weibo.png">
+                        <p>官方微博</p>
+                    </div>
                 </div>
-                <div class="col-md-2 col-sm-2 col-xs-4 footer1_2">
-                    <img src="<?=base_url();?>/static/images/index_01_24.png">
-                </div>
-                <div class="col-md-2 col-sm-2 col-xs-4 footer1_2">
-                    <img src="<?=base_url();?>/static/images/index_01_24.png">
-                </div>
+
             </div>
         </div>
         <div class="footer_2">

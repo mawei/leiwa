@@ -52,11 +52,11 @@
         </div>
         <ul class="clearfix mystyle_ul container" style="background: #dedddd;">
             <?php if (count($hairs['时尚修颜系']) > 0): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['时尚修颜系'][0]['image']?>">
                 <em class="huijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['时尚修颜系'][0]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['时尚修颜系'][0]['content']?>
@@ -64,11 +64,11 @@
             </li>
             <?php endif; ?>
             <?php if (count($hairs['时尚修颜系']) > 1): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['时尚修颜系'][1]['image']?>">
                 <em class="huijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['时尚修颜系'][1]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['时尚修颜系'][1]['content']?>
@@ -79,25 +79,25 @@
         </ul>
         <ul class="clearfix mystyle_ul container" style="background: #ffffff;">
             <?php if (count($hairs['时尚修颜系']) > 2): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['时尚修颜系'][2]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['时尚修颜系'][2]['content']?>
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['时尚修颜系'][2]['image']?>">
                 <em class="baijiao"></em>
             </li>
             <?php endif; ?>
             <?php if (count($hairs['时尚修颜系']) > 3): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['时尚修颜系'][3]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['时尚修颜系'][3]['content']?>
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['时尚修颜系'][3]['image']?>">
                 <em class="baijiao"></em>
             </li>
@@ -108,11 +108,11 @@
         </div>
         <ul class="clearfix mystyle_ul container mystyle_ul_red" style="background: #d7001d;">
             <?php if (count($hairs['清纯减龄系']) > 0): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['清纯减龄系'][0]['image']?>">
                 <em class="hjiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['清纯减龄系'][0]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['清纯减龄系'][0]['content']?>
@@ -120,11 +120,11 @@
             </li>
             <?php endif; ?>
             <?php if (count($hairs['清纯减龄系']) > 1): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['清纯减龄系'][1]['image']?>">
                 <em class="hjiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['清纯减龄系'][1]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['清纯减龄系'][1]['content']?>
@@ -134,25 +134,25 @@
         </ul>
         <ul class="clearfix mystyle_ul container" style="background: #fff;">
             <?php if (count($hairs['清纯减龄系']) > 2): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['清纯减龄系'][2]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['清纯减龄系'][2]['content']?>
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['清纯减龄系'][2]['image']?>">
                 <em class="baijiao"></em>
             </li>
             <?php endif; ?>
             <?php if (count($hairs['清纯减龄系']) > 3): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['清纯减龄系'][3]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['清纯减龄系'][3]['content']?>
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['清纯减龄系'][3]['image']?>">
                 <em class="baijiao"></em>
             </li>
@@ -163,11 +163,11 @@
         </div>
         <ul class="clearfix mystyle_ul container" style="background: #dedddd;">
             <?php if (count($hairs['职场御姐系']) > 0): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['职场御姐系'][0]['image']?>">
                 <em class="huijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['职场御姐系'][0]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['职场御姐系'][0]['content']?>
@@ -176,11 +176,11 @@
             <?php endif; ?>
             <?php if (count($hairs['职场御姐系']) > 1): ?>
 
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['职场御姐系'][1]['image']?>">
                 <em class="huijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['职场御姐系'][1]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['职场御姐系'][1]['content']?>
@@ -191,26 +191,26 @@
         </ul>
         <ul class="clearfix mystyle_ul container mystyle_ul_red" style="background: #d7001d;">
             <?php if (count($hairs['职场御姐系']) > 2): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['职场御姐系'][2]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['职场御姐系'][2]['content']?>
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['职场御姐系'][2]['image']?>">
                 <em class="hjiaor"></em>
             </li>
             <?php endif; ?>
 
             <?php if (count($hairs['职场御姐系']) > 3): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <p><?=$hairs['职场御姐系'][3]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['职场御姐系'][3]['content']?>
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['职场御姐系'][3]['image']?>">
                 <em class="hjiaor"></em>
             </li>

@@ -18,7 +18,7 @@ class News extends Admin_Controller {
     function __construct()
 	{
 		parent::__construct();
-		$this->load->model(array('news_model'));
+        $this->load->model(array('news_model'));
         $this->load->helper(array('auto_codeIgniter_helper','array'));
         
         $this->method_config['upload'] = array(
@@ -181,11 +181,12 @@ class News extends Admin_Controller {
     function edit($id=0)
     {
     	$id = intval($id);
-        
         $data_info =$this->news_model->get_one(array('news_id'=>$id));
+        // print_r($data_info);die();
     	//如果是AJAX请求
     	if($this->input->is_ajax_request())
 		{
+
         	if(!$data_info)exit(json_encode(array('status'=>false,'tips'=>'信息不存在')));
         	//接收POST参数
 			$_arr['title'] = isset($_POST["title"])?trim(safe_replace($_POST["title"])):exit(json_encode(array('status'=>false,'tips'=>'标题必填')));
@@ -198,7 +199,7 @@ class News extends Admin_Controller {
 			if($_arr['type']=='')exit(json_encode(array('status'=>false,'tips'=>'新闻类型必填')));
 			$_arr['years'] = isset($_POST["years"])?trim(safe_replace($_POST["years"])):exit(json_encode(array('status'=>false,'tips'=>'所属年份必填')));
 			if($_arr['years']=='')exit(json_encode(array('status'=>false,'tips'=>'所属年份必填')));
-			$_arr['content'] = isset($_POST["content"])?trim(safe_replace($_POST["content"])):exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
+			$_arr['content'] = isset($_POST["content"])?trim(addslashes($_POST["content"])):exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
 			if($_arr['content']=='')exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
 			$_arr['createtime'] = date('Y-m-d H:i:s');
 			
@@ -281,6 +282,93 @@ class News extends Admin_Controller {
         	die('缺少上传参数');
         }
 	}
+
+     
+
+    function ueditor()
+    {
+        $action = $_GET['action'];
+        $CONFIG = array(
+            "imageActionName" => "uploadimage",/* 执行上传图片的action名称 */
+            "imageFieldName" => "upfile", /* 提交的图片表单名称 */
+            "imageMaxSize" => 2048000, /* 上传大小限制，单位B */
+            "imageAllowFiles" => array(".png", ".jpg", ".jpeg", ".gif", ".bmp"), /* 上传图片格式显示 */
+            "imageCompressEnable" => true, /* 是否压缩图片,默认是true */
+            "imageCompressBorder" => 1600, /* 图片压缩最长边限制 */
+            "imageInsertAlign" => "none", /* 插入的图片浮动方式 */
+            "imageUrlPrefix" => "", /* 图片访问路径前缀 */
+            "imagePathFormat" => "/ueditorupload/{yyyy}{mm}{dd}/{time}{rand:6}", 
+        );
+        if($action == 'config')
+        {
+            echo json_encode($CONFIG);
+        }else{
+            /* 上传配置 */
+            $base64 = "upload";
+            switch (htmlspecialchars($action)) {
+                case 'uploadimage':
+                    $config = array(
+                        "pathFormat" => $CONFIG['imagePathFormat'],
+                        "maxSize" => $CONFIG['imageMaxSize'],
+                        "allowFiles" => $CONFIG['imageAllowFiles']
+                    );
+                    $fieldName = $CONFIG['imageFieldName'];
+                    break;
+                case 'uploadscrawl':
+                    $config = array(
+                        "pathFormat" => $CONFIG['scrawlPathFormat'],
+                        "maxSize" => $CONFIG['scrawlMaxSize'],
+                        "allowFiles" => $CONFIG['scrawlAllowFiles'],
+                        "oriName" => "scrawl.png"
+                    );
+                    $fieldName = $CONFIG['scrawlFieldName'];
+                    $base64 = "base64";
+                    break;
+                case 'uploadvideo':
+                    $config = array(
+                        "pathFormat" => $CONFIG['videoPathFormat'],
+                        "maxSize" => $CONFIG['videoMaxSize'],
+                        "allowFiles" => $CONFIG['videoAllowFiles']
+                    );
+                    $fieldName = $CONFIG['videoFieldName'];
+                    break;
+                case 'uploadfile':
+                default:
+                    $config = array(
+                        "pathFormat" => $CONFIG['filePathFormat'],
+                        "maxSize" => $CONFIG['fileMaxSize'],
+                        "allowFiles" => $CONFIG['fileAllowFiles']
+                    );
+                    $fieldName = $CONFIG['fileFieldName'];
+                    break;
+            }
+
+            /* 生成上传实例对象并完成上传 */
+            // print_r($config);
+            $param = array('fileField'=>$fieldName,'config'=> $config,'type'=> $base64);
+            $this->load->library('my_uploader',$param);
+
+            // $up = $this->uploader($fieldName, $config, $base64);
+
+            /**
+             * 得到上传文件所对应的各个参数,数组结构
+             * array(
+             *     "state" => "",          //上传状态，上传成功时必须返回"SUCCESS"
+             *     "url" => "",            //返回的地址
+             *     "title" => "",          //新文件名
+             *     "original" => "",       //原始文件名
+             *     "type" => ""            //文件类型
+             *     "size" => "",           //文件大小
+             * )
+             */
+
+            /* 返回数据 */
+            echo json_encode($this->my_uploader->getFileInfo());
+        }
+        
+    }
+
+
 
 }
 

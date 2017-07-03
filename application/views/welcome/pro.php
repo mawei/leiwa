@@ -16,7 +16,7 @@
 
 <body style="background: #ebeaea;" class=" ext-webkit ext-chrome ext-mac">
 	<div class="head ny_head">
-		        <?php echo template('public','head')?>
+		<?php echo template('public','head')?>
 
 		<!--head start-->
 		<!--#include file="inc/head.htm" -->
@@ -30,7 +30,7 @@
 			PROFESSIONAL STYLING PRODUCTS
 		</p>
 		<div class="about_menu">
-			<a href="<?=base_url()?>prolist/1/1">01烫发器</a>
+			<a href="<?=base_url()?>prolist/1/1">01卷直发器</a>
 			<a href="<?=base_url()?>prolist/2/1">02电吹风</a>
 			<a href="<?=base_url()?>prolist/3/1">03理发器</a>
 			<a href="<?=base_url()?>prolist/4/1">04美容健康系列</a>
@@ -158,6 +158,8 @@
 							</div>
 						</li>
 					</ul>
+					<div class="ad-next"></div>
+					<div class="ad-prev"></div>
 				</div>
 				
 			</div>
@@ -180,8 +182,8 @@
 			</script>
 		</div>
 	</div>
-	<div class="pro1_two">
-		<div class="index_three_tl" style="background: none;">
+	<div class="pro1_two pro-det pro-ct ers1">
+		<div class="index_three_tl pro-ers1" style="background: none;">
 			<p class="index_three_tl_eng">
 				CHOOSE YOUR FAVORITE
 			</p>
@@ -191,15 +193,15 @@
 		</div>
 		<div class="index_three_t" style="background: none;">
 			<ul class="clearfix index_three_ul container">
-				<li class="col-md-6 col-sm-6 col-xs-6">
-					<a href="prolist/1/1">
+				<li class="col-md-6 col-sm-6 col-xs-6 index_three_li1">
+					<a href="#">
 						<img src="<?=base_url();?>/static/images/products_03.png">
 						<div class="index_three_fu index_three_fu10">
 						<p class="eng">
 						HAIR <br> TOOLS
 						</p>
 						<p class="index_three_zw">
-						烫发器
+						卷直发棒
 						</p>
 						<p class="index_three_num">
 						01
@@ -208,7 +210,7 @@
 					</a>
 				</li>
 				<li class="col-md-6 col-sm-6 col-xs-6">
-					<a href="prolist/2/1">
+					<a href="#">
 						<img src="<?=base_url();?>/static/images/products_05.png">
 						<div class="index_three_fu index_three_fu11">
 						<p class="eng">
@@ -228,7 +230,7 @@
 		<div class="index_three_b" style="background: none;">
 			<ul class="clearfix index_three_ul container">
 				<li class="col-md-6 col-sm-6 col-xs-6">
-					<a href="prolist/3/1">
+					<a href="#">
 						<img src="<?=base_url();?>/static/images/products_12.png">
 						<div class="index_three_fu index_three_fu13">
 							<p class="eng">
@@ -243,8 +245,8 @@
 						</div>
 					</a>
 				</li>
-				<li class="col-md-6 col-sm-6 col-xs-6">
-					<a href="prolist/4/1">
+				<li class="col-md-6 col-sm-6 col-xs-6 index_three_li4">
+					<a href="#">
 						<img src="<?=base_url();?>/static/images/products_10.png">
 						<div class="index_three_fu index_three_fu14">
 						<p class="eng">
@@ -322,11 +324,11 @@
 		<p class="color_red">
 			发现时下最流行
 		</p>
-		<a href="<?=base_url();?>mystyle" class="eng">
+		<a href="#" class="eng more_eng">
 MORE
 </a>
 	</div>
-		        <?php echo template('public','footer')?>
+	<?php echo template('public','footer')?>
 
 	<!--footer start-->
 	<!--#include file="inc/footer.htm" -->

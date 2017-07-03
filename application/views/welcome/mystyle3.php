@@ -55,7 +55,7 @@
                 <a href="<?=base_url()?>mystyle3/4" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康<em></em></a>
             </div>
             <div class="style3_qhmain">
-                <div class="style3_qhcon active">
+                <div class="style3_qhcon <?php if ($type == 1): ?>active<?php endif; ?>">
                     <p class="style3_qhcon1">
                         HAIR
                     </p>
@@ -67,39 +67,39 @@
                     </p>
                     <a href="#" class="style3_qhcon3">MORE PRODUCTS</a>
                 </div>
-                <div class="style3_qhcon">
+                <div class="style3_qhcon <?php if ($type == 2): ?>active<?php endif; ?>">
                     <p class="style3_qhcon1">
                         HAIR
                     </p>
                     <p class="style3_qhcon2">
-                        烫发器
+                        电吹风
                     </p>
                     <p class="style3_qhcon1">
-                        TOOLS
+                        DRIER
                     </p>
                     <a href="#" class="style3_qhcon3">MORE PRODUCTS</a>
                 </div>
-                <div class="style3_qhcon">
+                <div class="style3_qhcon <?php if ($type == 3): ?>active<?php endif; ?>">
                     <p class="style3_qhcon1">
                         HAIR
                     </p>
                     <p class="style3_qhcon2">
-                        烫发器
+                        理发器
                     </p>
                     <p class="style3_qhcon1">
-                        TOOLS
+                        CLIPPER
                     </p>
                     <a href="#" class="style3_qhcon3">MORE PRODUCTS</a>
                 </div>
-                <div class="style3_qhcon">
+                <div class="style3_qhcon <?php if ($type == 4): ?>active<?php endif; ?>">
                     <p class="style3_qhcon1">
-                        HAIR
+                        BEAUTY 
                     </p>
                     <p class="style3_qhcon2">
-                        烫发器
+                        美容
                     </p>
                     <p class="style3_qhcon1">
-                        TOOLS
+                        HEALTH SERIES
                     </p>
                     <a href="#" class="style3_qhcon3">MORE PRODUCTS</a>
                 </div>
