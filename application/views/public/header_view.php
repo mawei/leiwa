@@ -9,7 +9,7 @@
     <meta name="keyword" content="<?php echo $keyword?>">
     <meta name="author" content="autocodeigniter.com">
     <link rel="icon" href="favicon.ico">
-    <meta> <meta name="renderer" content="webkit">
+    <meta name="renderer" content="webkit">
 
     <title><?php echo $title?></title>
 
