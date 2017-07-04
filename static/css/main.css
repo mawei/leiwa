@@ -435,6 +435,13 @@
     line-height: 120%;
     padding-left: 12%;
 }
+
+.eng_nopadding {
+    font-family: fontDidot;
+    font-size: 26px;
+    line-height: 200%;
+}
+
 .style_4 .eng{
     font-size: 18px;
      padding-left: 0%;
@@ -1265,7 +1272,7 @@
 }
 
 .about_ul_rt_big {
-    font-size: 18px;
+    font-size: 20px;
     color: #505050;
     line-height: 180%;
 }
@@ -2976,6 +2983,7 @@
 }
 .pro1_three img {
     width: 100%;
+
     vertical-align: middle;
 }
 
@@ -3001,12 +3009,20 @@
 
 .pro1_three_text {
     color: #d4d4d4;
-    font-size: 16px;
+    font-size: 13px;
     text-align: center;
     width: 80%;
     margin: 0px auto;
     margin-top: 3%;
 }
+.pro1_three_text p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.pro1_three_text_p2{
+    font-size: 18px;
+}
+
 
 .pro1_four_main {
     position: relative;

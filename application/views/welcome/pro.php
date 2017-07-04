@@ -227,7 +227,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="index_three_b" style="background: none;">
+		<div class="index_three_b" style="background: none;padding-bottom: 30px">
 			<ul class="clearfix index_three_ul container">
 				<li class="col-md-6 col-sm-6 col-xs-6">
 					<a href="#">
@@ -272,8 +272,9 @@
 					未来造型产品新趋势
 				</div>
 				<div class="pro1_three_text">
-					经济的增长和人们生活水平的提高，使得普通大众对美的消费需求日益提升，逐渐开始注重个人造型，家用个人造型产品走进大众视野，进入普通人的生活。 如今市场上的造型产品多以单直、单卷或卷直两用为核心功能，家也成为使用造型产品的主要场所。 然而随着大众爱美需求不断的提升以及当下生活节奏的加快，造型产品的未来发展将呈现
-					简操作、可替换、易携带这三种主要新趋势。
+				<p>经济的增长和人们生活水平的提高，使得普通大众对美的消费需求日益提升，逐渐开始注重个人造型，家用个人造型产品走进大众视野，进入普通人的生活。</p>
+				<p>	 如今市场上的造型产品多以单直、单卷或卷直两用为核心功能，家也成为使用造型产品的主要场所。 </p><p>然而随着大众爱美需求不断的提升以及当下生活节奏的加快，造型产品的未来发展将呈现</p>
+				<p style="font-size: 18px;margin-top: 10px">简操作、可替换、易携带这三种主要新趋势。</p>
 				</div>
 			</div>
 		</div>

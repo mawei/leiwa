@@ -52,7 +52,7 @@
         <div class="index_three_t">
             <ul class="clearfix index_three_ul ">
                 <li class="col-md-6 col-sm-6 col-xs-6">
-                    <a href="#">
+                    <a href="<?=base_url()?>prolist/1/1">
                         <img src="static/images/index_02_03-02.png">
                         <div class="index_three_fu index_three_fu1">
                             <p class="eng"> HAIR <br>TOOLS</p>
@@ -60,7 +60,7 @@
                             <p class="index_three_num"> 01</p>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="<?=base_url()?>prolist/1/2">
                         <img src="static/images/index_02_11.png">
                         <div class="index_three_fu index_three_fu3">
                             <p class="eng">HAIR <br>CLIPPER </p>
@@ -70,7 +70,7 @@
                     </a>
                 </li>
                 <li class="col-md-6 col-sm-6 col-xs-6 tow">
-                    <a href="#">
+                    <a href="<?=base_url()?>prolist/1/3">
                         <img src="static/images/index_02_03.png">
                         <div class="index_three_fu index_three_fu2">
                             <p class="eng">HAIR <br>DRIER</p>
@@ -78,7 +78,7 @@
                             <p class="index_three_num">02</p>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="<?=base_url()?>prolist/1/4">
                         <img src="static/images/index_02_14.png">
                         <div class="index_three_fu index_three_fu4">
                             <p class="eng">BEAUTY<br>HEALTH <br>SERIES <br></p>
@@ -111,7 +111,7 @@
         <div class="container">
             <ul class="index_four_text_ul clearfix">
                 <li class="col-md-3 col-sm-3 col-xs-12">
-                    <a href="#">
+                    <a href="<?=base_url()?>mystyle">
                         <p class="index_four_text_ul_tl">
                             潮流发型
                         </p>
@@ -123,7 +123,7 @@
                     </a>
                 </li>
                 <li class="col-md-3 col-sm-3 col-xs-12">
-                    <a href="#">
+                    <a href="<?=base_url()?>mystyle2">
                         <p class="index_four_text_ul_tl">
                             未来发型趋势
                         </p>
@@ -135,7 +135,7 @@
                     </a>
                 </li>
                 <li class="col-md-3 col-sm-3 col-xs-12">
-                    <a href="#">
+                    <a href="<?=base_url()?>mystyle3">
                         <p class="index_four_text_ul_tl">
                             魔发秀
                         </p>
@@ -147,7 +147,7 @@
                     </a>
                 </li>
                 <li class="col-md-3 col-sm-3 col-xs-12">
-                    <a href="#">
+                    <a href="<?=base_url()?>mystyle4">
                         <p class="index_four_text_ul_tl">
                             达人秀场
                         </p>
@@ -162,30 +162,30 @@
         </div>
         <ul class="index_fourimg_ul clearfix">
             <li class="col-md-3 col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="<?=base_url()?>mystyle">
                 <img src="static/images/index_01_20.png">
                 </a>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="<?=base_url()?>mystyle2">
                 <img src="static/images/index_01_21.png">
                 </a>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="<?=base_url()?>mystyle3">
                 <img src="static/images/index_01_21-08.png">
                 <em class="play"></em>
                 </a>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="<?=base_url()?>mystyle4">
                 <img src="static/images/index_27.png">
                 </a>
             </li>
         </ul>
         <div class="index_four_more">
             <div class="index_four_more_main ">
-                <a href="#" class="eng">MORE</a>
+                <a href="<?=base_url()?>mystyle" class="eng">MORE</a>
             </div>
         </div>
     </div>

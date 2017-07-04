@@ -38,10 +38,10 @@
     <div class="about_ban">
         <img src="<?=base_url();?>/static/images/about2ban_02.jpg">
         <div class="about2_ban_text">
-            <p class="about2_ban_tex1">
+            <p class="about2_ban_tex1 eng_nopadding">
                 <span>BRAND </span>品牌理念
             </p>
-            <p class="about2_ban_tex1">
+            <p class="about2_ban_tex1 eng_nopadding">
                 <span>CONCEPT</span>
             </p>
             <p class="about2_ban_tex2">
