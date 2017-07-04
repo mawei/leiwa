@@ -123,7 +123,7 @@
 						<div class="detail-cont">
 							<p id="top-detail" style="color: white"><?=$v['title']?></p>
 							<p style="margin: 0; color: red;"><?=$v['createtime']?></p>
-							<p style="color: white"><?=htmlspecialchars_decode(html_entity_decode($v["content"]))?></p>
+							<p style="color: white"><?=htmlspecialchars_decode(html_entity_decode(stripslashes($v["content"]))?></p>
 						</div>
 					</div>
 				</div>
