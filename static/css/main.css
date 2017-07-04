@@ -3734,6 +3734,10 @@
     /*height: 58%;*/
 
 }
+
+.detail-cont p{
+    color: white;
+}
 .detail-cont .cont{
     width: 100%;
 
