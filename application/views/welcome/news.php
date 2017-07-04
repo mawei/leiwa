@@ -51,13 +51,13 @@
 				<li>
 					<a class="clearfix">
 						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf  style3_img_main">
-							<img src="images/<?=$v['image']?>">
+							<img src="<?=base_url();?>images/<?=$v['image']?>">
 						</div>
-						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt">
+						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main">
 							<p class="news_bmain_rttl">
 								<?=$v['title']?>
 							</p>
-							<div class="news_bmian_text">
+							<div class="news_bmian_text style3_img_main">
 								<?=$v['memo']?>
 							</div>
 							<p class="news_bmian_a style3_img_main">
@@ -68,18 +68,18 @@
 				</li>
 				<?php elseif ($k%2 == 1): ?>
 				<li>
-					<a href="news.html#" class="clearfix">
-						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf">
+					<a href="news" class="clearfix">
+						<div class="col-md-4 col-sm-4 col-xs-12 style3_img_main">
 							<img src="<?=base_url();?>/static/images/news_09.png">
 						</div>
-						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt">
+						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main">
 							<p class="news_bmain_rttl">
 								<?=$v['title']?>
 							</p>
-							<div class="news_bmian_text">
+							<div class="news_bmian_text style3_img_main">
 								<?=$v['memo']?>
 							</div>
-							<p class="news_bmian_a">
+							<p class="news_bmian_a style3_img_main">
 								more &gt;
 							</p>
 						</div>
@@ -123,7 +123,7 @@
 						<div class="detail-cont">
 							<p id="top-detail" style="color: white"><?=$v['title']?></p>
 							<p style="margin: 0; color: red;"><?=$v['createtime']?></p>
-							<p><?=htmlspecialchars_decode(html_entity_decode($v["content"]))?></p>
+							<p style="color: white"><?=htmlspecialchars_decode(html_entity_decode($v["content"]))?></p>
 						</div>
 					</div>
 				</div>
