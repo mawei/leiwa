@@ -120,10 +120,10 @@
 					<em class="cha"></em>
 					<a href="#top-detail"><div class="upload"></div></a>
 					<div class="box-detail-ct">
-						<div class="detail-cont">
-							<p id="top-detail" style="color: white"><?=$v['title']?></p>
+						<div class="detail-cont"  style="color: white">
+							<p id="top-detail" ><?=$v['title']?></p>
 							<p style="margin: 0; color: red;"><?=$v['createtime']?></p>
-							<p style="color: white"><?=htmlspecialchars_decode(html_entity_decode(stripslashes($v["content"])))?></p>
+							<p><?=htmlspecialchars_decode(html_entity_decode(stripslashes($v["content"])))?></p>
 						</div>
 					</div>
 				</div>
