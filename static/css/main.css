@@ -37,7 +37,7 @@
 .idx_banner_txt {
     position: absolute;
     display: inline-block;
-    left: 4%;
+    left: 20%;
     top:30%;
 }
 
@@ -71,6 +71,9 @@
     color: #d6001d;
     font-size: 16px;
     display: block;
+    font-family: "MicrosoftYaHei";
+    font-weight: lighter;
+
 }
 @media (max-width:414px) {
     .idx_banner_txt .idx_banner_txt_en .idx_banner_txt_en_big {
