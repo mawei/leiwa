@@ -69,7 +69,7 @@
 				<?php elseif ($k%2 == 1): ?>
 				<li>
 					<a href="news" class="clearfix">
-						<div class="col-md-4 col-sm-4 col-xs-12 style3_img_main">
+						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf style3_img_main">
 							<img src="<?=base_url();?>/static/images/news_09.png">
 						</div>
 						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main">
