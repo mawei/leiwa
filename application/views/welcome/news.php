@@ -68,7 +68,7 @@
 				</li>
 				<?php elseif ($k%2 == 1): ?>
 				<li>
-					<a href="news" class="clearfix">
+					<a class="clearfix">
 						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf style3_img_main">
 							<img src="<?=base_url();?>/static/images/news_09.png">
 						</div>
