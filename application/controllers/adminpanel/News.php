@@ -346,7 +346,7 @@ class News extends Admin_Controller {
             /* 生成上传实例对象并完成上传 */
             // print_r($config);
             $param = array('fileField'=>$fieldName,'config'=> $config,'type'=> $base64);
-            $this->load->library('my_uploader',$param);
+            $this->load->library('uploader',$param);
 
             // $up = $this->uploader($fieldName, $config, $base64);
 
@@ -363,7 +363,7 @@ class News extends Admin_Controller {
              */
 
             /* 返回数据 */
-            echo json_encode($this->my_uploader->getFileInfo());
+            echo json_encode($this->uploader->getFileInfo());
         }
         
     }

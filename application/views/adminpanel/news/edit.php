@@ -95,7 +95,7 @@
 			    autoHeight: false
 			});
 	    ue.ready(function() {
-		    ue.setContent('<?php echo isset($data_info["content"])?htmlspecialchars_decode($data_info["content"]):"" ?>');
+		    ue.setContent('<?php echo isset($data_info["content"])?htmlspecialchars_decode(html_entity_decode($data_info["content"])):"" ?>');
 		});
 	    
 	    </script>

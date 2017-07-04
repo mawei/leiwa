@@ -131,7 +131,7 @@
     <div class="bg"></div>
     <div class="alert_main">
         <em class="cha"></em>
-        <video src="images/movie.ogg" controls="controls" width="100%" height="300">
+        <video src="images/3201.mp4" controls="controls" width="100%" height="300">
         </video>
     </div>
     <script type="text/javascript" src="<?=base_url();?>/static/js/main.js"></script>
