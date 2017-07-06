@@ -65,7 +65,7 @@
  */
 date_default_timezone_set('PRC');
 ini_set('date.timezone','Asia/Shanghai');
-ENVIRONMENT = 'production';
+$ENVIRONMENT = 'production';
 
 switch (ENVIRONMENT)
 {
