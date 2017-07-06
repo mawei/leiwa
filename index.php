@@ -93,6 +93,9 @@ switch (ENVIRONMENT)
 		exit(1); // EXIT_ERROR
 }
 
+ini_set('display_errors', 0);
+
+
 /*
  *---------------------------------------------------------------
  * SYSTEM FOLDER NAME
