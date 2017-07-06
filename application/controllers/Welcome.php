@@ -112,7 +112,7 @@ class Welcome extends Front_Controller {
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$hairs = array();
-		$result = $this->db->query("select * from `t_aci_fashionhair` order by createtime desc")->result_array();
+		$result = $this->db->query("select * from `t_aci_fashionhair` order by fashionhair_id asc")->result_array();
 		foreach ($result as $key => $value) {
 			if(array_key_exists($value['type'], $hairs))
 			{
@@ -129,7 +129,7 @@ class Welcome extends Front_Controller {
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
 		$hairs = array();
-		$result = $this->db->query("select * from `t_aci_fashionhair` order by createtime asc")->result_array();
+		$result = $this->db->query("select * from `t_aci_fashionhair` order by fashionhair_id asc")->result_array();
 		foreach ($result as $key => $value) {
 			if(array_key_exists($value['type'], $hairs))
 			{
@@ -162,14 +162,14 @@ class Welcome extends Front_Controller {
 				$typename = "卷直发器";
 				break;
 		}
-		$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by createtime desc")->result_array();
+		$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc desc")->result_array();
 		$this->view('mystyle3',array('shows'=>$shows,'type'=>$type));
 	}
 
 	function mystyle4()
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
-		$showgrouds = $this->db->query("select * from `t_aci_showgroud` order by createtime desc")->result_array();
+		$showgrouds = $this->db->query("select * from `t_aci_showgroud` order by showgroud_id asc")->result_array();
 
 		$this->view('mystyle4',array('showgrouds'=>$showgrouds));
 	}
