@@ -13,8 +13,7 @@
     <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
 </head>
 
-<body style="background: #ebeaea;"
-">
+<body style="background: #ebeaea;">
     <div class="head ny_head">
                     <?php echo template('public','head')?>
 
@@ -66,7 +65,7 @@
             <?php if (count($hairs['未来发型趋势']) > 1): ?>
 
             <li class="col-md-3 col-sm-3 col-xs-12">
-                <img src="images/<?=$hairs['未来发型趋势'][3]['image']?>">
+                <img src="images/<?=$hairs['未来发型趋势'][1]['image']?>">
                 <em class="huijiao"></em>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
@@ -102,7 +101,7 @@
                 </div>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-12">
-                <img src="static/images/style1_03.png">
+                <img src="images/<?=$hairs['未来发型趋势'][3]['image']?>">
                 <em class="baijiao"></em>
             </li>
             <?php endif; ?>
