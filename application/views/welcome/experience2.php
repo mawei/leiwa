@@ -13,8 +13,7 @@
     <script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
 </head>
 
-<body style="background: #ebeaea;"
-">
+<body style="background: #ebeaea;">
     <div class="head ny_head">
             <?php echo template('public','head')?>
 

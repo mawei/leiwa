@@ -15,8 +15,7 @@
     <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
 </head>
 
-<body style="background: #ebeaea;"
-">
+<body style="background: #ebeaea;">
     <div class="index_banner z-index-2">
         <div class="head index_head">
             <?php echo template('public','head')?>

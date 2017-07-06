@@ -33,13 +33,9 @@
     font-style: normal;
 }
 
-body{
-    font-family: "MicrosoftYaHei";
-
-}
-body p{
+/*body p{
     font-color:#505050;
-}
+}*/
 
 .index_banner_img {
     width: 100%;
