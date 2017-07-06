@@ -35,19 +35,19 @@
             <a href="<?=base_url()?>mystyle4">达人秀场</a>
         </div>
     </div>
-    <div class="my_style_ban" style="background: url(<?=base_url();?>/static/images/mystyle3_02.png) no-repeat center;background-size: cover;color: #ddb191;">
+    <div class="my_style_ban" style="background: url(<?=base_url();?>/static/images/mystyle3_02.png) no-repeat center;background-size: cover;color: #ddb191; background-size:100% 21.09vw;">
         <div class="container">
             <div class="my_ban_main" style="color: #ffffff;">
-                <p class="my_style_big_tl" style="margin-bottom: 0px;color: #faf2d4;">魔发秀</p>
-                <p class="my_style_small" style="color: #fffca9;">不可思议的10分钟</p>
-                <p>
-                    每天10分钟，静静走走，自我反省；每天10分钟，一杯茶一本书，心灵人生；每天10分钟，听音乐听段子，缓解压力；当然每天10分钟，还能完成华丽蜕变。 面对不同的场合，不同的服饰妆容，不同的脸型气质，雷瓦为所有用户提供各种时尚前沿的魔发秀， 在不可思议的10分钟内，每天百变造型，开启美丽新纪元。
+                <p class="my_style_big_tl" style="color: #faf2d4;padding-bottom: 2.1vw;padding-top: 4.4vw">魔发秀</p>
+                <p class="my_style_small" style="color: #fffca9;padding-bottom: 0.83vw;">不可思议的10分钟</p>
+                <p style="font-size:0.83vw;line-height: 1.6vw">
+                    每天10分钟，静静走走，自我反省；每天10分钟，一杯茶一本书，心灵人生；每天10分钟，听音乐听段子，缓解压力；当然每天10分钟，还能完成华丽蜕变。<br> 面对不同的场合，不同的服饰妆容，不同的脸型气质，雷瓦为所有用户提供各种时尚前沿的魔发秀，<br> 在不可思议的10分钟内，每天百变造型，开启美丽新纪元。
                 </p>
             </div>
         </div>
     </div>
     <div class="container clearfix style3_main">
-        <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="col-md-4 col-sm-4 col-xs-12" style="margin-top: 2.6vw;">
             <div class="style3_qhtl clearfix">
                 <a href="<?=base_url()?>mystyle3/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>烫发器<em></em></a>
                 <a href="<?=base_url()?>mystyle3/2" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>电吹风<em></em></a>
@@ -121,8 +121,8 @@
         </div>
         <?php endforeach;?>
 
-        
     </div>
+
     <?php echo template('public','footer')?>
 
     <!--footer start-->

@@ -35,7 +35,7 @@
         </div>
         <img src="static/images/index_01.png" class="index_banner_img">
     </div>
-    <div class="container index_two">
+    <div class="container index_two" align="center">
         <div class="index_two_txt">
             为每一位用户，每一位女性带来轻松简单的美丽，<br> 主张 <span class="fontRed">“每个人都可以通过给自己造型的小改变，去大胆创造属于自己的美”</span>。
         </div>
@@ -65,9 +65,9 @@
                     <a href="<?=base_url()?>prolist/1/2">
                         <img src="static/images/index_02_11.png">
                         <div class="index_three_fu index_three_fu3">
-                            <p class="eng">HAIR <br>CLIPPER </p>
-                            <p class="index_three_zw">理发器</p>
-                            <p class="index_three_num">03</p>
+                            <p class="eng_fu3">HAIR <br>CLIPPER </p>
+                            <p class="index_three_zw_fu3">理发器</p>
+                            <p class="index_three_num_nopadding">03</p>
                         </div>
                     </a>
                 </li>

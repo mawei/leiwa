@@ -69,6 +69,14 @@ class Welcome extends Front_Controller {
 
 		$this->view('news',array('news'=>$news,'newstype'=>$newstype, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
 	}
+
+	function newsdetail($news_id)
+	{
+		$allnews = $this->db->query("select * from `t_aci_news` where news_id={$news_id}")->result_array()[0];
+		$allnews['content'] = htmlspecialchars_decode(html_entity_decode(stripslashes($allnews['content'])));
+		echo json_encode($allnews);
+	}
+
 	
 	function experience()
 	{
@@ -121,7 +129,7 @@ class Welcome extends Front_Controller {
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
 		$hairs = array();
-		$result = $this->db->query("select * from `t_aci_fashionhair` order by createtime desc")->result_array();
+		$result = $this->db->query("select * from `t_aci_fashionhair` order by createtime asc")->result_array();
 		foreach ($result as $key => $value) {
 			if(array_key_exists($value['type'], $hairs))
 			{

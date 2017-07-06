@@ -41,13 +41,7 @@
 		<div class="pro2_one_main">
 			<div class="container">
 				<p class="pro2_one_main1">
-					<span>
-					<?php if ($type == 1): ?>01<?php endif; ?>
-					<?php if ($type == 2): ?>02<?php endif; ?>
-					<?php if ($type == 3): ?>03<?php endif; ?>
-					<?php if ($type == 4): ?>04<?php endif; ?>
-
-					</span>
+					<span><?php if ($type == 1): ?>01<?php endif; ?><?php if ($type == 2): ?>02<?php endif; ?><?php if ($type == 3): ?>03<?php endif; ?><?php if ($type == 4): ?>04<?php endif; ?></span>
 					<b>
 					<?php if ($type == 1): ?>烫发器<?php endif; ?>
 					<?php if ($type == 2): ?>电吹风<?php endif; ?>
@@ -55,14 +49,13 @@
 					<?php if ($type == 4): ?>美容健康系列<?php endif; ?>
 					</b>
 				</p>
-				<p class="pro2_one_main2 eng" style="padding-left:0px">
-					
+				<p class="pro2_one_main2" style="padding-left:0px">
 					<?php if ($type == 1): ?>HAIR TOOLS<?php endif; ?>
 					<?php if ($type == 2): ?>HAIR DRIER<?php endif; ?>
 					<?php if ($type == 3): ?>HAIR CLIPPER<?php endif; ?>
 					<?php if ($type == 4): ?>BEAUTY HEALTH SERIES<?php endif; ?>
 				</p>
-				<p>欢迎光临在线商城购买</p>
+				<p style="letter-spacing: 0.4vw">欢迎光临在线商城购买</p>
 				<p class="pro2_one">
 					<a href="#">GO TO TMALL</a>
 				</p>
@@ -156,7 +149,7 @@ HAIR TOOLS
 			</li>
 			<?php endforeach;?>
 			
-        <li class="col-md-4 col-sm-4 col-xs-12  pro2-list">
+        	<li class="col-md-4 col-sm-4 col-xs-12  pro2-list">
 				<a href="<?=base_url()?>prolist/<?=$type?>/<?=$page+1?>">
 					<img src="<?=base_url();?>/static/images/news_22.png">
 				</a>

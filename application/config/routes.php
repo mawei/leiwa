@@ -68,6 +68,7 @@ $route['mystyle3'] = "welcome/mystyle3";
 $route['mystyle3/(:num)'] = "welcome/mystyle3/$1";
 $route['mystyle4'] = "welcome/mystyle4";
 $route['news'] = "welcome/news";
+$route['newsdetail/(:num)'] = "welcome/newsdetail/$1";
 $route['pro'] = "welcome/pro";
 $route['prodetail/(:num)/(:num)'] = "welcome/prodetail/$1/$2";
 $route['prolist/(:num)/(:num)'] = "welcome/prolist/$1/$2";

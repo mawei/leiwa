@@ -50,17 +50,17 @@
 				<?php if ($k%2 == 0): ?>
 				<li>
 					<a class="clearfix">
-						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf  style3_img_main">
+						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf  style3_img_main" id="<?=$v['news_id']?>">
 							<img src="<?=base_url();?>images/<?=$v['image']?>">
 						</div>
-						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main">
+						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main" id="<?=$v['news_id']?>">
 							<p class="news_bmain_rttl">
 								<?=$v['title']?>
 							</p>
-							<div class="news_bmian_text style3_img_main">
+							<div class="news_bmian_text style3_img_main" id="<?=$v['news_id']?>">
 								<?=$v['memo']?>
 							</div>
-							<p class="news_bmian_a style3_img_main">
+							<p class="news_bmian_a style3_img_main" id="<?=$v['news_id']?>">
 								more &gt;
 							</p>
 						</div>
@@ -69,17 +69,17 @@
 				<?php elseif ($k%2 == 1): ?>
 				<li>
 					<a class="clearfix">
-						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf style3_img_main">
+						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf style3_img_main" id="<?=$v['news_id']?>">
 							<img src="<?=base_url();?>/static/images/news_09.png">
 						</div>
-						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main">
+						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main" id="<?=$v['news_id']?>">
 							<p class="news_bmain_rttl">
 								<?=$v['title']?>
 							</p>
-							<div class="news_bmian_text style3_img_main">
+							<div class="news_bmian_text style3_img_main" id="<?=$v['news_id']?>">
 								<?=$v['memo']?>
 							</div>
-							<p class="news_bmian_a style3_img_main">
+							<p class="news_bmian_a style3_img_main" id="<?=$v['news_id']?>">
 								more &gt;
 							</p>
 						</div>
@@ -121,9 +121,9 @@
 					<a href="#top-detail"><div class="upload"></div></a>
 					<div class="box-detail-ct">
 						<div class="detail-cont"  style="color: white">
-							<p id="top-detail" ><?=$v['title']?></p>
-							<p style="margin: 0; color: red;"><?=$v['createtime']?></p>
-							<p><?=htmlspecialchars_decode(html_entity_decode(stripslashes($v["content"])))?></p>
+							<p id="top-detail" ></p>
+							<p style="margin: 0; color: red;" id="createtime"></p>
+							<p id="content"></p>
 						</div>
 					</div>
 				</div>
@@ -139,6 +139,24 @@
 	$("#submit").click(function(){
 		self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
 	});
+
+	$('.style3_img_main').click(function () {
+	  	$.ajax({
+		  url: "<?=base_url()?>newsdetail/"+$(this).attr('id'),
+		  dataType: "json",
+		}).done(function(news) {
+			$("#top-detail").html(news.title);
+			$("#createtime").html(news.createtime);
+			$("#content").html(news.content);
+		});
+
+        $(".bg").show();
+        $(".alert_main").show();
+    });
+    $('.cha').click(function () {
+        $(".bg").hide();
+        $(".alert_main").hide();
+    });
 </script>
 
 <script type="text/javascript" src="<?=base_url()?>/static/js/main.js"></script>

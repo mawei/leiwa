@@ -56,15 +56,13 @@
             <img src="<?=base_url();?>/static/images/e2_10.png">
         </div>
         <div class="exp1_4">
-            <span class="exp1_2 span_black">提供贴合用户需求且时尚的造型方案</span><br> 帮助用户轻松便捷做出百变造型，让用户爱上美，焕发美，
+            <span class="exp1_2 span_black" style="color:#ffffff">提供贴合用户需求且时尚的造型方案</span><br> 帮助用户轻松便捷做出百变造型，让用户爱上美，焕发美，
             <br> 悦享生活中美丽瞬间。
         </div>
     </div>
     <div class="exp2">
         <img src="<?=base_url();?>/static/images/e2_13.png">
         <div class="exp_2t">
-            <div class="container clearfix">
-                <div class="right">
                     <div class="exp1_1">
                         价值承诺
                     </div>
@@ -79,16 +77,14 @@
                     <p class="exp1_2">全国400服务热线支持所有售后咨询服务</p>
                     不论是产品售前的咨询还是售后的问题反馈或者造型疑惑，<br> 雷瓦的服务团队都设身处地提供
                     <br> 贴心、快速的服务支持。
-                </div>
-            </div>
         </div>
         <div class="exp_2b exp2">
             <div class="container clearfix">
-                <div class="col-md-6 col-sm-6 col-xs-12 right exp_2b_pz">
+                <div class="col-md-6 col-sm-6 col-xs-12 exp_2b_pz">
                     <div class="exp1_1">
                         品质承诺
                     </div>
-                    <div class="star">
+                    <div class="star" style="padding-left: 2.5vw">
                         <span class="star_main"></span>
                         <span class="star_main"></span>
                         <span class="star_main"></span>
@@ -109,21 +105,20 @@
                             <span>更多 ……</span>
                         </li>
                     </ul>
-                    <p>
-                        所有维修使用原厂配件，工程师细致服务，雷瓦为所有用户承诺提供品质服务， 安心放心使用雷瓦造型产品，打造美丽人生。
+                    <p style="padding-left: 1.4vw">
+                        所有维修使用原厂配件，工程师细致服务，雷瓦为所有用户承诺提供品质服务，<br>安心放心使用雷瓦造型产品，打造美丽人生。
                     </p>
                 </div>
                 
             </div>
 
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12">
+        
+    </div>
             <div class="caitiao container">
                 <img src="static/images/about1_46.png">
 
             </div>
-        </div>
-    </div>
             <?php echo template('public','footer')?>
 
     <!--footer start-->

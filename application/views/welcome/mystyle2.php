@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="about_tl">
-        <p class="about_tl_t eng">
+        <p class="about_tl_t">
             DO YOUR OWN STYLE
         </p>
         <div class="about_menu">
@@ -38,10 +38,12 @@
     <div class="my_style_ban" style="background: url(static/images/style2_02.png) no-repeat center;background-size: cover;color: #ddb191;">
         <div class="container">
             <div class="my_ban_main">
-                <div class="my_style_big_tl" style="margin-bottom: 0px;">
+                <div class="my_style_big_tl" style="padding-bottom: 0.82vw;">
                     未来发型趋势
                 </div>
-                ——<br> 每一年，新一季的潮流趋势发布后，衣橱大换血，化妆品护肤品更新换代，发型“洗心革面”一番。 就近几年的造型来看，不难发现，当下流行的发型更趋于简洁大气风范，女性的自信张扬及独立个性被放大， 中长发及短发的各种造型开始逐渐被追捧，成为时尚潮流趋势。
+                <div class="mystyle2_hengxian">
+                </div>
+                <br> 每一年，新一季的潮流趋势发布后，衣橱大换血，化妆品护肤品更新换代，发型“洗心革面”一番。<br> 就近几年的造型来看，不难发现，当下流行的发型更趋于简洁大气风范，女性的自信张扬及独立个性被放大， <br> 中长发及短发的各种造型开始逐渐被追捧，成为时尚潮流趋势。
             </div>
         </div>
     </div>

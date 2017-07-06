@@ -39,9 +39,9 @@
         <img src="<?=base_url();?>/static/images/about3ban_02.jpg">
         <div class="about3_banner">
             <div class="container">
-                <span class="about3_textba_main eng">
+                <span class="about3_textba_main">
                     <div class="clearfix">
-                    <p>核心实力</p>
+                    <p style="font-size:1.46vw;">核心实力</p>
                     </div>
                     TREMENDOUS STRENGTH
                 </span>
@@ -58,7 +58,10 @@
 
         </div>
         <div class="clearfix at1_b">
-            <div class="col-md-7 col-sm-7  col-xs-12 at1_lf">
+            <div class="at1_lf">
+                <div class="at1_rt_tl">
+                    <span>研发</span>无止境
+                </div>
                 <div class="at1_lf_txt">
                     RIWA雷瓦的研发团队，与国际知名美发品牌合作<br> 在全球多国建立国际造型器研发中心
                     <br> 长期对国内外用户使用习惯及造型需求的调研分析
@@ -66,14 +69,10 @@
                     <br> 满足用户各种造型需求，帮助用户快速掌握造型技巧，方便其轻松简单造型
                     <br>
                     <p class="about_ul_rt_big">实现美丽，从此变简单</p>
+                </div>
 
-                </div>
             </div>
-            <div class="col-md-5 col-sm-5 col-xs-12 at1_rt">
-                <div class="at1_rt_tl">
-                    <span>研发</span>无止境
-                </div>
-            </div>
+
         </div>
     </div>
     <div class="at2 container">
@@ -81,13 +80,12 @@
             品质<span class="span_black">卓越</span>
         </div>
         <div class="at2_text">
-            雷瓦品牌坚持以产品品质作为企业的生命理念，建立完善的质量管理体系，引进各种先进的检测仪器和设备，组建专业的质量监查检验团队，从产品生产、包装运输、入仓检测、出库发货等每个环节严格把控，确保所有产品符合质量标准要求，保证产品质量始终如一，大大提高消费者的满意度。
+            雷瓦品牌坚持以产品品质作为企业的生命理念，建立完善的质量管理体系，引进各种先进的检测仪器和设备，组建专业的质量监查检验团队，从产品生产、包装运输、入仓<br>检测、出库发货等每个环节严格把控，确保所有产品符合质量标准要求，保证产品质量始终如一，大大提高消费者的满意度。
         </div>
         <div class="imgbox"> <img src="<?=base_url();?>/static/images/about3_05.jpg"></div>
 
     </div>
     <div class="at3 container">
-        <img src="<?=base_url();?>/static/images/about3bg_07.jpg">
         <div class="at3_main">
             <div class="at2_tl">
                 <span class="span_black">暖心</span>设计
@@ -104,18 +102,10 @@
                     产品的研发与设计<br> 都彰显着雷瓦人性化的暖心设计
                 </div>
                 <ul class="at32_ul">
-                    <li>
-                        <span>迷你型烫发器</span>
-                    </li>
-                    <li>
-                        <span>防烫隔热套</span>
-                    </li>
-                    <li>
-                        <span> 收线型电吹风</span>
-                    </li>
-                    <li>
-                        <span> 隐藏式电吹风……</span>
-                    </li>
+                    <li><span> 迷你型烫发器</span></li>
+                    <li><span> 防烫隔热套</span></li>
+                    <li><span> 收线型电吹风</span></li>
+                    <li><span> 隐藏式电吹风……</span></li>
                 </ul>
             </div>
             <p>
@@ -126,15 +116,15 @@
             </p>
         </div>
     </div>
-    <div class="at4 container">
+    <div class="at4 container"  align='center'>
         <img src="<?=base_url();?>/static/images/about3bg_11.jpg">
         <div class="at4main">
             <div class="at4_main1">
                 <p class="at4_main1_t">
                     时尚新颜值
                 </p>
-                <p>长期与意大利知名美发品牌</p>
-                <p class="eng color_red">
+                <p style="font-size:1.56vw;line-height: 2.5vw;">长期与意大利知名美发品牌</p>
+                <p class="color_red" style="font-size:1.56vw;line-height: 2.5vw;">
                     MÜSTER &amp; DIKSON S.P.A 合作
                 </p>
             </div>

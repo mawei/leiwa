@@ -39,11 +39,11 @@
     <div class="about_ban">
         <img src="<?=base_url();?>/static/images/about_02.jpg">
         <div class="about1_ban_text">
-            <p>
+            <p style="font-size:1.13vw;font-weight: lighter;font-family: MicrosoftYaHei;padding-right: 2.4vw">
                 美，如此简单
             </p>
-            <p class="about1_ban_text1 eng">TO BE BEAUTIFUL </p>
-            <p class="about1_ban_text2 eng">SO SIMPLE</p>
+            <p class="about1_ban_text1">TO BE BEAUTIFUL </p>
+            <p class="about1_ban_text2">SO SIMPLE</p>
         </div>
     </div>
     <div class="about1 container clearfix">
@@ -56,8 +56,8 @@
         <div class="left abou1_2">
             <img src="<?=base_url();?>/static/images/lw_03.png">
             <div class="abou1_2_text">
-                RIWA雷瓦，轻松私人造型小家电品牌，源于REVOLUTIONARY ，
-                <br> 意为革命性、颠覆性的改变，旨在为每一位用户带去轻松便捷的造型产品，
+                RIWA雷瓦，轻松私人造型小家电品牌，倡导轻松为自己造型，<br>
+                秉承对国内用户造型需求的深入研究和产品功能的持续创新，
             </div>
             <span class="abou1_3">
 让每一位女性都可以轻松拥有美丽和时尚的渴望
@@ -84,10 +84,10 @@
     </div>
     <ul class="about_ul">
         <li class="clearfix container">
-            <div class="col-md-7 col-sm-6 col-xs-12 about_ul_lf">
+            <div class="about_ul_lf1">
                 <img src="<?=base_url();?>/static/images/about1_27.png">
             </div>
-            <div class="col-md-5 col-sm-6 col-xs-12 about_ul_rt">
+            <div class="about_ul_rt1">
                 <p class="about_ul_rttl_big">
                     2000年
                 </p>
@@ -100,43 +100,44 @@
                 <p>打破一成不变的个人造型，张扬自己的美。 </p>
             </div>
         </li>
-        <li class="clearfix container about_ul_li2">
-            <div class="col-md-7 col-sm-6 col-xs-12 about_ul_lf aboutt_lf">
+        <li class="clearfix container">
+            <div class="about_ul_lf2">
                 <img src="<?=base_url();?>/static/images/about1_31.png">
             </div>
-            <div class="col-md-5 col-sm-6 col-xs-12 about_ul_rt aboutt_rt">
-                <p class="about_ul_rttl_big2">
+            <div class="about_ul_rt2">
+                <p class="about_ul_title">
                     家用造型器
                 </p>
                 <p class="about_ul_rt_big">在欧美家庭及女性中的普及</p>
-                让刘先生看到了这一市场<span class="about_ul_rt_big">未来的发展前景</span>， 他决定投身于个人造型事业，开始对国外用户生产并出售直发造型器。 经过对国外用户的使用习惯调查与研究，
+                让刘先生看到了这一市场<span class="about_ul_rt_big">未来的发展前景</span>， <br>他决定投身于个人造型事业，开始对国外用户生产并出售直发造型器。 <br>经过对国外用户的使用习惯调查与研究，<br>
                 以及三年来对直发器产品的不断摸索、改进，
             </div>
         </li>
         <li class="clearfix container">
-            <div class="col-md-7 col-sm-6 col-xs-12 about_ul_lf">
+            <div class="about_ul_lf3">
                 <img src="<?=base_url();?>/static/images/about1_34.png">
             </div>
-            <div class="col-md-5 col-sm-6 col-xs-12 about_ul_rt">
-                <p class="about_ul_rttl_big">
+            <div class="about_ul_rt3">
+                <p class="about_ul_rttl_big_81">
                     2009年
                 </p>
-                <p class="about_ul_rt_big">造型产品销售已经遍布欧、美、东南亚、非洲等国家和地区。</p>
+                <p class="about_ul_rt_big_25">造型产品销售已经遍布欧、美、东南亚、非洲等国家和地区。</p>
                 就在这一年，与意大利知名的美发品牌Müster &amp; Dikson S.p.a.达成长期战略合作，携手组建国际造型器研发中心，针对世界各地用户的生活习惯、审美情趣及造型需求开始了深入细致的研究。
-                <br> 与此同时，刘友华先生发现与家用造型器在欧美家庭中的普及不同的是，国内女性对造型器知之甚微，市场上家用造型产品也是少之又少，女性用户在家基本不会使用造型产品。他期望国内爱美女性能轻松便捷使用造型产品，根据不同的场合，随时随地，变化不同的造型，创造属于自己的美。
+                <br><br> 与此同时，刘友华先生发现与家用造型器在欧美家庭中的普及不同的是，国内女性对造型器知之甚微，市场上家用造型产品也是少之又少，女性用户在家基本不会使用造型产品。他期望国内爱美女性能轻松便捷使用造型产品，根据不同的场合，随时随地，变化不同的造型，创造属于自己的美。
             </div>
         </li>
         <li class="clearfix container about_ul_li2">
-            <div class="col-md-7 col-sm-6 col-xs-12 about_ul_lf aboutt_lf">
-                <img src="<?=base_url();?>/static/images/about-01_38.png">
-            </div>
-            <div class="col-md-5 col-sm-6 col-xs-12 about_ul_rt aboutt_rt">
+            
+            <div class="about_ul_rt4">
                 <p class="about_ul_rttl_big">
                     2012年
                 </p>
                 刘友华先生在上海成立
                 <p class="about_ul_rt_big">上海雷瓦电器有限公司</p>
-                根据国内用户的造型需求及使用习惯，刘友华先生与他的研发设计团队，为国内客户打造适合亚洲人特质的造型产品，注重产品的实用性，使用户的造型过程简单轻松。同时，在产品外观设计上，结合国内外潮流元素，简约大气的风格，年轻活力的色彩搭配，引领时尚前沿。
+                根据国内用户的造型需求及使用习惯，刘友华先生与<br>他的研发设计团队，为国内客户打造适合亚洲人特质<br>的造型产品，注重产品的实用性，使用户的造型过程<br>简单轻松。同时，在产品外观设计上，结合国内外潮<br>流元素，简约大气的风格，年轻活力的色彩搭配，引<br>领时尚前沿。
+            </div>
+            <div class="about_ul_lf4">
+                <img src="<?=base_url();?>/static/images/about-01_38.png">
             </div>
         </li>
     </ul>
