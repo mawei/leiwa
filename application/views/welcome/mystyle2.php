@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
     <title></title>
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/init.css">
@@ -50,11 +51,11 @@
     <div class="my_syle_b myst2">
         <ul class="clearfix mystyle_ul container" style="background: #dedddd;">
             <?php if (count($hairs['未来发型趋势']) > 0): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['未来发型趋势'][0]['image']?>">
                 <em class="huijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <span class="qushi">趋势一</span>
                 <p><?=$hairs['未来发型趋势'][0]['title']?></p>
                 <div class="mystyle_zi_text">
@@ -64,11 +65,11 @@
             <?php endif; ?>
             <?php if (count($hairs['未来发型趋势']) > 1): ?>
 
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['未来发型趋势'][1]['image']?>">
                 <em class="huijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <span class="qushi">趋势二</span>
                 <p><?=$hairs['未来发型趋势'][1]['title']?></p>
                 <div class="mystyle_zi_text">
@@ -80,34 +81,37 @@
         </ul>
         <ul class="clearfix mystyle_ul container" style="background: #ffffff;">
             <?php if (count($hairs['未来发型趋势']) > 2): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <span class="qushi1">趋势三</span>
                 <p><?=$hairs['未来发型趋势'][2]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['未来发型趋势'][2]['content']?>
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['未来发型趋势'][2]['image']?>">
                 <em class="baijiao"></em>
             </li>
             <?php endif; ?>
             <?php if (count($hairs['未来发型趋势']) > 3): ?>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <span class="qushi1">趋势四</span>
                 <p><?=$hairs['未来发型趋势'][3]['title']?></p>
                 <div class="mystyle_zi_text">
                     <?=$hairs['未来发型趋势'][3]['content']?>
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-6">
                 <img src="images/<?=$hairs['未来发型趋势'][3]['image']?>">
                 <em class="baijiao"></em>
             </li>
             <?php endif; ?>
         </ul>
     </div>
-                    <?php echo template('public','footer')?>
+    <div class="caitiao container">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
+    </div>
+    <?php echo template('public','footer')?>
 
     <!--footer start-->
     <!--#include file="inc/footer.htm" -->

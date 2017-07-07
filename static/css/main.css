@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'DINCondensedFont';
+    font-family: 'DINCondensedFont','微软雅黑';
     src: url('../fonts/teshu.eot');
     src: local('☺'), url('../fonts/teshu.eot?#iefix') format('embedded-opentype'), 
                      url('../fonts/teshu.woff') format('woff'),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'MicrosoftYaHeiLight';
+    font-family: '微软雅黑';
     src: url('../fonts/teshu.eot');
     src: local('☺'), url('../fonts/teshu.eot?#iefix') format('embedded-opentype'), 
                      url('../fonts/teshu.woff') format('woff'),
@@ -471,7 +471,7 @@
      padding-left: 0%;
 }
 .eng.more_eng{
-    font-family: 'DINCondensedFont';
+    font-family: 'DINCondensedFont','微软雅黑';
     padding-left:0;
     font-size:0.93vw;
 }
@@ -896,7 +896,7 @@
 }
 
 .index_four_more_main a {
-    font-family: 'DINCondensedFont';
+    font-family: 'DINCondensedFont','微软雅黑';
     display: inline-block;
     line-height: 1.66vw;
     width: 6.7vw;
@@ -1132,6 +1132,10 @@
     padding: 1.05vw 0px;
 }
 
+.about_menu {
+    font-family: 'DINCondensedFont','微软雅黑';
+}
+
 .about_menu a {
     display: inline-block;
     border-right: 1px solid #696969;
@@ -1234,18 +1238,23 @@
     top: 30%;
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.98vw;
+    line-height: 1.98vw;
+    text-align: center;
     -webkit-filter: blur(0.4px);
     filter: blur(0.4px);
 }
 
 .about4_ban_text .about4_ban_text1 {
-    font-size: 46px;
-    line-height: 100%;
+    font-size: 4.68vw;
+    line-height: 4.68vw;
+    text-align: center;
+    font-family: 'fontDidot';
 }
 
 .about4_ban_text .about4_ban_text1 small {
-    font-size: 75%;
+    font-size: 3.385vw;
+    line-height: 3.385vw;
 }
 
 /*@media (max-width: 767px) {
@@ -1538,7 +1547,7 @@
 }
 
 .abt2_2 {
-    font-family: 'MicrosoftYaHei';
+    font-family: '微软雅黑';
     position: absolute;
     font-size: 0.83vw;
     color: #505050;
@@ -2504,7 +2513,7 @@
 .my_ban_main {
     width: 100%;
     margin: 0px auto;
-    font-family: "MicrosoftYaHei", "黑体";
+    font-family: "微软雅黑", "黑体";
 }
 
 .mystyle_tl {
@@ -2518,7 +2527,7 @@
     padding: 0px;
     position: relative;
 }
-@media (max-width:770px) {
+/*@media (max-width:770px) {
     .mystyle_ul li.fl-img {
         width: 50%;
         margin-top: 10px;
@@ -2579,29 +2588,79 @@
         top: -20px;
         line-height: 22px;
     }
-}
+}*/
 .mystyle_ul img {
-    width: 100%;
+    width: 18.75vw;
+    height: 18.75vw;
     vertical-align: middle;
 }
 
 .mystyle_ul .mystyle_zi {
     text-align: center;
-    padding: 0px 5%;
     padding-top: 9%;
     font-size:1.04vw;
     line-height: 1.46vw;
     color: #505050;
+    padding-top: 5.83vw;
+    height: 18.75vw;
 }
 
-
-@media (max-width:320px) {
-
+.mystyle_ul.container{
+    width: 75.15vw;
 }
+
 .mystyle_zi p {
     font-size:1.04vw;
-    height: 25px;
+    line-height: 1.458vw;
     overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.mystyle_zi_text {
+    height: 8.09vw;
+    overflow: hidden;
+    font-size: 0.83vw;
+    line-height: 1.458vw;
+    width: 13vw;
+    margin: 0 auto;
+}
+
+@media (max-width:1000px) {
+    .mystyle_ul img {
+        width: 37.5vw;
+        height: 37.5vw;
+        vertical-align: middle;
+    }
+
+    .mystyle_zi p {
+        font-size:2.08vw;
+        line-height: 3vw;
+        overflow: hidden;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .mystyle_ul .mystyle_zi {
+        text-align: center;
+        padding-top: 9%;
+        font-size:1.04vw;
+        line-height: 1.46vw;
+        color: #505050;
+        padding-top: 5.83vw;
+        height: 37.5vw;
+    }
+
+    .mystyle_zi_text {
+        height: 16vw;
+        overflow: hidden;
+        font-size: 1.66vw;
+        line-height: 2.8vw;
+        width: 26vw;
+        margin: 0 auto;
+    }
 }
 
 .huijiao {
@@ -2615,11 +2674,7 @@
     /*margin-top: -15px;*/
 }
 
-.mystyle_zi_text {
-    height: 75px;
-    overflow: hidden;
-    font-size: 0.83vw;
-}
+
 
 .baijiao {
     display: block;
@@ -2656,37 +2711,43 @@
 }
 
 .my_syle_b {
-    padding-bottom: 144px;
+    padding-bottom: 6vw;
 }
 
 .myst2 {
-    padding-top: 56px;
+    padding-top: 2.7vw;
 }
 
 .qushi {
     display: block;
-    background: url(../images/style2_05.png) no-repeat;
-    line-height: 97px;
-    width: 98px;
+    background: url(../images/style2_05.png) no-repeat center;
+    background-size: 5.05vw;
+    width: 5.05vw;
+    height: 5.05vw;
+    line-height: 5.05vw;
     text-align: center;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.04vw;
     position: absolute;
-    left: 15px;
-    top: 15px;
+    left: 0.52vw;
+    top: 0.52vw;
 }
 
 .qushi1 {
     display: block;
-    background: url(../images/style2_05.png) no-repeat;
-    line-height: 97px;
-    width: 98px;
+    background: url(../images/style2_05.png) no-repeat center;
+    position: absolute;
+    background-size: 5.05vw;
+    width: 5.05vw;
+    height: 5.05vw;
+    line-height: 5.05vw;
     text-align: center;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.04vw;
     position: absolute;
-    right: 15px;
-    top: 15px;
+    right: 0.52vw;
+    top: 0.52vw;
+
 }
 
 .my_style_small {
@@ -2781,7 +2842,7 @@
     text-align: center;
     font-size: 0.93vw;
     margin-top: 20px;
-    font-family: 'DINCondensedFont';
+    font-family: 'DINCondensedFont','微软雅黑';
 }
 
 .style3_qhcon3:hover {
@@ -3032,7 +3093,7 @@
 .article {
     margin-bottom: 10px;
 }
-@media (max-width:1000px) {
+/*@media (max-width:1000px) {
     .article{float: left; width: 100%;}
 }
 @media (max-width:1000px) {
@@ -3063,7 +3124,7 @@
     }
 
 }
-
+*/
 /*@media (max-width:767px) {
     .my_style_ban {
         padding: 47px 0px 35px 0px;
@@ -3283,7 +3344,6 @@
 .pro1_three_text p{
     font-size: 0.833vw;
     line-height: 2vw;
-    font-weight: lighter;
 }
 .pro1_three_text_p2{
     font-size: 1.3vw;
@@ -3393,7 +3453,7 @@
 
 .pro2_one_main1 span {
     font-size: 16.56vw;
-    font-family: 'DINCondensedFont';
+    font-family: 'DINCondensedFont','微软雅黑';
     line-height: 12vw;
     letter-spacing: 0.1vw;
 }
@@ -3404,11 +3464,12 @@
 
 .pro2_one_main2 {
     font-size: 3.05vw;
-    font-family: 'fontDidot'
+    font-family: 'fontDidot';
+    line-height: 3.05vw;
 }
 
 .pro2_one a {
-    font-family: 'DINCondensedFont';
+    font-family: 'DINCondensedFont','微软雅黑';
     display: block;
     width: 10vw;
     line-height: 2vw;
@@ -4367,7 +4428,7 @@ margin-right: 10px;
     font-size: 1vw;
     line-height: 160%;
     letter-spacing: 1px;
-    font-family: 'DINCondensedFont'
+    font-family: 'DINCondensedFont','微软雅黑';
 }
 
 .about4_box .year em {

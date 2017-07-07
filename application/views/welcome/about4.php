@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
     <title></title>
     <link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
@@ -39,7 +40,7 @@
         <img src="<?=base_url();?>/static/images/about4ban_02.jpg">
         <div class="about4_ban_text">
             品牌印记
-            <p class="about4_ban_text1 eng">
+            <p class="about4_ban_text1">
                 <small>RIWA</small> IMPRINT
             </p>
         </div>

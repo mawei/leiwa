@@ -147,7 +147,7 @@ class Welcome extends Front_Controller {
 		$typename = "";
 		switch ($type) {
 			case '1':
-				$typename = "卷直发器";
+				$typename = "烫发器";
 				break;
 			case '2':
 				$typename = "电吹风";
@@ -159,10 +159,10 @@ class Welcome extends Front_Controller {
 				$typename = "美容健康";
 				break;
 			default:
-				$typename = "卷直发器";
+				$typename = "烫发器";
 				break;
 		}
-		$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc desc")->result_array();
+		$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc")->result_array();
 		$this->view('mystyle3',array('shows'=>$shows,'type'=>$type));
 	}
 
@@ -186,7 +186,7 @@ class Welcome extends Front_Controller {
 	{
 		switch ($type) {
 			case '1':
-				$typename = "卷直发器";
+				$typename = "烫发器";
 				break;
 			case '2':
 				$typename = "电吹风";
@@ -198,7 +198,7 @@ class Welcome extends Front_Controller {
 				$typename = "美容健康";
 				break;
 			default:
-				$typename = "卷直发器";
+				$typename = "烫发器";
 				break;
 		}
 
@@ -227,7 +227,7 @@ class Welcome extends Front_Controller {
 	{
 		switch ($type) {
 			case '1':
-				$typename = "卷直发器";
+				$typename = "烫发器";
 				break;
 			case '2':
 				$typename = "电吹风";
@@ -239,7 +239,7 @@ class Welcome extends Front_Controller {
 				$typename = "美容健康";
 				break;
 			default:
-				$typename = "卷直发器";
+				$typename = "烫发器";
 				break;
 		}
 

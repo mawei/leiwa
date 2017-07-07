@@ -30,7 +30,7 @@
 	<div class="form-group">
 				<label for="image" class="col-sm-2 control-label form-control-static">配图</label>
 				<div class="col-sm-9 ">
-					<a id="image_a"  ><img  width="100" id="image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["image"])?"images".$data_info["image"]:"images/nopic.gif" ?>"/></a>
+					<a id="image_a"  ><img  width="100" id="image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["image"])?"images/".$data_info["image"]:"images/nopic.gif" ?>"/></a>
 <input type="hidden" id="image" name="image" value="<?php echo isset($data_info["image"])?$data_info["image"]:"" ?>" /> <a id="image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
 				</div>
 			</div>

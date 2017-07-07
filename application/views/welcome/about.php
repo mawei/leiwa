@@ -5,6 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+
     <title></title>
     <link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
@@ -39,7 +41,7 @@
     <div class="about_ban">
         <img src="<?=base_url();?>/static/images/about_02.jpg">
         <div class="about1_ban_text">
-            <p style="font-size:1.13vw;font-weight: lighter;font-family: MicrosoftYaHei;padding-right: 2.4vw">
+            <p style="font-size:1.13vw;font-weight: lighter;padding-right: 2.4vw">
                 美，如此简单
             </p>
             <p class="about1_ban_text1">TO BE BEAUTIFUL </p>
