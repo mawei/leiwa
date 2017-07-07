@@ -12,18 +12,7 @@
 }
 
 @font-face {
-    font-family: 'DINCondensedFont','微软雅黑','Microsoft Yahei';
-    src: url('../fonts/teshu.eot');
-    src: local('☺'), url('../fonts/teshu.eot?#iefix') format('embedded-opentype'), 
-                     url('../fonts/teshu.woff') format('woff'),
-                     url('../fonts/teshu.ttf') format('truetype'), 
-                     url('f../fonts/teshu.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: '微软雅黑','Microsoft Yahei';
+    font-family: 'DINCondensedFont';
     src: url('../fonts/teshu.eot');
     src: local('☺'), url('../fonts/teshu.eot?#iefix') format('embedded-opentype'), 
                      url('../fonts/teshu.woff') format('woff'),
@@ -534,7 +523,7 @@
 }
 .index_three_num {
     font-size: 16vw;
-    font-family: DINCondensedFont;
+    font-family: 'DINCondensedFont';
     line-height: 100%;
     letter-spacing:-0.7vw;
     padding-left: 0.5vw;
