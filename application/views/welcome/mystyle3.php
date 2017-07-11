@@ -169,10 +169,12 @@
         var src = $(this).attr('src');
         $("video").attr('src',src);
         $(".alert_main").show();
+        $("video").play();
     });
     $('.cha').click(function () {
         $(".bg").hide();
         $(".alert_main").hide();
+        $("video").stop();
     });
 </script>
 

@@ -1248,7 +1248,7 @@
 
 .about2_ban_text {
     position: absolute;
-    bottom: 20%;
+    bottom: 15vw;
     right: 25%;
     color: #fadeae;
 }
@@ -1296,7 +1296,7 @@
     line-height: 4.42vw;
     color: #ffffff;
     display: inline-block;
-    font-family: 'fontDidot';
+    font-family: 'fontDidot','微软雅黑';
 }
 
 .about3_banner p {

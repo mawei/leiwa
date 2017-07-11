@@ -124,7 +124,7 @@
                 <p class="at4_main1_t">
                     时尚新颜值
                 </p>
-                <p style="font-size:1.56vw;line-height: 2.5vw;">长期与意大利知名美发品牌</p>
+                <p style="font-size:1.56vw;line-height: 3.5vw;">长期与意大利知名美发品牌</p>
                 <p class="color_red" style="font-size:1.56vw;line-height: 2.5vw;">
                     MÜSTER &amp; DIKSON S.P.A 合作
                 </p>
