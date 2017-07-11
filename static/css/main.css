@@ -2170,7 +2170,7 @@
 .da {
     color: #505050;
     color: #505050;
-    height: 5.2vw;
+    height: 6vw;
     overflow: hidden;
     background: url(../images/qico_09.png) no-repeat left top;
     background-size: 2.3vw;
@@ -2213,6 +2213,7 @@
     width: 36vw;
     padding-left: 0.8vw;
     float:left;
+    height: 30vw;
 }
 
 @media(max-width: 700px)
