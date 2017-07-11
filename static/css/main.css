@@ -423,6 +423,12 @@
   padding-bottom: 29px;
 }
 
+.index_three_zw.image
+{
+    width:10px;
+    height: 10px;
+}
+
 /*@media (max-width:1680px) {
     .index_three_fu1 {bottom: 30%;right: 26%;}
 }*/
@@ -476,7 +482,7 @@
 .index_three_zw {
     display: inline-block;
     /*width: 10vw;*/
-    background: url(../images/sj_03.png) no-repeat right 4px;
+    /*background: url(../images/sj_03.png) no-repeat right 4px;*/
 /*    background-size: 2vw;
 */    padding-right: 0.7vw;
     font-size: 1.17vw;
@@ -2546,7 +2552,7 @@
 .news_bmain_rttl {
     font-weight: bold;
     line-height: 0.9375vw;
-    height: 0.9375vw;
+    height: 1.35vw;
     overflow: hidden;
     line-height: 1.35vw;
     margin: 1.56vw 0px 0.5vw 0px;
@@ -3078,6 +3084,14 @@
     width: 24vw;
     margin-left: 0.25vw;
     margin-right: 0.25vw;
+    float: left;
+}
+
+.style3_img_main.newslist {
+    display: block;
+    width: 24vw;
+/*    margin-left: 0.25vw;
+    margin-right: 0.25vw;*/
     float: left;
 }
 
@@ -5000,15 +5014,20 @@ margin-right: 10px;
 
 .about4_box.img1 .txt {
     display: inline-block;
-    width: 600px;
-    margin-left: -300px;
+    width: 100%;
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 3.5vw;
     text-align: center;
     color: #d7001d;
     font-family: "Didot", Helvetica, Arial, sans-serif;
     font-size: 3vw;
+    line-height: 5vw;
+}
+@media(max-width: 1440px)
+{
+    .about4_box.img1 .txt {
+        top: 5vw;
+    }
 }
 
 .about4_box.img1 .dot {

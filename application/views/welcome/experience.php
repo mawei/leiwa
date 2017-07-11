@@ -80,7 +80,7 @@
             剃毛器类
             </span>
         </div>
-        <ul class="wenda_ul">
+        <ul class="container wenda_ul">
 <?php foreach($questions['剃毛器'] as $k=>$v):?>
             <li class="">
                 <div class="wenda_main">

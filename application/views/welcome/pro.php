@@ -134,6 +134,7 @@
 						</p>
 						<p class="index_three_zw">
 						烫发器
+						<img class="index_three_zw image" src="<?=base_url();?>/static/images/sj_03.png"/>
 						</p>
 						<p class="index_three_num">
 						01
