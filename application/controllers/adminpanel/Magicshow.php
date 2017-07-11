@@ -22,7 +22,7 @@ class Magicshow extends Admin_Controller {
         $this->load->helper(array('auto_codeIgniter_helper','array'));
         
         $this->method_config['upload'] = array(
-										'video'=>array('upload_size'=>1024000,'upload_file_type'=>'jpg|png|gif','upload_path'=>'video','upload_url'=>'video'),
+										'image'=>array('upload_size'=>1024000,'upload_file_type'=>'jpg|png|gif','upload_path'=>'images','upload_url'=>'images'),
 										);
   
   
@@ -113,7 +113,8 @@ class Magicshow extends Admin_Controller {
 			if($_arr['title']=='')exit(json_encode(array('status'=>false,'tips'=>'标题必填')));
 			$_arr['product'] = isset($_POST["product"])?trim(safe_replace($_POST["product"])):exit(json_encode(array('status'=>false,'tips'=>'产品名称必填')));
 			if($_arr['product']=='')exit(json_encode(array('status'=>false,'tips'=>'产品名称必填')));
-			$_arr['video'] = isset($_POST["video"])?trim(safe_replace($_POST["video"])):'';
+            $_arr['video'] = isset($_POST["video"])?trim(safe_replace($_POST["video"])):'';
+            $_arr['image'] = isset($_POST["image"])?trim(safe_replace($_POST["image"])):'';
 			$_arr['createtime'] = date('Y-m-d H:i:s');
 			
             $new_id = $this->magicshow_model->insert($_arr);
@@ -191,7 +192,8 @@ class Magicshow extends Admin_Controller {
 			if($_arr['product']=='')exit(json_encode(array('status'=>false,'tips'=>'产品名称必填')));
 			$_arr['video'] = isset($_POST["video"])?trim(safe_replace($_POST["video"])):'';
 			$_arr['createtime'] = date('Y-m-d H:i:s');
-			
+			$_arr['image'] = isset($_POST["image"])?trim(safe_replace($_POST["image"])):'';
+
             $status = $this->magicshow_model->update($_arr,array('magicshow_id'=>$id));
             if($status)
             {

@@ -3,11 +3,11 @@
 		if(!h) h=screen.height-95;
 		if(!iscallback)iscallback=0;
 		var window_url = SITE_URL+'adminpanel//magicshow/upload/';
-		$.extDialogFrame(window_url+'1/video/'+inputId+'/'+iscallback,{model:true,width:w,height:h,title:'请上传...',buttons:null});
+		$.extDialogFrame(window_url+'1/image/'+inputId+'/'+iscallback,{model:true,width:w,height:h,title:'请上传...',buttons:null});
 	}
-	function getVideo(v,s,w,h){
-		$("#video").val(v);
-		$("#video_SRC").attr("src",SITE_URL+"video/"+v);
+	function getImage(v,s,w,h){
+		$("#image").val(v);
+		$("#image_SRC").attr("src",SITE_URL+"images/"+v);
 		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
 	}
 
@@ -23,12 +23,11 @@
 
 		$(function () {
 
-
-		$("#video_a").click(function(){
-			uploadOneFile('video',550,350,1)
+		$("#image_a").click(function(){
+			uploadOneFile('image',550,350,1)
 		});
-		$("#video_b").click(function(){
-			uploadOneFile('video',550,350,1)
+		$("#image_b").click(function(){
+			uploadOneFile('image',550,350,1)
 		});
             $('#validateform').bootstrapValidator({
 				message: '输入框不能为空',

@@ -167,7 +167,7 @@ class Welcome extends Front_Controller {
 		}
 		$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc")->result_array();
 
-		$number = 8;
+		$number =10;
 		$allshows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc")->result_array();
 		$maxpage = ceil(count($allshows)/$number);
 		$page = $page == ""||$page < 1 ? 1 : $page;
