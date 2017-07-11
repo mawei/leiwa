@@ -112,7 +112,7 @@
             <a href="javascript:;" class="style3_img_main" src="<?=base_url('video/'.$v['video']);?>">
                 <div class="style3_img_main_t">
                     <em class="style3_play"></em>
-                    <img src="<?=base_url();?>/static/images/mystyle3_05.jpg">
+                    <img src="<?=base_url();?>/images/<?=$v['image']?>">
                 </div>
                 <div class="style3_img_main_b">
                     <p class="style3_img_main_b1"><?=$v['product']?></p>
