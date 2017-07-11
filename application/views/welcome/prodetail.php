@@ -54,7 +54,6 @@
 		</div>
 	</div>
 	<div class="pro3_two">
-		<div class="container">
 			<p class="pro3_two1 eng"  style="padding-left:0px">
 				<?=$product['style']?>
 			</p>
@@ -66,12 +65,11 @@
 				<?=$product['info']?>
 				</span>
 			</p>
-		</div>
 	</div>
-	<div class="pro3_three"  style="padding:0">
+	<div class="pro3_three" >
 		<div id="gallery" class="ad-gallery">
 			<div class="ad-image-wrapper">
-				<div class="ad-image" style="width: 997px; height: 581px; top: 0px; left: 0px;"><img src="<?=base_url();?>/static/images/pro4_03.jpg" width="997" height="581"></div><img class="ad-loader" src="<?=base_url();?>/static/images/loader.gif"
+				<div class="ad-image" style="width: 52vw; height: 30vw; top: 0px; left: 0px;"><img src="<?=base_url();?>/static/images/pro4_03.jpg" width="52vw" height="30vw"></div><img class="ad-loader" src="<?=base_url();?>/static/images/loader.gif"
 				 style="display: none;">
 				<div class="ad-next">
 					<div class="ad-next-image" style="opacity: 0.7;"></div>
@@ -84,7 +82,7 @@
 				<p class="ad-info">1 / 14</p>
 				<div class="ad-slideshow-controls ad-slideshow-running"><span class="ad-slideshow-start">Start</span><span class="ad-slideshow-stop">Stop</span><span class="ad-slideshow-countdown">(1)</span></div>
 			</div>
-			<div class="ad-nav">
+			<div class="ad-nav pro3_photo_list">
 				<div class="ad-back" style="opacity: 0.6;"></div>
 				<div class="ad-thumbs">
 					<ul class="ad-thumb-list" style="width: 1148px;">
@@ -103,31 +101,7 @@
 							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image2" style="opacity: 0.7;">
 							</a>
 						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb3">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image3" style="opacity: 0.7;">
-							</a>
-						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb4">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image4" style="opacity: 0.7;">
-							</a>
-						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb5">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image5" style="opacity: 0.7;">
-							</a>
-						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb6">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image6" style="opacity: 0.7;">
-							</a>
-						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb7">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image7" style="opacity: 0.7;">
-							</a>
-						</li>
+						
 						<li>
 							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb8">
 <img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image8" style="opacity: 0.7;">
@@ -138,21 +112,7 @@
 <img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image9" style="opacity: 0.7;">
 </a>
 						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb10">
-<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image10" style="opacity: 0.7;">
-</a>
-						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb11">
-<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image11" style="opacity: 0.7;">
-</a>
-						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb12">
-<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image12" style="opacity: 0.7;">
-</a>
-						</li>
+
 						<li>
 							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb13">
 							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image13" style="opacity: 0.7;">
@@ -212,7 +172,7 @@
 	</div>
 	<div class="pro3_four">
 		<div class="container pro3_four_main">
-			<div class="col-md-5 col-sm-12 col-xs-12 liandiang">
+			<div class="liandiang">
 				<p class="pro3_four_tl">
 					产品亮点：
 				</p>
@@ -225,7 +185,7 @@
 					<?php endforeach;?>
 				</ul>
 			</div>
-			<div class="col-md-3 col-sm-12 col-xs-12 shipin">
+			<div class="shipin">
 				<p class="pro3_four_tl">
 					视频教程：
 				</p>
@@ -236,7 +196,7 @@
 					只要10分钟<br> 教你打造自己的时尚发型
 				</p>
 			</div>
-			<div class="col-md-4 col-sm-12 col-xs-12 mai">
+			<div class="mai">
 				<p class="pro3_four_tl">
 					欢迎进入购买
 				</p>
@@ -258,14 +218,15 @@
 			</div>
 		</div>
 	</div>
+	<div class="index_fourfive_line clearfix">
+			<p>
+			您还可能会喜欢
+			</p>
+	</div>
 	<div class="por3_five">
-		<div class="index_four_line">
-			<span>
-您还可能会喜欢
-</span>
-		</div>
-		<ul class="clearfix pro2_three_ul container">
-			<li class="col-md-4 col-sm-4 col-xs-12">
+		
+		<ul class="clearfix pro2_three_ul">
+			<li class="pro3_more">
 				<a href="#">
 <img src="<?=base_url();?>/static/images/pro_list_03.jpg">
 <p class="pro2_three_ul1">
@@ -282,7 +243,7 @@ more &gt;
 </p>
 </a>
 			</li>
-			<li class="col-md-4 col-sm-4 col-xs-12">
+			<li class="pro3_more">
 				<a href="#">
 <img src="<?=base_url();?>/static/images/pro_list_03.jpg">
 <p class="pro2_three_ul1">
@@ -299,7 +260,7 @@ more &gt;
 </p>
 </a>
 			</li>
-			<li class="col-md-4 col-sm-4 col-xs-12">
+			<li class="pro3_more">
 				<a href="#">
 <img src="<?=base_url();?>/static/images/pro_list_03.jpg">
 <p class="pro2_three_ul1">
@@ -318,6 +279,9 @@ more &gt;
 			</li>
 		</ul>
 	</div>
+	    <div class="caitiao container">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
+    </div>
 	<?php echo template('public','footer')?>
 	<!--footer start-->
 	<!--#include file="inc/footer.htm" -->

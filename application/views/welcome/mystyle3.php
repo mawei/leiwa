@@ -47,13 +47,13 @@
             </div>
         </div>
     </div>
-    <div class="container clearfix style3_main">
-        <div class="col-md-4 col-sm-4 col-xs-12" style="margin-top: 2.6vw;">
+    <div class="clearfix style3_main">
+        <div class="style3_title">
             <div class="style3_qhtl clearfix">
-                <a href="<?=base_url()?>mystyle3/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>烫发器<em></em></a>
-                <a href="<?=base_url()?>mystyle3/2" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>电吹风<em></em></a>
-                <a href="<?=base_url()?>mystyle3/3" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>理发器<em></em></a>
-                <a href="<?=base_url()?>mystyle3/4" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康<em></em></a>
+                <a href="<?=base_url()?>mystyle3/1/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>烫发器<em></em></a>
+                <a href="<?=base_url()?>mystyle3/2/1" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>电吹风<em></em></a>
+                <a href="<?=base_url()?>mystyle3/3/1" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>理发器<em></em></a>
+                <a href="<?=base_url()?>mystyle3/4/1" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康<em></em></a>
             </div>
             <div class="style3_qhmain">
                 <div class="style3_qhcon <?php if ($type == 1): ?>active<?php endif; ?>">
@@ -108,8 +108,8 @@
         </div>
         <?php foreach($shows as $v):?>
 
-        <div class="col-md-4 col-sm-4 col-xs-12 style3_img">
-            <a href="javascript:;" class="style3_img_main">
+        <div class="style3_img">
+            <a href="javascript:;" class="style3_img_main" src="<?=base_url('video/'.$v['video']);?>">
                 <div class="style3_img_main_t">
                     <em class="style3_play"></em>
                     <img src="<?=base_url();?>/static/images/mystyle3_05.jpg">
@@ -121,9 +121,27 @@
             </a>
         </div>
         <?php endforeach;?>
-
+        <?php if ($page != $maxpage): ?>
+        <div class="style3_img next" align="center">
+            <a href="<?=base_url()?>mystyle3/<?=$type?>/<?=$page+1?>">
+                <img src="<?=base_url();?>/static/images/news_22.png">
+            </a>
+        </div>
+        <?php endif; ?>
+    </div>
+    <div class="page clearfix container">
+        <div class="right">
+            <a href="<?=base_url()?>mystyle3/<?=$type;?>/<?=$page-1?>">&lt;</a>
+            <input  id="pageinput" type="text" value="<?=$page?>">
+            <span>/<?=$maxpage?></span>
+            <a id="submit" href="#" style="background: #000000;color: #fff;">GO</a>
+            <a href="<?=base_url()?>mystyle3/<?=$type;?>/<?=$page+1?>">&gt;</a>
+        </div>
     </div>
 
+    <div class="caitiao container">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
+    </div>
     <?php echo template('public','footer')?>
 
     <!--footer start-->
@@ -132,12 +150,30 @@
     <div class="bg"></div>
     <div class="alert_main">
         <em class="cha"></em>
-        <video src="images/3201.mp4" controls="controls" width="100%" height="300">
+        <video src="" controls="controls" width="100%" height="300" id="video">
         </video>
     </div>
     <script type="text/javascript" src="<?=base_url();?>/static/js/main.js"></script>
 
 
 </body>
+
+<script type="text/javascript">
+    $("#submit").click(function(){
+        // self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
+        self.location="<?=base_url()?>mystyle3/<?=$type?>/" + $("#pageinput").val(); 
+    });
+
+    $('.style3_img_main').click(function () {
+        $(".bg").show();
+        var src = $(this).attr('src');
+        $("video").attr('src',src);
+        $(".alert_main").show();
+    });
+    $('.cha').click(function () {
+        $(".bg").hide();
+        $(".alert_main").hide();
+    });
+</script>
 
 </html>

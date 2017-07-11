@@ -1,23 +1,19 @@
   <div class="footer">
         <div class="footer1">
-            <div class="container clearfix">
-                <div class="col-md-6 col-sm-6 col-xs-12 footer1_1">
+                <div class="footer1_1">
                     <img src="<?=base_url();?>/static/images/index_37.png">
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 center">
-                    <div class="col-md-6 col-sm-6 col-xs-6 footer1_2">
-                        <img src="<?=base_url();?>/static/images/weixin.png">
-                        <p>官方微信</p>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6 col-xs-6 footer1_2 center">
-                        <img src="<?=base_url();?>/static/images/weibo.png">
-                        <p>官方微博</p>
-                    </div>
+                <div class="footer1_2">
+                    <img src="<?=base_url();?>/static/images/weixin.png">
+                    <p>官方微信</p>
                 </div>
 
-            </div>
+                <div class="footer1_3">
+                    <img src="<?=base_url();?>/static/images/weibo.png">
+                    <p>官方微博</p>
+                </div>
         </div>
+        <div class="clearfix"></div>
         <div class="footer_2">
             <ul class="clearfix">
                 <li>

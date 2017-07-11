@@ -29,10 +29,10 @@
 		<p class="about_tl_t">
 			RIWA NEWS
 		</p>
-		<div class="about_menu">
+<!-- 		<div class="about_menu">
 			<a href="<?=base_url()?>news/company" <?php if ($newstype == 'company'): ?>class="ahover"<?php endif; ?>>公司新闻</a>
 			<a href="<?=base_url()?>news/product" <?php if ($newstype != 'company'): ?>class="ahover"<?php endif; ?>>产品新闻</a>
-		</div>
+		</div> -->
 	</div>
 	<div class="about_ban">
 		<img src="<?=base_url();?>/static/images/news_02.png">
@@ -40,7 +40,8 @@
 	<div class="news_tl">
 		</a>
         <?php foreach($allyears as $v):?>
-		<a href="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/1" <?php if ($years == $v['years']): ?>class="ahover"<?php endif; ?>><?=$v['years']?></a>
+		<!-- <a href="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/1" <?php if ($years == $v['years']): ?>class="ahover"<?php endif; ?>><?=$v['years']?></a> -->
+		<a href="<?=base_url()?>news/<?=$v['years'];?>/1" <?php if ($years == $v['years']): ?>class="ahover"<?php endif; ?>><?=$v['years']?></a>
 		<?php endforeach;?>
 
 			</div>
@@ -51,10 +52,10 @@
 				<?php if ($k%2 == 0): ?>
 				<li>
 					<a class="clearfix">
-						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf  style3_img_main" id="<?=$v['news_id']?>">
+						<div class="news_bmain_lf  style3_img_main" id="<?=$v['news_id']?>">
 							<img src="<?=base_url();?>images/<?=$v['image']?>">
 						</div>
-						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main" id="<?=$v['news_id']?>">
+						<div class="ews_bmain_rt style3_img_main" id="<?=$v['news_id']?>">
 							<p class="news_bmain_rttl">
 								<?=$v['title']?>
 							</p>
@@ -70,10 +71,10 @@
 				<?php elseif ($k%2 == 1): ?>
 				<li>
 					<a class="clearfix">
-						<div class="col-md-4 col-sm-4 col-xs-12 news_bmain_lf style3_img_main" id="<?=$v['news_id']?>">
+						<div class="news_bmain_lf style3_img_main" id="<?=$v['news_id']?>">
 							<img src="<?=base_url();?>/static/images/news_09.png">
 						</div>
-						<div class="col-md-8 col-sm-8 col-xs-12 news_bmain_rt style3_img_main" id="<?=$v['news_id']?>">
+						<div class="news_bmain_rt style3_img_main" id="<?=$v['news_id']?>">
 							<p class="news_bmain_rttl">
 								<?=$v['title']?>
 							</p>
@@ -93,7 +94,8 @@
 			</ul>
 			<div class="page clearfix">
 				<div class="right">
-					<a href="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/<?=$page-1?>">
+					<!-- <a href="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/<?=$page-1?>"> -->
+					<a href="<?=base_url()?>news/<?=$v['years'];?>/<?=$page-1?>">
 							&lt;
 	    				</a>
 					<input id="pageinput" type="text" value="<?=$page?>">
@@ -101,13 +103,18 @@
 					<a id="submit" style="background: #000000;color: #fff;">
 	    					GO
 	    				</a>
-					<a href="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/<?=$page+1?>">
+					<!-- <a href="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/<?=$page+1?>"> -->
+					<a href="<?=base_url()?>news/<?=$v['years'];?>/<?=$page+1?>">
 	    					&gt;
 	    				</a>
 				</div>
 			</div>
 		</div>
 	</div>
+
+    <div class="caitiao container">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
+    </div>
 	        <?php echo template('public','footer')?>
 
 	<!--footer start-->
@@ -138,7 +145,8 @@
 </body>
 <script type="text/javascript">
 	$("#submit").click(function(){
-		self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
+		// self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
+		self.location="<?=base_url()?>news/<?=$v['years'];?>/" + $("#pageinput").val(); 
 	});
 
 	$('.style3_img_main').click(function () {

@@ -62,7 +62,7 @@
         </div>
     </div>
     <div class="exp2">
-        <img src="<?=base_url();?>/static/images/e2_13.png">
+        <img src="<?=base_url();?>/static/images/e2_13.jpg">
         <div class="exp_2t">
                     <div class="exp1_1">
                         价值承诺

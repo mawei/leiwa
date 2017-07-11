@@ -52,7 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = "welcome/index";
 
 $route['news/(:any)'] = "welcome/news/$1/$2/$3";
-$route['news/(:any)/(:any)/(:any)'] = "welcome/news/$1/$2/$3";
+// $route['news/(:any)/(:any)/(:any)'] = "welcome/news/$1/$2/$3";
+$route['news/(:any)/(:any)'] = "welcome/news/$1/$2";
 
 $route['about'] = "welcome/about";
 $route['about2'] = "welcome/about2";
@@ -65,7 +66,7 @@ $route['index'] = "welcome/index";
 $route['mystyle'] = "welcome/mystyle";
 $route['mystyle2'] = "welcome/mystyle2";
 $route['mystyle3'] = "welcome/mystyle3";
-$route['mystyle3/(:num)'] = "welcome/mystyle3/$1";
+$route['mystyle3/(:num)/(:num)'] = "welcome/mystyle3/$1/$2";
 $route['mystyle4'] = "welcome/mystyle4";
 $route['news'] = "welcome/news";
 $route['newsdetail/(:num)'] = "welcome/newsdetail/$1";

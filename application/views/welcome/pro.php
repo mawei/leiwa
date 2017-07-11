@@ -126,7 +126,7 @@
 		<div class="index_three_t" style="background: none;">
 			<ul class="clearfix index_three_ul container">
 				<li class="col-md-6 col-sm-6 col-xs-6 index_three_li1">
-					<a href="#">
+					<a href="<?=base_url();?>/prolist/1/1">
 						<img src="<?=base_url();?>/static/images/products_03.png">
 						<div class="index_three_fu index_three_fu10">
 						<p class="eng">
@@ -142,7 +142,7 @@
 					</a>
 				</li>
 				<li class="col-md-6 col-sm-6 col-xs-6">
-					<a href="#">
+					<a href="<?=base_url();?>/prolist/2/1">
 						<img src="<?=base_url();?>/static/images/products_05.png">
 						<div class="index_three_fu index_three_fu11">
 						<p class="eng">
@@ -162,7 +162,7 @@
 		<div class="index_three_b" style="background: none;padding-bottom: 30px">
 			<ul class="clearfix index_three_ul container">
 				<li class="col-md-6 col-sm-6 col-xs-6">
-					<a href="#">
+					<a href="<?=base_url();?>/prolist/3/1">
 						<img src="<?=base_url();?>/static/images/products_12.png">
 						<div class="index_three_fu index_three_fu13">
 							<p class="eng">
@@ -178,7 +178,7 @@
 					</a>
 				</li>
 				<li class="col-md-6 col-sm-6 col-xs-6 index_three_li4">
-					<a href="#">
+					<a href="<?=base_url();?>/prolist/4/1">
 						<img src="<?=base_url();?>/static/images/products_10.png">
 						<div class="index_three_fu index_three_fu14">
 						<p class="eng">

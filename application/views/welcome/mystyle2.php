@@ -57,8 +57,8 @@
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <span class="qushi">趋势一</span>
-                <p><?=$hairs['未来发型趋势'][0]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['未来发型趋势'][0]['title']?></p>
                     <?=$hairs['未来发型趋势'][0]['content']?>
                 </div>
             </li>
@@ -71,8 +71,8 @@
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <span class="qushi">趋势二</span>
-                <p><?=$hairs['未来发型趋势'][1]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['未来发型趋势'][1]['title']?></p>
                     <?=$hairs['未来发型趋势'][1]['content']?>
                 </div>
             </li>
@@ -83,8 +83,8 @@
             <?php if (count($hairs['未来发型趋势']) > 2): ?>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <span class="qushi1">趋势三</span>
-                <p><?=$hairs['未来发型趋势'][2]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['未来发型趋势'][2]['title']?></p>
                     <?=$hairs['未来发型趋势'][2]['content']?>
                 </div>
             </li>
@@ -96,8 +96,8 @@
             <?php if (count($hairs['未来发型趋势']) > 3): ?>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
                 <span class="qushi1">趋势四</span>
-                <p><?=$hairs['未来发型趋势'][3]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['未来发型趋势'][3]['title']?></p>
                     <?=$hairs['未来发型趋势'][3]['content']?>
                 </div>
             </li>

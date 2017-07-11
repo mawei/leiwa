@@ -44,7 +44,7 @@
         </div>
         <ul class="container wenda_ul">
             <?php foreach($questions['烫发器'] as $k=>$v):?>
-            <li class="col-md-6 col-sm-6 col-xs-12">
+            <li>
                 <div class="wenda_main">
                     <div class="wen">
                         <?=$questions['烫发器'][$k]['title']?>
@@ -63,7 +63,7 @@
         </div>
         <ul class="container wenda_ul">
             <?php foreach($questions['电吹风'] as $k=>$v):?>
-            <li class="col-md-6 col-sm-6 col-xs-12">
+            <li class="">
                 <div class="wenda_main">
                     <div class="wen">
                         <?=$questions['电吹风'][$k]['title']?>
@@ -80,9 +80,9 @@
             剃毛器类
             </span>
         </div>
-        <ul class="container wenda_ul">
+        <ul class="wenda_ul">
 <?php foreach($questions['剃毛器'] as $k=>$v):?>
-            <li class="col-md-6 col-sm-6 col-xs-12">
+            <li class="">
                 <div class="wenda_main">
                     <div class="wen">
                         <?=$questions['剃毛器'][$k]['title']?>
@@ -94,6 +94,10 @@
             </li>
             <?php endforeach;?>
         </ul>
+    </div>
+
+    <div class="caitiao container">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
     </div>
             <?php echo template('public','footer')?>
 

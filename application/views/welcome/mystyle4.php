@@ -85,6 +85,10 @@
 		</div>
 		<a href="javascript:;" class="topbtn"></a>
 	</div>
+	
+    <div class="caitiao container">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
+    </div>
 	                <?php echo template('public','footer')?>
 
 	<!--footer start-->

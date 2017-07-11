@@ -58,8 +58,8 @@
                 <em class="huijiao"></em>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['时尚修颜系'][0]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['时尚修颜系'][0]['title']?></p>
                     <?=$hairs['时尚修颜系'][0]['content']?>
                 </div>
             </li>
@@ -70,8 +70,8 @@
                 <em class="huijiao"></em>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['时尚修颜系'][1]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['时尚修颜系'][1]['title']?></p>
                     <?=$hairs['时尚修颜系'][1]['content']?>
                 </div>
             </li>
@@ -81,8 +81,8 @@
         <ul class="clearfix mystyle_ul container" style="background: #ffffff;">
             <?php if (count($hairs['时尚修颜系']) > 2): ?>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['时尚修颜系'][2]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['时尚修颜系'][2]['title']?></p>
                     <?=$hairs['时尚修颜系'][2]['content']?>
                 </div>
             </li>
@@ -93,8 +93,8 @@
             <?php endif; ?>
             <?php if (count($hairs['时尚修颜系']) > 3): ?>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['时尚修颜系'][3]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['时尚修颜系'][3]['title']?></p>
                     <?=$hairs['时尚修颜系'][3]['content']?>
                 </div>
             </li>
@@ -114,8 +114,8 @@
                 <em class="hjiao"></em>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['清纯减龄系'][0]['title']?></p>
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['清纯减龄系'][0]['title']?></p>
                     <?=$hairs['清纯减龄系'][0]['content']?>
                 </div>
             </li>
@@ -126,8 +126,9 @@
                 <em class="hjiao"></em>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['清纯减龄系'][1]['title']?></p>
+                
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['清纯减龄系'][1]['title']?></p>
                     <?=$hairs['清纯减龄系'][1]['content']?>
                 </div>
             </li>
@@ -136,8 +137,9 @@
         <ul class="clearfix mystyle_ul container" style="background: #fff;">
             <?php if (count($hairs['清纯减龄系']) > 2): ?>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['清纯减龄系'][2]['title']?></p>
+                
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['清纯减龄系'][2]['title']?></p>
                     <?=$hairs['清纯减龄系'][2]['content']?>
                 </div>
             </li>
@@ -148,8 +150,9 @@
             <?php endif; ?>
             <?php if (count($hairs['清纯减龄系']) > 3): ?>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['清纯减龄系'][3]['title']?></p>
+                
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['清纯减龄系'][3]['title']?></p>
                     <?=$hairs['清纯减龄系'][3]['content']?>
                 </div>
             </li>
@@ -169,8 +172,9 @@
                 <em class="huijiao"></em>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['职场御姐系'][0]['title']?></p>
+                
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['职场御姐系'][0]['title']?></p>
                     <?=$hairs['职场御姐系'][0]['content']?>
                 </div>
             </li>
@@ -182,8 +186,9 @@
                 <em class="huijiao"></em>
             </li>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['职场御姐系'][1]['title']?></p>
+                
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['职场御姐系'][1]['title']?></p>
                     <?=$hairs['职场御姐系'][1]['content']?>
                 </div>
             </li>
@@ -193,8 +198,9 @@
         <ul class="clearfix mystyle_ul container mystyle_ul_red" style="background: #d7001d;">
             <?php if (count($hairs['职场御姐系']) > 2): ?>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['职场御姐系'][2]['title']?></p>
+                
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['职场御姐系'][2]['title']?></p>
                     <?=$hairs['职场御姐系'][2]['content']?>
                 </div>
             </li>
@@ -206,8 +212,9 @@
 
             <?php if (count($hairs['职场御姐系']) > 3): ?>
             <li class="col-md-3 col-sm-3 col-xs-6 mystyle_zi">
-                <p><?=$hairs['职场御姐系'][3]['title']?></p>
+                
                 <div class="mystyle_zi_text">
+                    <p><?=$hairs['职场御姐系'][3]['title']?></p>
                     <?=$hairs['职场御姐系'][3]['content']?>
                 </div>
             </li>
@@ -218,6 +225,10 @@
             <?php endif; ?>
 
         </ul>
+    </div>
+
+    <div class="caitiao container">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
     </div>
                     <?php echo template('public','footer')?>
 

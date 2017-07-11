@@ -44,14 +44,15 @@ class Welcome extends Front_Controller {
 	}
 	
 
-	function news($newstype='company',$years=0,$page = 1)
+	function news($years=0,$page = 1)
 	{
-		$type = ($newstype == 'company' || $newstype == '') ? "公司新闻":"产品新闻";
-		$allyears = $this->db->query("select distinct years from `t_aci_news` where type='{$type}' order by years desc")->result_array();
+		// $type = ($newstype == 'company' || $newstype == '') ? "公司新闻":"产品新闻";
+		$allyears = $this->db->query("select distinct years from `t_aci_news` order by years desc")->result_array();
 		$years = $years == 0 || $years == ""? $allyears[0]['years']:$years;
 
 		$number = 3;
-		$allnews = $this->db->query("select * from `t_aci_news` where years='{$years}' and type='{$type}'")->result_array();
+		// $allnews = $this->db->query("select * from `t_aci_news` where years='{$years}' and type='{$type}'")->result_array();
+		$allnews = $this->db->query("select * from `t_aci_news` where years='{$years}'")->result_array();
 		$maxpage = ceil(count($allnews)/$number);
 		$page = $page == ""||$page < 1 ? 1 : $page;
 		$page = $page > $maxpage? $maxpage:$page;
@@ -61,13 +62,15 @@ class Welcome extends Front_Controller {
 		{
 			$news = $allnews;
 		}else{
-			$news = $this->db->query("select * from `t_aci_news` where years='{$years}' and type='{$type}' limit {$start},{$number}")->result_array();	
+			// $news = $this->db->query("select * from `t_aci_news` where years='{$years}' and type='{$type}' limit {$start},{$number}")->result_array();	
+			$news = $this->db->query("select * from `t_aci_news` where years='{$years}' limit {$start},{$number}")->result_array();	
 		}
 
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('news',array('news'=>$news,'newstype'=>$newstype, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
+		// $this->view('news',array('news'=>$news,'newstype'=>$newstype, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
+		$this->view('news',array('news'=>$news, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
 	}
 
 	function newsdetail($news_id)
@@ -141,7 +144,7 @@ class Welcome extends Front_Controller {
 		$this->view('mystyle2',array('hairs'=>$hairs));
 	}
 
-	function mystyle3($type=1)
+	function mystyle3($type=1,$page=1)
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$typename = "";
@@ -163,7 +166,25 @@ class Welcome extends Front_Controller {
 				break;
 		}
 		$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc")->result_array();
-		$this->view('mystyle3',array('shows'=>$shows,'type'=>$type));
+
+		$number = 8;
+		$allshows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc")->result_array();
+		$maxpage = ceil(count($allshows)/$number);
+		$page = $page == ""||$page < 1 ? 1 : $page;
+		$page = $page > $maxpage? $maxpage:$page;
+		$start = $number * ($page-1);
+
+		if(count($allshows) == 0)
+		{
+			$shows = $allshows;
+		}else{
+			$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc  limit {$start},{$number}")->result_array();
+		}
+
+
+		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
+
+		$this->view('mystyle3',array('shows'=>$shows,'type'=>$type,'page'=>$page,'maxpage'=>$maxpage));
 	}
 
 	function mystyle4()

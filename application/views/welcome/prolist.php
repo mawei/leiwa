@@ -150,7 +150,7 @@ HAIR TOOLS
 			</li>
 			<?php endforeach;?>
 			
-        	<li class="col-md-4 col-sm-4 col-xs-12  pro2-list">
+        	<li class="col-md-4 col-sm-4 col-xs-12  style3_img next ">
 				<a href="<?=base_url()?>prolist/<?=$type?>/<?=$page+1?>">
 					<img src="<?=base_url();?>/static/images/news_22.png">
 				</a>
@@ -167,6 +167,9 @@ HAIR TOOLS
 		</div>
 	</div>
 
+    <div class="caitiao container">
+        <img src="<?=base_url();?>/static/images/about1_46.png">
+    </div>
 <?php echo template('public','footer')?>
 
 	<!--footer start-->
