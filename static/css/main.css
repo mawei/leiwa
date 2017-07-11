@@ -102,6 +102,12 @@
     margin-left: 35vw;
     text-align: center;
 }
+@media(min-width: 1440px)
+{
+    .index_two .index_two_txt {
+        margin-left: 29vw;
+    }
+}
 
 /*@media (max-width:1024px) {
     .index_two .index_two_txt {
@@ -492,7 +498,7 @@
 
 .index_three_zw_nopadding{
     display: inline-block;
-    background: url(../images/sj_03.png) no-repeat right 4px;
+    background: url(../images/sj_03.png) no-repeat right 6px;
     padding-right: 28px;
     font-size: 1.17vw;
 }
@@ -503,7 +509,7 @@
     padding-right: 28px;
     font-size: 1.17vw;
     padding-left: 1vw;
-
+    line-height: 1.17vw;
 }
 
 .index_three_fu11 .index_three_zw {
