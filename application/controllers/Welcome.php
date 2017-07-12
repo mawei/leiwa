@@ -226,7 +226,7 @@ class Welcome extends Front_Controller {
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$number = 3;
+		$number =11;
 		$allproducts = $this->db->query("select * from `t_aci_product` where type='{$typename}'")->result_array();
 		// print_r($allproducts);
 		$maxpage = ceil(count($allproducts)/$number);

@@ -176,12 +176,12 @@ class Product extends Admin_Controller {
 			if($_arr['info']=='')exit(json_encode(array('status'=>false,'tips'=>'介绍必填')));
 			$_arr['memo'] = isset($_POST["memo"])?trim(safe_replace($_POST["memo"])):exit(json_encode(array('status'=>false,'tips'=>'产品亮点必填')));
 			if($_arr['memo']=='')exit(json_encode(array('status'=>false,'tips'=>'产品亮点必填')));
-			$_arr['qudao'] = isset($_POST["qudao"])?safe_replace($_POST["qudao"]):exit(json_encode(array('status'=>false,'tips'=>'购买渠道必填')));;
-if(is_array($_arr['qudao'])) $_arr['qudao'] = implode(",",$_arr['qudao']);
-			if($_arr['qudao']=='')exit(json_encode(array('status'=>false,'tips'=>'购买渠道必填')));
+// 			$_arr['qudao'] = isset($_POST["qudao"])?safe_replace($_POST["qudao"]):exit(json_encode(array('status'=>false,'tips'=>'购买渠道必填')));;
+// if(is_array($_arr['qudao'])) $_arr['qudao'] = implode(",",$_arr['qudao']);
+// 			if($_arr['qudao']=='')exit(json_encode(array('status'=>false,'tips'=>'购买渠道必填')));
 			$_arr['tmall'] = isset($_POST["tmall"])?trim(safe_replace($_POST["tmall"])):'';
-			$_arr['jingdong'] = isset($_POST["jingdong"])?trim(safe_replace($_POST["jingdong"])):'';
-			$_arr['1haodian'] = isset($_POST["1haodian"])?trim(safe_replace($_POST["1haodian"])):'';
+			// $_arr['jingdong'] = isset($_POST["jingdong"])?trim(safe_replace($_POST["jingdong"])):'';
+			// $_arr['1haodian'] = isset($_POST["1haodian"])?trim(safe_replace($_POST["1haodian"])):'';
 			$_arr['teach_video'] = isset($_POST["teach_video"])?trim(safe_replace($_POST["teach_video"])):'';
 			$_arr['info_video'] = isset($_POST["info_video"])?trim(safe_replace($_POST["info_video"])):'';
 			$_arr['createtime'] = date('Y-m-d H:i:s');
