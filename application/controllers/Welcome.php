@@ -264,7 +264,7 @@ class Welcome extends Front_Controller {
 				break;
 		}
 
-		$allproducts = $this->db->query("select * from `t_aci_product` where type='{$typename}' and product_id <> {$product_id} order by sort limit 0,3")->result_array();
+		$allproducts = $this->db->query("select * from `t_aci_product` where type='{$typename}' and product_id <> {$product_id} order by sort desc limit 0,3")->result_array();
 
 		$images = $this->db->query("select * from `t_aci_productimage` where product_id='{$product_id}' limit 0,8")->result_array();
 
