@@ -53,7 +53,7 @@
 					<textarea name="memo"  id="memo"  cols="45" rows="5" class="form-control  validate[required]" placeholder="请输入产品亮点" > <?php echo isset($data_info['memo'])?$data_info['memo']:'' ?></textarea>
 				</div>
 			</div>
-													
+<!-- 													
 	<div class="form-group">
 				<label for="qudao" class="col-sm-2 control-label form-control-static">购买渠道</label>
 				<div class="col-sm-9 ">
@@ -62,7 +62,7 @@
 "   <?php if(isset($data_info['qudao'])&&(str_exists($data_info['qudao'],'京东'))) { ?> checked="checked" <?php } ?>            > 京东</label><label class="radio-inline">  <input type="checkbox" class=" validate[required]" name="qudao[]"  id="qudao1号店" value="1号店"   <?php if(isset($data_info['qudao'])&&(str_exists($data_info['qudao'],'1号店'))) { ?> checked="checked" <?php } ?>            > 1号店</label>
 				</div>
 			</div>
-													
+							 -->						
 	<div class="form-group">
 				<label for="tmall" class="col-sm-2 control-label form-control-static">天猫链接</label>
 				<div class="col-sm-9 ">
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 													
-	<div class="form-group">
+<!-- 	<div class="form-group">
 				<label for="jingdong" class="col-sm-2 control-label form-control-static">京东链接</label>
 				<div class="col-sm-9 ">
 					<input type="text" name="jingdong"  id="jingdong"  value='<?php echo isset($data_info['jingdong'])?$data_info['jingdong']:'' ?>'  class="form-control validate[required]"  placeholder="请输入京东链接" >
@@ -82,23 +82,37 @@
 				<div class="col-sm-9 ">
 					<input type="text" name="1haodian"  id="1haodian"  value='<?php echo isset($data_info['1haodian'])?$data_info['1haodian']:'' ?>'  class="form-control validate[required]"  placeholder="请输入1号店链接" >
 				</div>
-			</div>
-													
+			</div> -->
+
 	<div class="form-group">
-				<label for="teach_video" class="col-sm-2 control-label form-control-static">视频教程</label>
-				<div class="col-sm-9 ">
-					<a id="teach_video_a"  ><img  width="100" id="teach_video_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["teach_video"])?"video/".$data_info["teach_video"]:"images/nopic.gif" ?>"/></a>
+		<label for="teach_video" class="col-sm-2 control-label form-control-static">视频教程文件名</label>
+		<div class="col-sm-9 ">
+			<input type="text" name="teach_video"  id="teach_video"  value='<?php echo isset($data_info['teach_video'])?$data_info['teach_video']:'' ?>'  class="form-control validate[required]"  placeholder="请输入视频教程文件名" >
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="info_video" class="col-sm-2 control-label form-control-static">介绍视频文件名</label>
+		<div class="col-sm-9 ">
+			<input type="text" name="info_video"  id="info_video"  value='<?php echo isset($data_info['info_video'])?$data_info['info_video']:'' ?>'  class="form-control validate[required]"  placeholder="请输入介绍视频文件名" >
+		</div>
+	</div>
+													
+<!-- 	<div class="form-group">
+		<label for="teach_video" class="col-sm-2 control-label form-control-static">视频教程</label>
+		<div class="col-sm-9 ">
+			<a id="teach_video_a"><img  width="100" id="teach_video_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["teach_video"])?"video/".$data_info["teach_video"]:"images/nopic.gif" ?>"/></a>
 <input type="hidden" id="teach_video" name="teach_video" value="<?php echo isset($data_info["teach_video"])?$data_info["teach_video"]:"" ?>" /> <a id="teach_video_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
-				</div>
-			</div>
+		</div>
+	</div> -->
 													
-	<div class="form-group">
+<!-- 	<div class="form-group">
 				<label for="info_video" class="col-sm-2 control-label form-control-static">介绍视频</label>
 				<div class="col-sm-9 ">
 					<a id="info_video_a"  ><img  width="100" id="info_video_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["info_video"])?"video/".$data_info["info_video"]:"images/nopic.gif" ?>"/></a>
 <input type="hidden" id="info_video" name="info_video" value="<?php echo isset($data_info["info_video"])?$data_info["info_video"]:"" ?>" /> <a id="info_video_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
 				</div>
-			</div>
+			</div> -->
 																										
 	<div class="form-group">
 				<label for="sort" class="col-sm-2 control-label form-control-static">排序(数字越大优先级越高)</label>
