@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'fontDidot';
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     src: url('../fonts/Didot.eot');
     src: local('☺'), url('../fonts/Didot.eot?#iefix') format('embedded-opentype'), 
                      url('../fonts/Didot.woff') format('woff'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'DINCondensedFont';
+    font-family: 'DINCondensedFont','微软雅黑','Microsoft Yahei';
     src: url('../fonts/teshu.eot');
     src: local('☺'), url('../fonts/teshu.eot?#iefix') format('embedded-opentype'), 
                      url('../fonts/teshu.woff') format('woff'),
@@ -47,7 +47,7 @@
 }
 
 .idx_banner_txt .idx_banner_txt_en {
-    font-family: "fontDidot";
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     line-height: 90%;
 }
 
@@ -197,7 +197,7 @@
     color: #ffffff;
     font-size: 4.92vw;
     line-height: 4.92vw;
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     padding-top: 2vw;
 }
 /*@media (max-width: 1080px) {
@@ -448,21 +448,21 @@
     }
 }*/
 .eng {
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     font-size: 1.5vw;
     line-height: 1.56vw;
     padding-left: 12%;
 }
 
 .eng_fu3 {
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     font-size: 1.5vw;
     line-height: 1.56vw;
     padding-left: 1vw;
 }
 
 .eng_nopadding {
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     font-size: 1.5vw;
     line-height: 1.56vw;
 }
@@ -535,14 +535,14 @@
 }
 .index_three_num {
     font-size: 16vw;
-    font-family: 'DINCondensedFont';
+    font-family: 'DINCondensedFont','微软雅黑','Microsoft Yahei';
     line-height: 100%;
     letter-spacing:-0.7vw;
     padding-left: 0.5vw;
 }
 .index_three_num_nopadding {
     font-size: 16vw;
-    font-family: DINCondensedFont;
+    font-family: 'DINCondensedFont','微软雅黑','Microsoft Yahei';
     line-height: 100%;
     letter-spacing:-2vwpx;
 }
@@ -1188,7 +1188,7 @@
 .about_tl_t {
     border-bottom: 1px solid #b5b6b7;
     font-size: 3.125vw;
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     line-height: 4.3vw;
     color:#323232;
 }
@@ -1234,14 +1234,14 @@
 }
 
 .about1_ban_text1 {
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     font-size: 1.56vw;
     margin-top: 5px;
     text-align: left;
 }
 
 .about1_ban_text2 {
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     font-size: 2.96vw;
     line-height: 3vw;
 }
@@ -1296,7 +1296,7 @@
     line-height: 4.42vw;
     color: #ffffff;
     display: inline-block;
-    font-family: 'fontDidot','微软雅黑';
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
 }
 
 .about3_banner p {
@@ -1324,7 +1324,7 @@
     font-size: 4.68vw;
     line-height: 4.68vw;
     text-align: center;
-    font-family: 'fontDidot';
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
 }
 
 .about4_ban_text .about4_ban_text1 small {
@@ -1480,14 +1480,14 @@
 }
 
 .about_ul_rttl_big {
-    font-family: "fontDidot";
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     color: #d7001d;
     font-size: 4.22vw;
     line-height: 1;
 }
 
 .about_ul_rttl_big_81 {
-    font-family: "fontDidot";
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     color: #d7001d;
     font-size: 4.22vw;
     line-height: 1;
@@ -1603,7 +1603,7 @@
 }
 
 .ab2_1 {
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     position: absolute;
     left: 0px;
     top: 12%;
@@ -1654,7 +1654,7 @@
 
 .ab3_1 {
     font-size: 3.43vw;
-    font-family: 'fontDidot';
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     line-height: 3.43vw;
 }
 
@@ -1708,7 +1708,7 @@
 .ab4_1_2 {
     font-size: 2.6vw;
     line-height:3.64vw;
-    font-family: 'fontDidot';
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
 }
 
 .ab4_1_3 {
@@ -2998,7 +2998,7 @@
 
 .style3_qhcon1 {
     font-size: 4.16vw;
-    font-family: 'fontDidot';
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     line-height: 5vw;
 }
 .style3_qhmain {
@@ -3152,7 +3152,7 @@
 
     .style3_qhcon1 {
         font-size: 8.32vw;
-        font-family: 'fontDidot';
+        font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
         line-height: 10vw;
     }
 
@@ -3815,7 +3815,7 @@
 
 .pro2_one_main2 {
     font-size: 3.05vw;
-    font-family: 'fontDidot';
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     line-height: 3.05vw;
 }
 
@@ -4487,7 +4487,7 @@
 .index_ban_zi {
     color: #464646;
     font-size: 30px;
-    font-family: fontDidot;
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
     display: inline-block;
     text-align: center;
     position: absolute;
@@ -4967,7 +4967,7 @@ margin-right: 10px;
     font-size: 3.6vw;
     line-height: 100%;
     letter-spacing: 0.1vw;
-    font-family: 'fontDidot';
+    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
 }
 
 .about4_box .histroy {
