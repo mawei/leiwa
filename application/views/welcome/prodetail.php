@@ -86,11 +86,13 @@
 				<div class="ad-back" style="opacity: 0.6;"></div>
 				<div class="ad-thumbs">
 					<ul class="ad-thumb-list" style="width: 1148px;">
+						<?php foreach($images as $k=>$v):?>
 						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb<?=$k?> <?php if ($k == 0): ?>ad-active<?php endif; ?>">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image<?=$k?>" style="opacity: <?php if ($k == 0): ?>1<?php endif; ?><?php if ($k != 0): ?>0.7<?php endif; ?>;">
+							<a href="<?=base_url();?>/images/<?=$v['image']?>" class="ad-thumb<?=$k?> <?php if ($k == 0): ?>ad-active<?php endif; ?>">
+							<img src="<?=base_url();?>/images/<?=$v['image']?>" class="image<?=$k?>" style="opacity: <?php if ($k == 0): ?>1<?php endif; ?><?php if ($k != 0): ?>0.7<?php endif; ?>;">
 							</a>
 						</li>
+						<?php endforeach;?>
 <!-- 						<li>
 							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb1">
 							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image1" style="opacity: 0.7;">
