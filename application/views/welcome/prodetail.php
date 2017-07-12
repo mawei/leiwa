@@ -86,13 +86,38 @@
 				<div class="ad-back" style="opacity: 0.6;"></div>
 				<div class="ad-thumbs">
 					<ul class="ad-thumb-list" style="width: 1148px;">
-						<?php foreach($images as $k=>$v):?>
 						<li>
-							<a href="<?=base_url();?>/images/<?=$v['image']?>" class="ad-thumb0 ad-active">
-							<img src="<?=base_url();?>/images/<?=$v['image']?>" class="image0" style="opacity: 1;">
+							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb<?=$k?> <?php if ($k == 0): ?>ad-active<?php endif; ?>">
+							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image<?=$k?>" style="opacity: <?php if ($k == 0): ?>1<?php endif; ?><?php if ($k != 0): ?>0.7<?php endif; ?>;">
 							</a>
 						</li>
-						<?php endforeach;?>
+<!-- 						<li>
+							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb1">
+							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image1" style="opacity: 0.7;">
+							</a>
+						</li>
+						<li>
+							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb2">
+							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image2" style="opacity: 0.7;">
+							</a>
+						</li>
+						
+						<li>
+							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb8">
+<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image8" style="opacity: 0.7;">
+</a>
+						</li>
+						<li>
+							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb9">
+<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image9" style="opacity: 0.7;">
+</a>
+						</li>
+
+						<li>
+							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb13">
+							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image13" style="opacity: 0.7;">
+							</a>
+						</li> -->
 					</ul>
 				</div>
 				<div class="ad-forward" style="opacity: 0.6;"></div>
