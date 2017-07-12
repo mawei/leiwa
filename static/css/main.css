@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
+    font-family: 'fontDidot';
     src: url('../fonts/Didot.eot');
     src: local('☺'), url('../fonts/Didot.eot?#iefix') format('embedded-opentype'), 
                      url('../fonts/Didot.woff') format('woff'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'DINCondensedFont','微软雅黑','Microsoft Yahei';
+    font-family: 'DINCondensedFont';
     src: url('../fonts/teshu.eot');
     src: local('☺'), url('../fonts/teshu.eot?#iefix') format('embedded-opentype'), 
                      url('../fonts/teshu.woff') format('woff'),
@@ -535,14 +535,14 @@
 }
 .index_three_num {
     font-size: 16vw;
-    font-family: 'DINCondensedFont','微软雅黑','Microsoft Yahei';
+    font-family: 'DINCondensedFont';
     line-height: 100%;
     letter-spacing:-0.7vw;
     padding-left: 0.5vw;
 }
 .index_three_num_nopadding {
     font-size: 16vw;
-    font-family: 'DINCondensedFont','微软雅黑','Microsoft Yahei';
+    font-family: DINCondensedFont;
     line-height: 100%;
     letter-spacing:-2vwpx;
 }

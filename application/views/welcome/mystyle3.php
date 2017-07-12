@@ -53,8 +53,8 @@
                 <a href="<?=base_url()?>mystyle3/1/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>烫发器<em></em></a>
                 <a href="<?=base_url()?>mystyle3/2/1" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>电吹风<em></em></a>
                 <a href="<?=base_url()?>mystyle3/3/1" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>理发器<em></em></a>
-                <a href="<?=base_url()?>mystyle3/4/1" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康<em></em></a>
-            </div>
+<!--                 <a href="<?=base_url()?>mystyle3/4/1" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康<em></em></a>
+ -->            </div>
             <div class="style3_qhmain">
                 <div class="style3_qhcon <?php if ($type == 1): ?>active<?php endif; ?>">
                     <p class="style3_qhcon1">
