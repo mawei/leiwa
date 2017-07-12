@@ -86,38 +86,13 @@
 				<div class="ad-back" style="opacity: 0.6;"></div>
 				<div class="ad-thumbs">
 					<ul class="ad-thumb-list" style="width: 1148px;">
+						<?php foreach($images as $k=>$v):?>
 						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb0 ad-active">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image0" style="opacity: 1;">
+							<a href="<?=base_url();?>/images/<?=$v['image']?>" class="ad-thumb0 ad-active">
+							<img src="<?=base_url();?>/images/<?=$v['image']?>" class="image0" style="opacity: 1;">
 							</a>
 						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb1">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image1" style="opacity: 0.7;">
-							</a>
-						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb2">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image2" style="opacity: 0.7;">
-							</a>
-						</li>
-						
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb8">
-<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image8" style="opacity: 0.7;">
-</a>
-						</li>
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb9">
-<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image9" style="opacity: 0.7;">
-</a>
-						</li>
-
-						<li>
-							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb13">
-							<img src="<?=base_url();?>/static/images/pro4_033.jpg" class="image13" style="opacity: 0.7;">
-							</a>
-						</li>
+						<?php endforeach;?>
 					</ul>
 				</div>
 				<div class="ad-forward" style="opacity: 0.6;"></div>
@@ -151,7 +126,6 @@
 							</li>
 						</ul>
 					</div>
-					
 				</div>
 				<script type="text/javascript">
 					$(function () {
@@ -204,7 +178,7 @@
 					<div class="mai_main left">
 						<img src="<?=base_url();?>/static/images/pro3_07.jpg">
 						<p>雷瓦天猫官方旗舰店</p>
-						<a href="#" class="qijian_a">
+						<a href="<?=$product['tmall']?>" target="blank" class="qijian_a">
 了解更多
 </a>
 					</div>
@@ -226,57 +200,26 @@
 	<div class="por3_five">
 		
 		<ul class="clearfix pro2_three_ul">
+					<?php foreach($allproducts as $k=>$v):?>
+
 			<li class="pro3_more">
-				<a href="#">
-<img src="<?=base_url();?>/static/images/pro_list_03.jpg">
-<p class="pro2_three_ul1">
-RC-7506
-</p>
-<p class="pro2_three_ul2">
-Everchanging 百变造型器
-</p>
-<p class="pro2_three_ul3">
-烫卷 / 拉直 / 吹风 多功能美发组合
-</p>
-<p class="pro2_three_ul4">
-more &gt;
-</p>
-</a>
+				<a href="<?=base_url()?>prodetail/<?=$type?>/<?=$v['product_id']?>">
+				<img src="<?=base_url()?>images/<?=$v['image']?>">
+				<p class="pro2_three_ul1">
+				<?=$v['style']?>
+				</p>
+				<p class="pro2_three_ul2">
+				<?=$v['name']?>
+				</p>
+				<p class="pro2_three_ul3">
+				<?=$v['info']?>
+				</p>
+				<p class="pro2_three_ul4">
+				more &gt;
+				</p>
+				</a>
 			</li>
-			<li class="pro3_more">
-				<a href="#">
-<img src="<?=base_url();?>/static/images/pro_list_03.jpg">
-<p class="pro2_three_ul1">
-RC-7506
-</p>
-<p class="pro2_three_ul2">
-Everchanging 百变造型器
-</p>
-<p class="pro2_three_ul3">
-烫卷 / 拉直 / 吹风 多功能美发组合
-</p>
-<p class="pro2_three_ul4">
-more &gt;
-</p>
-</a>
-			</li>
-			<li class="pro3_more">
-				<a href="#">
-<img src="<?=base_url();?>/static/images/pro_list_03.jpg">
-<p class="pro2_three_ul1">
-RC-7506
-</p>
-<p class="pro2_three_ul2">
-Everchanging 百变造型器
-</p>
-<p class="pro2_three_ul3">
-烫卷 / 拉直 / 吹风 多功能美发组合
-</p>
-<p class="pro2_three_ul4">
-more &gt;
-</p>
-</a>
-			</li>
+			<?php endforeach;?>
 		</ul>
 	</div>
 	    <div class="caitiao container">
