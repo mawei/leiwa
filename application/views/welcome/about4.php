@@ -102,7 +102,7 @@
         </div>
         <div class="about4_box img11">
             <img src="<?=base_url();?>/static/images/about4/about4_11.jpg" alt="">
-            <div class="histroy">与意大利美发时尚品牌Müster & Dikson<br>S.p.a达成长期合作，组建国际造型器<br>研发中心。</div>
+            <div class="histroy_end">刘友华先生针对国外用户造型需求，自主研发直发造型器。</div>
 
         </div>
     </div>

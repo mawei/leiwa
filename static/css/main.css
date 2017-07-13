@@ -1084,7 +1084,7 @@
 }
 
 .footer_2 li {
-    width: 14%;
+    width: 8vw;
     display: inline-block;
     text-align: center;
 }
@@ -5084,11 +5084,12 @@ margin-right: 10px;
 
 .about4_box:nth-child(even) .year.start {
     margin-left: -100px;
-    font-size: 60px;
+    font-size: 5.2vw;
     width: 200px;
     text-align: center;
-    bottom: -145px;
+    bottom: -9.5vw;
     letter-spacing: 8px;
+    line-height: 1.56vw;
 }
 
 .about4_box img {
@@ -5121,6 +5122,16 @@ margin-right: 10px;
     margin-left: -40px;
     display: inline-block;
     text-align: center;
+}
+
+.about4_box.img11 .histroy_end{
+    margin:0 auto;
+    width: 100%;
+    text-align:center;
+    font-size: 1vw;
+    position: absolute;
+    top:12vw;
+    height: 10vw;
 }
 
 /*@media (max-width:1001px) {
