@@ -5087,8 +5087,8 @@ margin-right: 10px;
     font-size: 5.2vw;
     width: 200px;
     text-align: center;
-    bottom: -9.5vw;
-    letter-spacing: 8px;
+    bottom: -8vw;
+    /*letter-spacing: 8px;*/
     line-height: 1.56vw;
 }
 
@@ -5130,7 +5130,7 @@ margin-right: 10px;
     text-align:center;
     font-size: 1vw;
     position: absolute;
-    top:12vw;
+    top:200px;
     height: 10vw;
 }
 
