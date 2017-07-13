@@ -31,10 +31,10 @@
 			PROFESSIONAL STYLING PRODUCTS
 		</p>
 		<div class="about_menu">
-			<a href="<?=base_url()?>prolist/1/1">01烫发器</a>
-			<a href="<?=base_url()?>prolist/2/1">02电吹风</a>
-			<a href="<?=base_url()?>prolist/3/1">03理发器</a>
-			<a href="<?=base_url()?>prolist/4/1">04美容健康系列</a>
+			<a href="<?=base_url()?>prolist/1/1">烫发器</a>
+			<a href="<?=base_url()?>prolist/2/1">电吹风</a>
+			<a href="<?=base_url()?>prolist/3/1">理发器</a>
+			<a href="<?=base_url()?>prolist/4/1">美容健康系列</a>
 		</div>
 	</div>
 	<div class="pro1_one">
@@ -133,7 +133,7 @@
 						HAIR <br> TOOLS
 						</p>
 						<p class="index_three_zw">
-						烫发器
+						烫发器 ▸
 						<img class="index_three_zw image" src="<?=base_url();?>/static/images/sj_03.png"/>
 						</p>
 						<p class="index_three_num">
@@ -150,7 +150,7 @@
 						HAIR <br> DRIER
 						</p>
 						<p class="index_three_zw">
-						电吹风
+						电吹风 ▸
 						</p>
 						<p class="index_three_num">
 						02
@@ -170,7 +170,7 @@
 							HAIR
 							<br> CLIPPER </p>
 							<p class="index_three_zw">
-							理发器
+							理发器 ▸
 							</p>
 							<p class="index_three_num">
 							03
@@ -186,7 +186,7 @@
 						BEAUTY HEALTH <br> SERIES <br>
 						</p>
 						<p class="index_three_zw">
-						美容健康系列
+						美容健康系列 ▸
 						</p>
 						<p class="index_three_num">
 						04
@@ -258,7 +258,7 @@
 		<p class="color_red">
 			发现时下最流行
 		</p>
-		<a href="#" class="eng more_eng">
+		<a href="<?=base_url();?>mystyle" class="eng more_eng">
 MORE
 </a>
 	</div>

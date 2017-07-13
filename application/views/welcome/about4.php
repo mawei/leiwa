@@ -50,20 +50,19 @@
             <div class="txt">WE HAVE BEEN MOVING</div>
             <div class="dot"><img src="<?=base_url();?>/static/images/about4/about4_01_dot.png" alt=""></div>
             <div class="year">201<em>6</em></div>
-            <div class="histroy">RIWA雷瓦推出全新Everchanging百变造型器RC-7506，换“型”概念，开创美发造型新时代。</div>
+            <div class="histroy">RIWA雷瓦推出全新Everchanging百变造<br>型器RC-7506，换“型”概念，开创美发<br>造型新时代。</div>
             <img src="<?=base_url();?>/static/images/about4/about4_01.jpg" alt="">
         </div>
         <div class="about4_box img2">
             <img src="<?=base_url();?>/static/images/about4/about4_02.jpg" alt="">
             <div class="year">201<em>6</em></div>
-            <div class="histroy">世界知识产权组织（WPIO）认定RIWA（雷瓦）<br> 为国际商标，在全球60个国家范围受到保护。
+            <div class="histroy">世界知识产权组织（WPIO）认定RIWA<br>（雷瓦）为国际商标，在全球60个国<br>家范围受到保护。
             </div>
         </div>
         <div class="about4_box img3">
             <img src="<?=base_url();?>/static/images/about4/about4_03.jpg" alt="">
             <div class="year">201<em>5</em></div>
-            <div class="histroy">美容器R3获得<br> 中国家电艾普兰奖
-                <br> 最受大众欢迎产品奖。
+            <div class="histroy">美容器R3获得中国家电艾普兰奖，最<br>受大众欢迎产品奖。
             </div>
         </div>
         <div class="about4_box img4">
@@ -74,28 +73,28 @@
         <div class="about4_box img5">
             <img src="<?=base_url();?>/static/images/about4/about4_05.jpg" alt="">
             <div class="year">201<em>3</em></div>
-            <div class="histroy">女士剃毛器RF-770A荣获中国设计红星奖及韩国好设计<br>两项大奖。</div>
+            <div class="histroy">女士剃毛器RF-770A荣获中国设计红星<br>奖及韩国好设计<br>两项大奖。</div>
         </div>
         <div class="about4_box img6">
             <img src="<?=base_url();?>/static/images/about4/about4_06.jpg" alt="">
             <div class="year">201<em>2</em></div>
-            <div class="histroy">RIWA雷瓦首次推出颠覆性的迷你型造型器RB-809S，<br>使造型产品进入便携时代</div>
+            <div class="histroy">RIWA雷瓦首次推出颠覆性的迷你型造型<br>器RB-809S，使造型产品进入便携时代</div>
         </div>
         <div class="about4_box img7">
             <img src="<?=base_url();?>/static/images/about4/about4_07.jpg" alt="">
             <div class="year">201<em>2</em></div>
-            <div class="histroy">成立上海雷瓦电器有限公司，正式进入中国市场。</div>
+            <div class="histroy">成立上海雷瓦电器有限公司，正式进<br>入中国市场。</div>
         </div>
         <div class="about4_box img8">
             <img src="<?=base_url();?>/static/images/about4/about4_08.jpg" alt="">
             <div class="year">201<em>0</em></div>
-            <div class="histroy">研发的直发造型器在COSMOPROF亚太美容展上<br>大放异彩，获最受欢迎美发工具品牌荣誉。
+            <div class="histroy">研发的直发造型器在COSMOPROF亚太<br>美容展上大放异彩，获最受欢迎美发<br>工具品牌荣誉。
             </div>
         </div>
         <div class="about4_box img9">
             <img src="<?=base_url();?>/static/images/about4/about4_09.jpg" alt="">
             <div class="year">200<em>9</em></div>
-            <div class="histroy">与意大利美发时尚品牌Müster & Dikson S.p.a达成长期合作，组建国际造型器研发中心。</div>
+            <div class="histroy">与意大利美发时尚品牌Müster & Dikson<br>S.p.a达成长期合作，组建国际造型器<br>研发中心。</div>
         </div>
         <div class="about4_box img10">
             <img src="<?=base_url();?>/static/images/about4/about4_10.jpg" alt="">
@@ -103,6 +102,8 @@
         </div>
         <div class="about4_box img11">
             <img src="<?=base_url();?>/static/images/about4/about4_11.jpg" alt="">
+            <div class="histroy">与意大利美发时尚品牌Müster & Dikson<br>S.p.a达成长期合作，组建国际造型器<br>研发中心。</div>
+
         </div>
     </div>
 

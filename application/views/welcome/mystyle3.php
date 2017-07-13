@@ -150,7 +150,7 @@
     <div class="bg"></div>
     <div class="alert_main">
         <em class="cha"></em>
-        <video src="" controls="controls" width="100%" height="300" id="video">
+        <video src="" controls="controls" width="100%" height="" id="video">
         </video>
     </div>
     <script type="text/javascript" src="<?=base_url();?>/static/js/main.js"></script>

@@ -28,7 +28,6 @@
             <span class="idx_banner_txt_en">
                 <small>TO BE BEAUTIFUL<br> </small>
                 <span class="idx_banner_txt_en_big">SO SIMPLE<br></span>
-
             </span>
 
             <span class="idx_banner_txt_cn">美，如此简单</span>
@@ -40,6 +39,7 @@
             为每一位用户，每一位女性带来轻松简单的美丽，<br> 主张 <span class="fontRed">“每个人都可以通过给自己造型的小改变，去大胆创造属于自己的美”</span>。
         </div>
         <img src="static/images/ers_03.png">
+        <div class="index_two_bc"></div>
     </div>
     <div class="index_three ers1">
         <div class="index_three_tl">
@@ -58,7 +58,7 @@
                         <img src="static/images/index_02_03-02.png">
                         <div class="index_three_fu index_three_fu1">
                             <p class="eng"> HAIR <br>TOOLS</p>
-                            <p class="index_three_zw">烫发器 </p>
+                            <p class="index_three_zw">烫发器 ▸</p>
                             <p class="index_three_num"> 01</p>
                         </div>
                     </a>
@@ -66,7 +66,7 @@
                         <img src="static/images/index_02_11.png">
                         <div class="index_three_fu index_three_fu3">
                             <p class="eng_fu3">HAIR <br>CLIPPER </p>
-                            <p class="index_three_zw_fu3">理发器</p>
+                            <p class="index_three_zw_fu3">理发器 ▸</p>
                             <p class="index_three_num_nopadding">03</p>
                         </div>
                     </a>
@@ -76,7 +76,7 @@
                         <img src="static/images/index_02_03.png">
                         <div class="index_three_fu index_three_fu2">
                             <p class="eng">HAIR <br>DRIER</p>
-                            <p class="index_three_zw">电吹风</p>
+                            <p class="index_three_zw">电吹风 ▸</p>
                             <p class="index_three_num">02</p>
                         </div>
                     </a>
@@ -84,7 +84,7 @@
                         <img src="static/images/index_02_14.png">
                         <div class="index_three_fu index_three_fu4">
                             <p class="eng">BEAUTY<br>HEALTH <br>SERIES <br></p>
-                            <p class="index_three_zw">美容健康系列</p>
+                            <p class="index_three_zw">美容健康系列 ▸</p>
                             <p class="index_three_num">04</p>
                         </div>
                     </a>
@@ -98,13 +98,13 @@
     </div>
     <div class="index_four">
         <div class="index_four_tl container">
-            <p class="index_three_tl_eng">
+            <p class="index_three_tl_eng2">
                 STYLE YOURSELF
             </p>
-            <p class="index_three_tl_china">
+            <p class="index_three_tl_china2">
                 我的私人造型师，百变造型随心变
             </p>
-            <div class="index_four_line">
+            <div class="index_line">
                 <span>
                 我型我造
                 </span>

@@ -31,10 +31,10 @@
 			PROFESSIONAL STYLING PRODUCTS
 		</p>
 		<div class="about_menu">
-			<a href="<?=base_url()?>prolist/1/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>01烫发器</a>
-			<a href="<?=base_url()?>prolist/2/1" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>02电吹风</a>
-			<a href="<?=base_url()?>prolist/3/1" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>03理发器</a>
-			<a href="<?=base_url()?>prolist/4/1" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>04美容健康系列</a>
+			<a href="<?=base_url()?>prolist/1/1" <?php if ($type == 1): ?>class="ahover""<?php endif; ?>>烫发器</a>
+			<a href="<?=base_url()?>prolist/2/1" <?php if ($type == 2): ?>class="ahover""<?php endif; ?>>电吹风</a>
+			<a href="<?=base_url()?>prolist/3/1" <?php if ($type == 3): ?>class="ahover""<?php endif; ?>>理发器</a>
+			<a href="<?=base_url()?>prolist/4/1" <?php if ($type == 4): ?>class="ahover""<?php endif; ?>>美容健康系列</a>
 		</div>
 	</div>
 	<div class="pro2_one">
@@ -125,9 +125,16 @@
 <div class="pro2_three pro3">
     <div class="pro2_three_tl">
 			<span class="eng">
-HAIR TOOLS
-</span>
-			<p class="p1">烫发器产品</p>
+				<?php if ($type == 1): ?>HAIR TOOLS<?php endif; ?>
+				<?php if ($type == 2): ?>HAIR DRIER<?php endif; ?>
+				<?php if ($type == 3): ?>HAIR CLIPPER<?php endif; ?>
+				<?php if ($type == 4): ?>BEAUTY HEALTH SERIES<?php endif; ?></span>
+			<p class="p1">
+				<?php if ($type == 1): ?>烫发器产品<?php endif; ?>
+				<?php if ($type == 2): ?>电吹风产品<?php endif; ?>
+				<?php if ($type == 3): ?>理发器产品<?php endif; ?>
+				<?php if ($type == 4): ?>美容健康系列产品<?php endif; ?>
+			</p>
 		</div>
     <ul class="clearfix pro2_three_ul container pro3_container">
 			<?php foreach($products as $k=>$v):?>
@@ -149,12 +156,15 @@ HAIR TOOLS
 				</a>
 			</li>
 			<?php endforeach;?>
-			
-        	<li class="col-md-4 col-sm-4 col-xs-12  style3_img next ">
-				<a href="<?=base_url()?>prolist/<?=$type?>/<?=$page+1?>">
-					<img src="<?=base_url();?>/static/images/news_22.png">
-				</a>
-			</li>
+	        <?php if ($page != $maxpage): ?>
+
+        	<div class="style3_img next" align="center">
+	            <a href="<?=base_url()?>mystyle3/<?=$type?>/<?=$page+1?>">
+	                <img src="<?=base_url();?>/static/images/news_22.png">
+	            </a>
+	        </div>
+			<?php endif; ?>
+
 		</ul>
 		<div class="page clearfix container">
 			<div class="right">

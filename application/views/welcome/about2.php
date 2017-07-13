@@ -40,7 +40,8 @@
         <img src="<?=base_url();?>/static/images/about2ban_02.jpg">
         <div class="about2_ban_text">
             <p class="about2_ban_tex1 eng_nopadding">
-                <span>BRAND </span>品牌理念
+                <span>BRAND </span>
+                <span>品牌理念</span>
             </p>
             <p class="about2_ban_tex1 eng_nopadding">
                 <span>CONCEPT</span>
@@ -100,7 +101,7 @@
                 REVOLUTIONARY
             </p>
             <p class="ab4_1_3">
-                颠覆创造，敢想敢做，善于接受新鲜事物，对时尚 与美丽有着自己独到的见解，渴望美丽，突破传统，实现革命性的、彻底性的改变。
+                颠覆创造，敢想敢做，善于接受新鲜事物，对时尚与美丽有着自己独到的见解，渴望美丽，突破传统，实现革命性的、彻底性的改变。
             </p>
         </div>
     </div>

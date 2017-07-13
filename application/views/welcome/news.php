@@ -52,17 +52,17 @@
 				<?php if ($k%2 == 0): ?>
 				<li>
 					<a class="clearfix">
-						<div class="news_bmain_lf  style3_img_main" id="<?=$v['news_id']?>">
+						<div class="news_bmain_lf  style4_img_main" id="<?=$v['news_id']?>">
 							<img src="<?=base_url();?>images/<?=$v['image']?>">
 						</div>
-						<div class="ews_bmain_rt style3_img_main" id="<?=$v['news_id']?>">
+						<div class="news_bmain_rt style4_img_main" id="<?=$v['news_id']?>">
 							<p class="news_bmain_rttl">
 								<?=$v['title']?>
 							</p>
-							<div class="news_bmian_text style3_img_main" id="<?=$v['news_id']?>">
+							<div class="news_bmian_text style4_img_main" id="<?=$v['news_id']?>">
 								<?=$v['memo']?>
 							</div>
-							<p class="news_bmian_a style3_img_main" id="<?=$v['news_id']?>">
+							<p class="news_bmian_a style4_img_main" id="<?=$v['news_id']?>">
 								more &gt;
 							</p>
 						</div>
@@ -71,17 +71,17 @@
 				<?php elseif ($k%2 == 1): ?>
 				<li>
 					<a class="clearfix">
-						<div class="news_bmain_lf style3_img_main" id="<?=$v['news_id']?>">
+						<div class="news_bmain_lf style4_img_main" id="<?=$v['news_id']?>">
 							<img src="<?=base_url();?>/static/images/news_09.png">
 						</div>
-						<div class="news_bmain_rt style3_img_main" id="<?=$v['news_id']?>">
+						<div class="news_bmain_rt style4_img_main" id="<?=$v['news_id']?>">
 							<p class="news_bmain_rttl">
 								<?=$v['title']?>
 							</p>
-							<div class="news_bmian_text style3_img_main" id="<?=$v['news_id']?>">
-								<?=$v['memo']?>
+							<div class="news_bmian_text style4_img_main" id="<?=$v['news_id']?>">
+								<p><?=$v['memo']?></p>
 							</div>
-							<p class="news_bmian_a style3_img_main" id="<?=$v['news_id']?>">
+							<p class="news_bmian_a style4_img_main" id="<?=$v['news_id']?>">
 								more &gt;
 							</p>
 						</div>
@@ -149,7 +149,7 @@
 		self.location="<?=base_url()?>news/<?=$v['years'];?>/" + $("#pageinput").val(); 
 	});
 
-	$('.style3_img_main').click(function () {
+	$('.style4_img_main').click(function () {
 	  	$.ajax({
 		  url: "<?=base_url()?>newsdetail/"+$(this).attr('id'),
 		  dataType: "json",
