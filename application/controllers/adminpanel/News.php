@@ -117,7 +117,7 @@ class News extends Admin_Controller {
 			if($_arr['type']=='')exit(json_encode(array('status'=>false,'tips'=>'新闻类型必填')));
 			$_arr['years'] = isset($_POST["years"])?trim(safe_replace($_POST["years"])):exit(json_encode(array('status'=>false,'tips'=>'所属年份必填')));
 			if($_arr['years']=='')exit(json_encode(array('status'=>false,'tips'=>'所属年份必填')));
-			$_arr['content'] = isset($_POST["content"])?trim(safe_replace($_POST["content"])):exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
+			$_arr['content'] = isset($_POST["content"])?trim(addslashes($_POST["content"])):exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
 			if($_arr['content']=='')exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
 			$_arr['createtime'] = date('Y-m-d H:i:s');
 			
