@@ -163,19 +163,19 @@
         // self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
         self.location="<?=base_url()?>mystyle3/<?=$type?>/" + $("#pageinput").val(); 
     });
+    var video = document.getElementById("video"); 
 
     $('.style3_img_main').click(function () {
         $(".bg").show();
         var src = $(this).attr('src');
         $("#video").attr('src',src);
         $(".alert_main").show();
-        var video = document.getElementById("myVideo"); 
         video.play();
     });
     $('.cha').click(function () {
         $(".bg").hide();
         $(".alert_main").hide();
-        $("#video").stop();
+        video.pause();
     });
 </script>
 
