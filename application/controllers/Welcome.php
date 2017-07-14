@@ -76,8 +76,8 @@ class Welcome extends Front_Controller {
 	function newsdetail($news_id)
 	{
 		$allnews = $this->db->query("select * from `t_aci_news` where news_id={$news_id}")->result_array()[0];
-		// $allnews['content'] = htmlspecialchars_decode(html_entity_decode(stripslashes($allnews['content'])));
-		print html_entity_decode(stripslashes($allnews['content']));die();
+		$allnews['content'] = html_entity_decode(stripslashes($allnews['content']));
+		// print html_entity_decode(stripslashes($allnews['content']));die();
 		echo json_encode($allnews);
 	}
 
