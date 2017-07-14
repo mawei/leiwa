@@ -529,14 +529,14 @@
 
 .index_three_zw_nopadding{
     display: inline-block;
-    background: url(../images/sj_03.png) no-repeat right 6px;
+    /*background: url(../images/sj_03.png) no-repeat right 6px;*/
     padding-right: 28px;
     font-size: 1.17vw;
 }
 
 .index_three_zw_fu3{
     display: inline-block;
-    background: url(../images/sj_03.png) no-repeat right 4px;
+    /*background: url(../images/sj_03.png) no-repeat right 4px;*/
     padding-right: 28px;
     font-size: 1.17vw;
     padding-left: 1vw;
@@ -544,7 +544,7 @@
 }
 
 .index_three_fu11 .index_three_zw {
-    background: url(../images/sjx_03.png) no-repeat right center 4px;
+    /*background: url(../images/sjx_03.png) no-repeat right center 4px;*/
 }
 
 
@@ -1327,9 +1327,7 @@
     float:left;
 }
 
-.mai p{
-    padding-left: 1vw;
-}
+
 
 .about3_textba_main {
     font-size: 4.42vw;

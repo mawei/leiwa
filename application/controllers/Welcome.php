@@ -266,7 +266,7 @@ class Welcome extends Front_Controller {
 
 		$allproducts = $this->db->query("select * from `t_aci_product` where type='{$typename}' and product_id <> {$product_id} order by sort desc limit 0,3")->result_array();
 
-		$images = $this->db->query("select * from `t_aci_productimage` where product_id='{$product_id}' limit 0,8")->result_array();
+		$images = $this->db->query("select * from `t_aci_productimage` where product_id='{$product_id}' limit 0,10")->result_array();
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$product = $this->db->query("select * from `t_aci_product` where product_id='{$product_id}'")->result_array()[0];
