@@ -159,7 +159,7 @@
 	        <?php if ($page != $maxpage): ?>
 
         	<div class="style3_img next" align="center">
-	            <a href="<?=base_url()?>mystyle3/<?=$type?>/<?=$page+1?>">
+	            <a href="<?=base_url()?>prolist/<?=$type?>/<?=$page+1?>">
 	                <img src="<?=base_url();?>/static/images/news_22.png">
 	            </a>
 	        </div>

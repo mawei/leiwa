@@ -2618,10 +2618,7 @@
     width: 45vw;
     padding-left: 1vw;
 }
-.news_bmian_text{
-        width: 45vw;
 
-}
 
 .news_bmain_rttl {
     font-weight: bold;
@@ -2633,9 +2630,10 @@
 }
 
 .news_bmian_text {
+    width: 45vw;
     color: #505050;
     line-height: 20px;
-    height: 4.16vw;
+    height: 6vw;
     overflow: hidden;
 }
 
