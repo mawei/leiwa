@@ -45,7 +45,7 @@
 		<?php endforeach;?>
 
 			</div>
-	<div class="news_b container">
+	<div class="news_b">
 		<div class="news_bmain active">
 			<ul>
 				<?php foreach($news as $k=>$v):?>
