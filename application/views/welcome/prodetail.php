@@ -18,6 +18,7 @@
 	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery.ad-gallery.js"></script>
 	<script type="text/javascript" src="<?=base_url();?>/static/js/zzsc.js"></script>
 	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery.flexslider-min.js"></script>
+	
 </head>
 
 <body style="background: #ebeaea;">
@@ -92,6 +93,7 @@
 							<img src="<?=base_url();?>/images/<?=$v['image']?>" class="image<?=$k?>" style="opacity: <?php if ($k == 0): ?>1<?php endif; ?><?php if ($k != 0): ?>0.7<?php endif; ?>;">
 							</a>
 						</li>
+
 						<?php endforeach;?>
 <!-- 						<li>
 							<a href="<?=base_url();?>/static/images/pro4_03.jpg" class="ad-thumb1">
@@ -190,8 +192,8 @@
 				<p class="pro3_four_tl">
 					视频教程：
 				</p>
-				<div class="shipin_main">
-					<img src="<?=base_url();?>/static/images/pro3_05.jpg">
+				<div class="shipin_main prodetail_img_main" src="<?=base_url();?>video/<?=$product['teach_video']?>">
+					<img src="<?=base_url();?>/images/<?=$product['teach_image']?>">
 				</div>
 				<p class="pro3_four_text">
 					只要10分钟<br> 教你打造自己的时尚发型
@@ -210,7 +212,7 @@
 </a>
 					</div>
 					<div class="mai_main left">
-						<img src="<?=base_url();?>/static/images/pro305.jpg">
+						<img src="<?=base_url();?>/images/<?=$product['qr_image']?>">
 						<p>
 							手机扫一扫<br> 了解更多详细信息
 						</p>
@@ -259,6 +261,33 @@
 
 
 	<div class="ad-preloads"><img src="<?=base_url();?>/static/images/pro4_03.jpg"></div>
+
+	<div class="bg"></div>
+    <div class="alert_main">
+        <em class="cha"></em>
+        <video src="" controls="controls" width="100%" height="" id="video">
+        </video>
+    </div>
 </body>
 
+<script type="text/javascript">
+    $("#submit").click(function(){
+        // self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
+        self.location="<?=base_url()?>mystyle3/<?=$type?>/" + $("#pageinput").val(); 
+    });
+
+    $('.prodetail_img_main').click(function () {
+        $(".bg").show();
+        var src = $(this).attr('src');
+        $("#video").attr('src',src);
+        $(".alert_main").show();
+        var video = document.getElementById("video"); 
+        video.play();
+    });
+    $('.cha').click(function () {
+        $(".bg").hide();
+        $(".alert_main").hide();
+        $("#video").stop();
+    });
+</script>
 </html>

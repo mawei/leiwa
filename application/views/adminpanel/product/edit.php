@@ -128,6 +128,27 @@
 <input type="hidden" id="image" name="image" value="<?php echo isset($data_info["image"])?$data_info["image"]:"" ?>" /> <a id="image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
 				</div>
 			</div>
+				<div class="form-group">
+				<label for="qr_image" class="col-sm-2 control-label form-control-static">天猫二维码图</label>
+				<div class="col-sm-9 ">
+					<a id="qr_image_a"  ><img  width="100" id="qr_image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["qr_image"])?"images/".$data_info["qr_image"]:"images/nopic.gif" ?>"/></a>
+<input type="hidden" id="qr_image" name="qr_image" value="<?php echo isset($data_info["qr_image"])?$data_info["qr_image"]:"" ?>" /> <a id="qr_image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
+				</div>
+			</div>
+				<div class="form-group">
+				<label for="info_image" class="col-sm-2 control-label form-control-static">介绍视频配图</label>
+				<div class="col-sm-9 ">
+					<a id="info_image_a"  ><img  width="100" id="info_image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["info_image"])?"images/".$data_info["info_image"]:"images/nopic.gif" ?>"/></a>
+<input type="hidden" id="info_image" name="info_image" value="<?php echo isset($data_info["info_image"])?$data_info["info_image"]:"" ?>" /> <a id="info_image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
+				</div>
+			</div>
+				<div class="form-group">
+				<label for="teach_image" class="col-sm-2 control-label form-control-static">教学视频配图</label>
+				<div class="col-sm-9 ">
+					<a id="teach_image_a"  ><img  width="100" id="teach_image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["teach_image"])?"images/".$data_info["teach_image"]:"images/nopic.gif" ?>"/></a>
+<input type="hidden" id="teach_image" name="teach_image" value="<?php echo isset($data_info["teach_image"])?$data_info["teach_image"]:"" ?>" /> <a id="teach_image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
+				</div>
+			</div>
 											</fieldset>
 							<div class='form-actions'>
 				<button class='btn btn-primary ' type='submit' id="dosubmit">保存</button>

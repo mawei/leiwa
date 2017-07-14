@@ -21,6 +21,28 @@
 		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
 	}
 
+
+	function getQr_image(v,s,w,h){
+		$("#qr_image").val(v);
+		$("#qr_image_SRC").attr("src",SITE_URL+"images/"+v);
+		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
+	}
+
+
+	function getInfo_image(v,s,w,h){
+		$("#info_image").val(v);
+		$("#info_image_SRC").attr("src",SITE_URL+"images/"+v);
+		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
+	}
+
+
+	function getTeach_image(v,s,w,h){
+		$("#teach_image").val(v);
+		$("#teach_image_SRC").attr("src",SITE_URL+"images/"+v);
+		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
+	}
+
+
 	define(function (require) {
 	var $ = require('jquery');
 	var aci = require('aci');
@@ -51,6 +73,24 @@
 		});
 		$("#image_b").click(function(){
 			uploadOneFile('image',550,350,1)
+		});
+		$("#qr_image_a").click(function(){
+			uploadOneFile('qr_image',550,350,1)
+		});
+		$("#qr_image_b").click(function(){
+			uploadOneFile('qr_image',550,350,1)
+		});
+		$("#info_image_a").click(function(){
+			uploadOneFile('info_image',550,350,1)
+		});
+		$("#info_image_b").click(function(){
+			uploadOneFile('info_image',550,350,1)
+		});
+		$("#teach_image_a").click(function(){
+			uploadOneFile('teach_image',550,350,1)
+		});
+		$("#teach_image_b").click(function(){
+			uploadOneFile('teach_image',550,350,1)
 		});
             $('#validateform').bootstrapValidator({
 				message: '输入框不能为空',

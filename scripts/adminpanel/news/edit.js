@@ -11,6 +11,7 @@
 		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
 	}
 
+
 	define(function (require) {
 	var $ = require('jquery');
 	var aci = require('aci');
@@ -30,6 +31,7 @@
 		$("#image_b").click(function(){
 			uploadOneFile('image',550,350,1)
 		});
+
             $('#validateform').bootstrapValidator({
 				message: '输入框不能为空',
 				feedbackIcons: {

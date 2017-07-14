@@ -1111,6 +1111,32 @@
     text-align: center;
 }
 
+@media(max-width: 800px)
+{
+    .link {
+        font-size: 10px;
+        line-height:15px;
+        text-align: left;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 2vw 0px;
+    }
+
+    .link title {
+        text-align: left;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 1vw 0px;
+    }
+
+    .link li {
+        width:30vw;
+        display: inline-block;
+        text-align: center;
+    }
+
+}
+
 
 .footer_3 {
     padding: 2.6vw 0px;
@@ -4309,6 +4335,7 @@
 
 .shipin_main img {
     width: 8.69vw;
+    height: 5.52vw;
     vertical-align: middle;
 }
 
@@ -4321,7 +4348,7 @@
 
 .mai_main {
     width: 50%;
-    max-width: 114px;
+    /*max-width: 114px;*/
     text-align: center;
 }
 

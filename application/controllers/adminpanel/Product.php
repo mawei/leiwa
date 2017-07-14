@@ -98,7 +98,9 @@ class Product extends Admin_Controller {
 			if(!is_number($_arr['sort']))exit(json_encode(array('status'=>false,'tips'=>'排序(数字越大优先级越高)输入错误')));
 			}
 			$_arr['image'] = isset($_POST["image"])?trim(safe_replace($_POST["image"])):'';
-			
+            $_arr['qr_image'] = isset($_POST["qr_image"])?trim(safe_replace($_POST["qr_image"])):'';
+            $_arr['info_image'] = isset($_POST["info_image"])?trim(safe_replace($_POST["info_image"])):'';
+            $_arr['teach_image'] = isset($_POST["teach_image"])?trim(safe_replace($_POST["teach_image"])):'';
             $new_id = $this->product_model->insert($_arr);
             if($new_id)
             {
@@ -189,7 +191,10 @@ class Product extends Admin_Controller {
 			if($_arr['sort']!=''){
 			if(!is_number($_arr['sort']))exit(json_encode(array('status'=>false,'tips'=>'排序(数字越大优先级越高)输入错误')));
 			}
-			$_arr['image'] = isset($_POST["image"])?trim(safe_replace($_POST["image"])):'';
+            $_arr['image'] = isset($_POST["image"])?trim(safe_replace($_POST["image"])):'';
+            $_arr['qr_image'] = isset($_POST["qr_image"])?trim(safe_replace($_POST["qr_image"])):'';
+            $_arr['info_image'] = isset($_POST["info_image"])?trim(safe_replace($_POST["info_image"])):'';
+            $_arr['teach_image'] = isset($_POST["teach_image"])?trim(safe_replace($_POST["teach_image"])):'';
 			
             $status = $this->product_model->update($_arr,array('product_id'=>$id));
             if($status)
