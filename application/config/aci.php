@@ -1093,6 +1093,107 @@ $config['aci_module'] = array (
       ),
     ),
   ),
+  'link' => 
+  array (
+    'version' => '1',
+    'charset' => 'utf-8',
+    'lastUpdate' => '2017-07-14 11:45:18',
+    'moduleName' => 'link',
+    'modulePath' => 'adminpanel',
+    'moduleCaption' => '友情链接',
+    'description' => '由autoCodeigniter 自动生成的模块',
+    'fileList' => 
+    array (
+      0 => 'application/views/adminpanel/link/edit.php',
+      1 => 'scripts/adminpanel/link/edit.js',
+      2 => 'application/views/adminpanel/link/readonly.php',
+      3 => 'application/views/adminpanel/link/lists.php',
+      4 => 'scripts/adminpanel/link/lists.js',
+      5 => 'application/views/adminpanel/link/choose.php',
+      6 => 'application/controllers/adminpanel/Link.php',
+      7 => 'application/models/Link_model.php',
+    ),
+    'works' => true,
+    'moduleUrl' => 'adminpanel/link',
+    'system' => false,
+    'coder' => '胡子锅',
+    'website' => 'http://',
+    'moduleDetails' => 
+    array (
+      0 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'index',
+        'menu_name' => '管理友情链接',
+        'caption' => '管理友情链接',
+      ),
+      1 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'index',
+        'menu_name' => '友情链接列表',
+        'caption' => '友情链接列表',
+      ),
+      2 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'add',
+        'menu_name' => '新增',
+        'caption' => '新增',
+      ),
+      3 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'edit',
+        'menu_name' => '修改',
+        'caption' => '修改',
+      ),
+      4 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'choose',
+        'menu_name' => '选择弹窗',
+        'caption' => '选择弹窗',
+      ),
+      5 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'delete_one',
+        'menu_name' => '删除单个',
+        'caption' => '删除单个',
+      ),
+      6 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'delete_all',
+        'menu_name' => '删除多个',
+        'caption' => '删除多个',
+      ),
+      7 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'readonly',
+        'menu_name' => '查看',
+        'caption' => '查看',
+      ),
+      8 => 
+      array (
+        'folder' => 'adminpanel',
+        'controller' => 'link',
+        'method' => 'upload',
+        'menu_name' => '上传',
+        'caption' => '上传',
+      ),
+    ),
+  ),
 );
 
 /* End of file aci.php */
