@@ -35,8 +35,23 @@
                     <a href="<?=base_url()?>contactus">联系我们</a>
                 </li>
                 <li>
-                    <a href="<?=base_url()?>#">官方商城</a>
+                    <a href="https://store.taobao.com/shop/view_shop.htm?spm=a220m.1000862.1000730.2.7c054992Oug8fp&user_number_id=528707031&rn=5f3a8ae8a86b229cfb6abd99daa31d70">官方商城</a>
                 </li>
+            </ul>
+        </div>
+        <div class="link">
+            <ul class="title clearfix">
+                <li>
+                    友情链接
+                </li>
+            </ul>
+            <ul class="clearfix">
+                <?php foreach($links as $v):?>
+                <li>
+                    <a href="<?=$v['link']?>"><?=$v['name']?></a>
+                </li>
+                <?php endforeach;?>
+
             </ul>
         </div>
         <div class="footer_3">

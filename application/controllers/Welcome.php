@@ -12,35 +12,35 @@ class Welcome extends Front_Controller {
 	{
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
-		$this->view('index',array());
+		$this->view('index',array('links'=>$this->getLinks()));
 	}
 	
 	function about()
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('about',array());
+		$this->view('about',array('links'=>$this->getLinks()));
 	}
 
 	function about2()
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('about2',array());
+		$this->view('about2',array('links'=>$this->getLinks()));
 	}
 
 	function about3()
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('about3',array());
+		$this->view('about3',array('links'=>$this->getLinks()));
 	}
 
 	function about4()
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('about4',array());
+		$this->view('about4',array('links'=>$this->getLinks()));
 	}
 	
 
@@ -70,7 +70,7 @@ class Welcome extends Front_Controller {
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
 		// $this->view('news',array('news'=>$news,'newstype'=>$newstype, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
-		$this->view('news',array('news'=>$news, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
+		$this->view('news',array('links'=>$this->getLinks(),'news'=>$news, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
 	}
 
 	function newsdetail($news_id)
@@ -94,21 +94,21 @@ class Welcome extends Front_Controller {
 				$questions[$value['type']] = array($value);
 			}
 		}
-		$this->view('experience',array('questions'=>$questions));
+		$this->view('experience',array('links'=>$this->getLinks(),'questions'=>$questions));
 	}
 
 	function experience2()
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('experience2',array());
+		$this->view('experience2',array('links'=>$this->getLinks()));
 	}
 
 	function contactus()
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('contactus',array());
+		$this->view('contactus',array('links'=>$this->getLinks()));
 	}
 
 	function mystyle()
@@ -124,7 +124,7 @@ class Welcome extends Front_Controller {
 				$hairs[$value['type']] = array($value);
 			}
 		}
-		$this->view('mystyle',array('hairs'=>$hairs));
+		$this->view('mystyle',array('hairs'=>$hairs,'links'=>$this->getLinks()));
 	}
 
 	function mystyle2()
@@ -141,7 +141,7 @@ class Welcome extends Front_Controller {
 				$hairs[$value['type']] = array($value);
 			}
 		}
-		$this->view('mystyle2',array('hairs'=>$hairs));
+		$this->view('mystyle2',array('hairs'=>$hairs,'links'=>$this->getLinks()));
 	}
 
 	function mystyle3($type=1,$page=1)
@@ -184,7 +184,7 @@ class Welcome extends Front_Controller {
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('mystyle3',array('shows'=>$shows,'type'=>$type,'page'=>$page,'maxpage'=>$maxpage));
+		$this->view('mystyle3',array('shows'=>$shows,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage));
 	}
 
 	function mystyle4()
@@ -192,14 +192,14 @@ class Welcome extends Front_Controller {
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$showgrouds = $this->db->query("select * from `t_aci_showgroud` order by showgroud_id asc")->result_array();
 
-		$this->view('mystyle4',array('showgrouds'=>$showgrouds));
+		$this->view('mystyle4',array('showgrouds'=>$showgrouds,'links'=>$this->getLinks()));
 	}
 
 	function pro()
 	{
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('pro',array());
+		$this->view('pro',array('links'=>$this->getLinks()));
 	}
 
 
@@ -241,7 +241,7 @@ class Welcome extends Front_Controller {
 			$products = $this->db->query("select * from `t_aci_product` where type='{$typename}' limit {$start},{$number}")->result_array();	
 		}
 
-		$this->view('prolist',array('products'=>$products,'type'=>$type,'page'=>$page,'maxpage'=>$maxpage));
+		$this->view('prolist',array('products'=>$products,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage));
 	}
 
 	function prodetail($type=1,$product_id)
@@ -271,7 +271,12 @@ class Welcome extends Front_Controller {
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$product = $this->db->query("select * from `t_aci_product` where product_id='{$product_id}'")->result_array()[0];
 		$memos = explode("\n", $product['memo']);
-		$this->view('prodetail',array('type'=>$type,'product'=>$product,'images'=>$images,'memos'=>$memos,'allproducts'=>$allproducts));
+		$this->view('prodetail',array('type'=>$type,'product'=>$product,'images'=>$images,'memos'=>$memos,'allproducts'=>$allproducts,'links'=>$this->getLinks()));
 	}
 	
+	function getLinks()
+	{
+		$links = $this->db->query("select * from `t_aci_link` order by link_id desc")->result_array();
+		return $links;
+	}
 }

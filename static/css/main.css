@@ -1083,11 +1083,34 @@
     padding: 10px 0px;
 }
 
+
+
 .footer_2 li {
     width: 8vw;
     display: inline-block;
     text-align: center;
 }
+
+.link {
+    text-align: left;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 2vw 0px;
+}
+
+.link title {
+    text-align: left;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1vw 0px;
+}
+
+.link li {
+    width:12vw;
+    display: inline-block;
+    text-align: center;
+}
+
 
 .footer_3 {
     padding: 2.6vw 0px;
