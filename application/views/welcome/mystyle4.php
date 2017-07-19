@@ -93,7 +93,6 @@
 	<!--footer start-->
 	<!--#include file="inc/footer.htm" -->
 	<!--footer end-->
-	<script type="text/javascript" src="static/js/main.js"></script>
 	<script type="text/javascript" src="static/js/jaliswall.js"></script>
 	<script type="text/javascript">
 		$(function () {

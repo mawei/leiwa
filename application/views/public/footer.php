@@ -63,3 +63,4 @@
             <img src="<?=base_url();?>/static/images/index_45.png">
         </div>
     </div>
+    <script type="text/javascript" src="static/js/main.js"></script>
