@@ -83,10 +83,11 @@
 				<p class="ad-info">1 / 14</p>
 				<div class="ad-slideshow-controls ad-slideshow-running"><span class="ad-slideshow-start">Start</span><span class="ad-slideshow-stop">Stop</span><span class="ad-slideshow-countdown">(1)</span></div>
 			</div>
+			<?php if ($product['info_video'] != ""): ?>
 			<div class="ad-nav pro3_video pro3_main" src="<?=base_url();?>/video/<?=$product['info_video']?>">
 				<img src="<?=base_url();?>/images/<?=$product['info_image']?>">
 			</div>
-			
+			<?php endif; ?>
 			<div class="ad-nav pro3_photo_list">
 				<div class="ad-back" style="opacity: 0.6;"></div>
 				<div class="ad-thumbs">
