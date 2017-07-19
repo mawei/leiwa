@@ -101,6 +101,7 @@ class Product extends Admin_Controller {
             $_arr['qr_image'] = isset($_POST["qr_image"])?trim(safe_replace($_POST["qr_image"])):'';
             $_arr['info_image'] = isset($_POST["info_image"])?trim(safe_replace($_POST["info_image"])):'';
             $_arr['teach_image'] = isset($_POST["teach_image"])?trim(safe_replace($_POST["teach_image"])):'';
+            $_arr['big_image'] = isset($_POST["big_image"])?trim(safe_replace($_POST["big_image"])):'';
             $new_id = $this->product_model->insert($_arr);
             if($new_id)
             {
@@ -195,7 +196,8 @@ class Product extends Admin_Controller {
             $_arr['qr_image'] = isset($_POST["qr_image"])?trim(safe_replace($_POST["qr_image"])):'';
             $_arr['info_image'] = isset($_POST["info_image"])?trim(safe_replace($_POST["info_image"])):'';
             $_arr['teach_image'] = isset($_POST["teach_image"])?trim(safe_replace($_POST["teach_image"])):'';
-			
+			 $_arr['big_image'] = isset($_POST["big_image"])?trim(safe_replace($_POST["big_image"])):'';
+
             $status = $this->product_model->update($_arr,array('product_id'=>$id));
             if($status)
             {

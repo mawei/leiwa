@@ -30,10 +30,10 @@
             DO YOUR OWN STYLE
         </p>
         <div class="about_menu">
-            <a href="mystyle" class="ahover">潮流发型</a>
-            <a href="mystyle2">未来发型趋势</a>
             <a href="mystyle3">魔发秀</a>
             <a href="mystyle4">达人秀场</a>
+            <a href="mystyle" class="ahover">潮流发型</a>
+            <a href="mystyle2">未来发型趋势</a>
         </div>
     </div>
     <div class="my_style_ban">

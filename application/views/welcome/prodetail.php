@@ -43,8 +43,8 @@
 		</div>
 	</div>
 	<div class="pro3_one">
-		<img src="<?=base_url();?>/static/images/pro3_02.jpg">
-		<div class="pro3_one_main">
+		<img src="<?=base_url();?>/images/<?=$product['big_image']?>">
+		<!-- <div class="pro3_one_main">
 			<div class="container clearfix">
 				<div class="right pro3_one_main_rt">
 					<p class="pro3_one_main1">换型 百变 随我便</p>
@@ -52,14 +52,14 @@
 					百变造型器
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 	<div class="pro3_two">
-			<p class="pro3_two1 eng"  style="padding-left:0px">
+			<p class="pro3_two1"  style="padding-left:0px">
 				<?=$product['style']?>
 			</p>
-			<p class="pro3_two2 eng " style="padding-left:0px"  >
-				<span class="eng" style="padding-left:0px"><?=$product['name']?></span>
+			<p class="pro3_two2" style="padding-left:0px"  >
+				<span style="padding-left:0px"><?=$product['name']?></span>
 			</p>
 			<p class="pro3_two3"  style="padding-left:0px">
 				<span class="eg" style="padding-left:0px">
@@ -83,6 +83,10 @@
 				<p class="ad-info">1 / 14</p>
 				<div class="ad-slideshow-controls ad-slideshow-running"><span class="ad-slideshow-start">Start</span><span class="ad-slideshow-stop">Stop</span><span class="ad-slideshow-countdown">(1)</span></div>
 			</div>
+			<div class="ad-nav pro3_video pro3_main" src="<?=base_url();?>/video/<?=$product['info_video']?>">
+				<img src="<?=base_url();?>/images/<?=$product['info_image']?>">
+			</div>
+			
 			<div class="ad-nav pro3_photo_list">
 				<div class="ad-back" style="opacity: 0.6;"></div>
 				<div class="ad-thumbs">
@@ -277,7 +281,7 @@
     });
     var video = document.getElementById("video"); 
 
-    $('.prodetail_img_main').click(function () {
+    $('.pro3_main').click(function () {
         $(".bg").show();
         var src = $(this).attr('src');
         $("#video").attr('src',src);

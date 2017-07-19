@@ -58,7 +58,10 @@
 				</p>
 				<p style="letter-spacing: 0.4vw">欢迎光临在线商城购买</p>
 				<p class="pro2_one">
-					<a href="#">GO TO TMALL</a>
+					<a href="<?php if ($type == 1): ?>https://riwa.tmall.com/category-266569176.htm?spm=a1z10.1-b-s.w13846666-15137289610.6.3531f079ZiSyGL&search=y&catName=%BE%ED%B7%A2%D4%EC%D0%CD%CF%B5%C1%D0<?php endif; ?>
+					<?php if ($type == 2): ?>https://riwa.tmall.com/category-266569174.htm?spm=a1z10.5-b-s.w13846666-15137289610.7.6fc97421sOymne&search=y&catName=%B5%E7%B4%B5%B7%E7%CF%B5%C1%D0<?php endif; ?>
+					<?php if ($type == 3): ?>https://riwa.tmall.com/category-300618291.htm?spm=a1z10.5-b-s.w13846666-15137289610.5.8bb15eYfhxvp&search=y&catName=%C0%ED%B7%A2%C6%F7%CF%B5%C1%D0<?php endif; ?>
+					<?php if ($type == 4): ?>https://riwa.tmall.com/category-631923967.htm?spm=a1z10.5-b-s.w13846666-15137289610.4.8360978BSYke9&search=y&catName=%C3%C0%C8%DD%BB%A4%C0%ED%CF%B5%C1%D0<?php endif; ?>" target="blank">GO TO TMALL</a>
 				</p>
 			</div>
 		</div>
@@ -190,7 +193,7 @@
 </body>
 <script type="text/javascript">
 	$("#submit").click(function(){
-		self.location="<?=base_url()?>news/<?=$newstype;?>/<?=$v['years'];?>/" + $("#pageinput").val(); 
+		self.location="<?=base_url()?>prolist/<?=$type;?>/" + $("#pageinput").val(); 
 	});
 </script>
 </html>

@@ -1,4 +1,6 @@
   <div class="footer">
+        <a href="javascript:;" class="topbtn"></a>
+
         <div class="footer1">
                 <div class="footer1_1">
                     <img src="<?=base_url();?>/static/images/index_37.png">
@@ -40,11 +42,11 @@
             </ul>
         </div>
         <div class="link">
-            <ul class="title clearfix">
+            <!-- <ul class="title clearfix">
                 <li>
                     友情链接
                 </li>
-            </ul>
+            </ul> -->
             <ul class="clearfix">
                 <?php foreach($links as $v):?>
                 <li>

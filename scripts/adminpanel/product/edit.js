@@ -28,6 +28,12 @@
 		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
 	}
 
+	function getBig_image(v,s,w,h){
+		$("#big_image").val(v);
+		$("#big_image_SRC").attr("src",SITE_URL+"images/"+v);
+		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
+	}
+
 
 	function getInfo_image(v,s,w,h){
 		$("#info_image").val(v);
@@ -73,6 +79,12 @@
 		});
 		$("#image_b").click(function(){
 			uploadOneFile('image',550,350,1)
+		});
+		$("#big_image_a").click(function(){
+			uploadOneFile('big_image',550,350,1)
+		});
+		$("#big_image_b").click(function(){
+			uploadOneFile('big_image',550,350,1)
 		});
 		$("#qr_image_a").click(function(){
 			uploadOneFile('qr_image',550,350,1)

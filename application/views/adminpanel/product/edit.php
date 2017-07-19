@@ -122,31 +122,38 @@
 			</div>
 													
 	<div class="form-group">
-				<label for="image" class="col-sm-2 control-label form-control-static">配图</label>
+				<label for="image" class="col-sm-2 control-label form-control-static">配图(408*408)</label>
 				<div class="col-sm-9 ">
 					<a id="image_a"  ><img  width="100" id="image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["image"])?"images/".$data_info["image"]:"images/nopic.gif" ?>"/></a>
 <input type="hidden" id="image" name="image" value="<?php echo isset($data_info["image"])?$data_info["image"]:"" ?>" /> <a id="image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
 				</div>
 			</div>
 				<div class="form-group">
-				<label for="qr_image" class="col-sm-2 control-label form-control-static">天猫二维码图</label>
+				<label for="qr_image" class="col-sm-2 control-label form-control-static">天猫二维码图(121*121)</label>
 				<div class="col-sm-9 ">
 					<a id="qr_image_a"  ><img  width="100" id="qr_image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["qr_image"])?"images/".$data_info["qr_image"]:"images/nopic.gif" ?>"/></a>
 <input type="hidden" id="qr_image" name="qr_image" value="<?php echo isset($data_info["qr_image"])?$data_info["qr_image"]:"" ?>" /> <a id="qr_image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
 				</div>
 			</div>
 				<div class="form-group">
-				<label for="info_image" class="col-sm-2 control-label form-control-static">介绍视频配图</label>
+				<label for="info_image" class="col-sm-2 control-label form-control-static">介绍视频配图(115*71)</label>
 				<div class="col-sm-9 ">
 					<a id="info_image_a"  ><img  width="100" id="info_image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["info_image"])?"images/".$data_info["info_image"]:"images/nopic.gif" ?>"/></a>
 <input type="hidden" id="info_image" name="info_image" value="<?php echo isset($data_info["info_image"])?$data_info["info_image"]:"" ?>" /> <a id="info_image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
 				</div>
 			</div>
 				<div class="form-group">
-				<label for="teach_image" class="col-sm-2 control-label form-control-static">教学视频配图</label>
+				<label for="teach_image" class="col-sm-2 control-label form-control-static">教学视频配图(168*106)</label>
 				<div class="col-sm-9 ">
 					<a id="teach_image_a"  ><img  width="100" id="teach_image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["teach_image"])?"images/".$data_info["teach_image"]:"images/nopic.gif" ?>"/></a>
 <input type="hidden" id="teach_image" name="teach_image" value="<?php echo isset($data_info["teach_image"])?$data_info["teach_image"]:"" ?>" /> <a id="teach_image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="big_image" class="col-sm-2 control-label form-control-static">产品详情页大图(1457*727)</label>
+				<div class="col-sm-9 ">
+					<a id="big_image_a"  ><img  width="100" id="big_image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["big_image"])?"images/".$data_info["big_image"]:"images/nopic.gif" ?>"/></a>
+<input type="hidden" id="big_image" name="big_image" value="<?php echo isset($data_info["big_image"])?$data_info["big_image"]:"" ?>" /> <a id="big_image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>
 				</div>
 			</div>
 											</fieldset>

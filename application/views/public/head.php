@@ -26,12 +26,12 @@
                                     </a>
                     </li>
                     <li>
-                        <a href="<?=base_url()?>mystyle">
+                        <a href="<?=base_url()?>mystyle3">
                                     我型我造
                                     </a>
                     </li>
                     <li>
-                        <a href="<?=base_url()?>experience">
+                        <a href="<?=base_url()?>experience2">
                                     贴心体验
                                     </a>
                     </li>

@@ -33,9 +33,8 @@
         <div class="about_menu">
             <a href="about" class="ahover">品牌故事</a>
             <a href="about2">品牌理念</a>            
-            <a href="about3">核心实力</a>
             <a href="about4">品牌印记</a>
-
+            <a href="about3">核心实力</a>
         </div>
     </div>
     <div class="about_ban">

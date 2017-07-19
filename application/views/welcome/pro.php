@@ -43,28 +43,15 @@
 
 				<div class="flex-viewport" style="overflow: hidden; position: relative;">
 					<ul class="slides" style="width: 1000%; margin-left: -2560px;">
+						<?php foreach($images as $v):?>
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
-								<img src="<?=base_url();?>/static/images/pro_02.jpg">
-								<div class="pro1_one_main">
-										<div class="pro1_one_main_con">
-											<p class="pro1_one1">
-												聚焦造型小家电
-											</p>
-											<p>
-												雷瓦百变造型产品中心，涵盖
-											</p>
-											<p class="pro1_one2">
-												烫发器、电吹风、理发器、美容健康<br>四大主营品类。
-											</p>
-											<p class="sj_pro1_one1">
-												所有造型产品外观设计时尚简约，色彩活力悦动。雷瓦工<br>程师们从技术到生产工艺，注重每一处细节，精工细琢。<br>
-												同时充分考虑用户造型的需求及困难，注重产品实用功能<br>化设计，使百变造型轻松简单，游刃有余。
-											</p>
-										</div>
-								</div>
+						        <a href="<?=$v['content']?>">
+								<img src="<?=base_url();?>/images/<?=$v['image']?>"></a>
 							</div>
 						</li>
+						<?php endforeach;?>
+<!-- 
 						
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
@@ -87,7 +74,7 @@
 										</div>
 								</div>
 							</div>
-						</li>
+						</li> -->
 
 					</ul>
 					<div class="ad-next"></div>

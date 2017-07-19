@@ -22,6 +22,7 @@
 				<option value='清纯减龄系' <?php if(isset($data_info['type'])&&($data_info['type']=='清纯减龄系')) { ?> selected="selected" <?php } ?>            >清纯减龄系</option>
 				<option value='职场御姐系' <?php if(isset($data_info['type'])&&($data_info['type']=='职场御姐系')) { ?> selected="selected" <?php } ?>            >职场御姐系</option>
 				<option value='未来发型趋势' <?php if(isset($data_info['type'])&&($data_info['type']=='未来发型趋势')) { ?> selected="selected" <?php } ?>            >未来发型趋势</option>
+				<option value='产品轮播图' <?php if(isset($data_info['type'])&&($data_info['type']=='产品轮播图')) { ?> selected="selected" <?php } ?>            >产品轮播图</option>
 </select>
 				</div>
 			</div>
@@ -34,14 +35,14 @@
 			</div>
 													
 	<div class="form-group">
-				<label for="content" class="col-sm-2 control-label form-control-static">内容</label>
+				<label for="content" class="col-sm-2 control-label form-control-static">内容／链接</label>
 				<div class="col-sm-9 ">
 					<textarea name="content"  id="content"  cols="45" rows="5" class="form-control  validate[required]" placeholder="请输入内容" > <?php echo isset($data_info['content'])?$data_info['content']:'' ?></textarea>
 				</div>
 			</div>
 																										
 	<div class="form-group">
-				<label for="image" class="col-sm-2 control-label form-control-static">配图</label>
+				<label for="image" class="col-sm-2 control-label form-control-static">配图（362*362）</label>
 				<div class="col-sm-9 ">
 					<a id="image_a"  ><img  width="100" id="image_SRC" border="1" src="<?php echo SITE_URL?><?php echo isset($data_info["image"])?"images/".$data_info["image"]:"images/nopic.gif" ?>"/></a>
 <input type="hidden" id="image" name="image" value="<?php echo isset($data_info["image"])?$data_info["image"]:"" ?>" /> <a id="image_b" class="btn btn-default btn-sm" > 选择图片 ...</a><span class="help-block">只支持图片上传.</span>

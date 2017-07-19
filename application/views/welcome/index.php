@@ -113,6 +113,30 @@
         <div class="container">
             <ul class="index_four_text_ul clearfix">
                 <li class="col-md-3 col-sm-3 col-xs-12">
+                    <a href="<?=base_url()?>mystyle3">
+                        <p class="index_four_text_ul_tl">
+                            魔发秀
+                        </p>
+                        <div class="index_four_text_ul_text" style="border-color: #64a6eb;">
+                            <div class="index_four_text_ul_text_nr">
+                                #不可思议的10分钟#，10分钟完成华丽蜕变
+                            </div>
+                        </div>
+                    </a>
+                </li>               
+                <li class="col-md-3 col-sm-3 col-xs-12">
+                    <a href="<?=base_url()?>mystyle4">
+                        <p class="index_four_text_ul_tl">
+                            达人秀场
+                        </p>
+                        <div class="index_four_text_ul_text" style="border-color: #ce42af;">
+                            <div class="index_four_text_ul_text_nr">
+                                魔发达人，秀出你的Style
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="col-md-3 col-sm-3 col-xs-12">
                     <a href="<?=base_url()?>mystyle">
                         <p class="index_four_text_ul_tl">
                             潮流发型
@@ -132,30 +156,6 @@
                         <div class="index_four_text_ul_text" style="border-color: #ead15d;">
                             <div class="index_four_text_ul_text_nr">
                                 抓住未来发型趋势，走在时尚前沿
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="col-md-3 col-sm-3 col-xs-12">
-                    <a href="<?=base_url()?>mystyle3">
-                        <p class="index_four_text_ul_tl">
-                            魔发秀
-                        </p>
-                        <div class="index_four_text_ul_text" style="border-color: #64a6eb;">
-                            <div class="index_four_text_ul_text_nr">
-                                #不可思议的10分钟#，10分钟完成华丽蜕变
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="col-md-3 col-sm-3 col-xs-12">
-                    <a href="<?=base_url()?>mystyle4">
-                        <p class="index_four_text_ul_tl">
-                            达人秀场
-                        </p>
-                        <div class="index_four_text_ul_text" style="border-color: #ce42af;">
-                            <div class="index_four_text_ul_text_nr">
-                                魔发达人，秀出你的Style
                             </div>
                         </div>
                     </a>

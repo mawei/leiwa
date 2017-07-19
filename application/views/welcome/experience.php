@@ -29,8 +29,8 @@
             EXPERIENCE OF CARING
         </p>
         <div class="about_menu">
-            <a href="experience" class="ahover">常见问题</a>
             <a href="experience2">星级服务</a>
+            <a href="experience" class="ahover">常见问题</a>
         </div>
     </div>
     <div class="about_ban">
