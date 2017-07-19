@@ -62,7 +62,7 @@
                             <p class="index_three_num"> 01</p>
                         </div>
                     </a>
-                    <a href="<?=base_url()?>prolist/1/2">
+                    <a href="<?=base_url()?>prolist/2/1">
                         <img src="static/images/index_02_11.png">
                         <div class="index_three_fu index_three_fu3">
                             <p class="eng_fu3">HAIR <br>CLIPPER </p>
@@ -72,7 +72,7 @@
                     </a>
                 </li>
                 <li class="col-md-6 col-sm-6 col-xs-6 tow">
-                    <a href="<?=base_url()?>prolist/1/3">
+                    <a href="<?=base_url()?>prolist/3/1">
                         <img src="static/images/index_02_03.png">
                         <div class="index_three_fu index_three_fu2">
                             <p class="eng">HAIR <br>DRIER</p>
@@ -80,7 +80,7 @@
                             <p class="index_three_num">02</p>
                         </div>
                     </a>
-                    <a href="<?=base_url()?>prolist/1/4">
+                    <a href="<?=base_url()?>prolist/4/1">
                         <img src="static/images/index_02_14.png">
                         <div class="index_three_fu index_three_fu4">
                             <p class="eng">BEAUTY<br>HEALTH <br>SERIES <br></p>
@@ -164,16 +164,6 @@
         </div>
         <ul class="index_fourimg_ul clearfix">
             <li class="col-md-3 col-sm-3 col-xs-6">
-                <a href="<?=base_url()?>mystyle">
-                <img src="static/images/index_01_20.png">
-                </a>
-            </li>
-            <li class="col-md-3 col-sm-3 col-xs-6">
-                <a href="<?=base_url()?>mystyle2">
-                <img src="static/images/index_01_21.png">
-                </a>
-            </li>
-            <li class="col-md-3 col-sm-3 col-xs-6">
                 <a href="<?=base_url()?>mystyle3">
                 <img src="static/images/index_01_21-08.png">
                 <em class="play"></em>
@@ -184,10 +174,22 @@
                 <img src="static/images/index_27.png">
                 </a>
             </li>
+            <li class="col-md-3 col-sm-3 col-xs-6">
+                <a href="<?=base_url()?>mystyle">
+                <img src="static/images/index_01_20.png">
+                </a>
+            </li>
+            <li class="col-md-3 col-sm-3 col-xs-6">
+                <a href="<?=base_url()?>mystyle2">
+                <img src="static/images/index_01_21.png">
+                </a>
+            </li>
+            
+            
         </ul>
         <div class="index_four_more">
             <div class="index_four_more_main ">
-                <a href="<?=base_url()?>mystyle" class="eng">MORE</a>
+                <a href="<?=base_url()?>mystyle3" class="eng">MORE</a>
             </div>
         </div>
     </div>

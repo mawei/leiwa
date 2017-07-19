@@ -73,12 +73,12 @@
         <div class="about4_box img5">
             <img src="<?=base_url();?>/static/images/about4/about4_05.jpg" alt="">
             <div class="year">201<em>3</em></div>
-            <div class="histroy">女士剃毛器RF-770A荣获中国设计红星<br>奖及韩国好设计<br>两项大奖。</div>
+            <div class="histroy">女士剃毛器RF-770A荣获中国设计红星<br>奖及韩国好设计两项大奖。</div>
         </div>
         <div class="about4_box img6">
             <img src="<?=base_url();?>/static/images/about4/about4_06.jpg" alt="">
             <div class="year">201<em>2</em></div>
-            <div class="histroy">RIWA雷瓦首次推出颠覆性的迷你型造型<br>器RB-809S，使造型产品进入便携时代</div>
+            <div class="histroy">RIWA雷瓦首次推出颠覆性的迷你型造型<br>器RB-809S，使造型产品进入便携时代。</div>
         </div>
         <div class="about4_box img7">
             <img src="<?=base_url();?>/static/images/about4/about4_07.jpg" alt="">

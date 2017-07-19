@@ -76,32 +76,14 @@
 			<div id="home_slider" class="flexslider">
 
 				<div class="flex-viewport" style="overflow: hidden; position: relative;">
-					<ul class="slides" style="width: 1000%; margin-left: -2560px;">
+					<ul class="slides" style="width: 1000%;">
+						<?php foreach($images as $v):?>
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<a href="#">
-							<img src="<?=base_url();?>/static/images/pro2_04.png">
+							<img src="<?=base_url();?>/images/<?=$v['image']?>">
 							</a>
 						</li>
-						<li class="" style="width: 1280px; float: left; display: block;">
-							<a href="#">
-								<img src="<?=base_url();?>/static/images/pro2_04.png">
-							</a>
-						</li>
-						<li class="flex-active-slide" style="width: 1280px; float: left; display: block;">
-							<a href="#">
-								<img src="<?=base_url();?>/static/images/pro2_04.png">
-							</a>
-						</li>
-						<li style="width: 1280px; float: left; display: block;">
-							<a href="#">
-								<img src="<?=base_url();?>/static/images/pro2_04.png">
-							</a>
-						</li>
-						<li class="clone" style="width: 1280px; float: left; display: block;">
-							<a href="#">
-								<img src="<?=base_url();?>/static/images/pro2_04.png">
-							</a>
-						</li>
+						<?php endforeach;?>
 					</ul>
 				</div>
 			

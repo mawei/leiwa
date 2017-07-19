@@ -225,6 +225,7 @@ class Welcome extends Front_Controller {
 				$typename = "烫发器";
 				break;
 		}
+		$images = $this->db->query("select * from `t_aci_fashionhair` where type='{$typename}轮播图' order by fashionhair_id desc")->result_array();
 
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
@@ -244,7 +245,7 @@ class Welcome extends Front_Controller {
 			$products = $this->db->query("select * from `t_aci_product` where type='{$typename}' limit {$start},{$number}")->result_array();	
 		}
 
-		$this->view('prolist',array('products'=>$products,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage));
+		$this->view('prolist',array('products'=>$products,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage,'images'=>$images));
 	}
 
 	function prodetail($type=1,$product_id)

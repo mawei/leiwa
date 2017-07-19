@@ -205,23 +205,24 @@
 				</p>
 			</div>
 			<div class="mai">
-				<p class="pro3_four_tl">
-					欢迎进入购买
-				</p>
+				
 				<div class="clearfix">
 					<div class="mai_main left">
+					<p class="pro3_four_tl">
+					欢迎进入购买
+				</p>
 						<img src="<?=base_url();?>/static/images/pro3_07.jpg">
 						<p>雷瓦天猫官方旗舰店</p>
 						<a href="<?=$product['tmall']?>" target="blank" class="qijian_a">
 了解更多
 </a>
 					</div>
-					<div class="mai_main left">
+						<div class="mai_main left">
+							<p class="pro3_four_tl" style="color: white">  1</p>
 						<img src="<?=base_url();?>/images/<?=$product['qr_image']?>">
 						<p>
 							手机扫一扫<br> 了解更多详细信息
 						</p>
-					</div>
 				</div>
 			</div>
 		</div>

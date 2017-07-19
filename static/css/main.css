@@ -570,7 +570,6 @@
     line-height: 100%;
     letter-spacing:-0.7vw;
     padding-left: 0.5vw;
-    color: #a6b42e;
 }
 .index_three_num_nopadding {
     font-size: 16vw;
@@ -587,6 +586,17 @@
     left: 10%;
     bottom: 0px;
 }
+
+.index_four_num
+{
+    font-size: 16vw;
+    font-family: 'DINCondensedFont';
+    line-height: 100%;
+    letter-spacing:-0.7vw;
+    padding-left: 0.5vw;
+    color: #a6b42e;
+}
+
 .ers1 .index_three_fu2 .index_three_zw {
 /*    background: url(../images/sjx_03.png) no-repeat right center;
 */}
@@ -3504,8 +3514,8 @@
     background-size: 2.08vw 1.2vw;
     padding-left: 2.6vw;
     margin-top: 10px;
-    font-size: 1vw;
-    line-height: 1.04vw;
+    font-size: 0.83vw;
+    line-height: 1.6vw;
 }
 
 .style_4_2_date {
@@ -4307,6 +4317,7 @@
     font-weight: bold;
     margin-bottom: 0.5vw;
     padding-top: 0.25vw;
+    font-size: 1vw;
 }
 
 .liandiang li {
@@ -4372,6 +4383,10 @@
 .mai_main img {
     width: 5.6vw;
 }
+.mai_main>:first-child {
+    font-size: 0.83vw;
+}
+
 .mai_main p {
     font-size: 0.625vw;
 }
@@ -5133,7 +5148,7 @@ margin-right: 10px;
 }
 
 .about4_box:nth-child(odd) .year {
-    margin-left: -14vw;
+    margin-left: -15vw;
 }
 
 .about4_box:nth-child(even) .year {

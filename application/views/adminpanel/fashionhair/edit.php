@@ -22,7 +22,11 @@
 				<option value='清纯减龄系' <?php if(isset($data_info['type'])&&($data_info['type']=='清纯减龄系')) { ?> selected="selected" <?php } ?>            >清纯减龄系</option>
 				<option value='职场御姐系' <?php if(isset($data_info['type'])&&($data_info['type']=='职场御姐系')) { ?> selected="selected" <?php } ?>            >职场御姐系</option>
 				<option value='未来发型趋势' <?php if(isset($data_info['type'])&&($data_info['type']=='未来发型趋势')) { ?> selected="selected" <?php } ?>            >未来发型趋势</option>
-				<option value='产品轮播图' <?php if(isset($data_info['type'])&&($data_info['type']=='产品轮播图')) { ?> selected="selected" <?php } ?>            >产品轮播图</option>
+				<option value='产品首页轮播图' <?php if(isset($data_info['type'])&&($data_info['type']=='产品首页轮播图')) { ?> selected="selected" <?php } ?>            >产品首页轮播图</option>
+				<option value='烫发器轮播图' <?php if(isset($data_info['type'])&&($data_info['type']=='烫发器轮播图')) { ?> selected="selected" <?php } ?>            >烫发器轮播图</option>
+				<option value='电吹风轮播图' <?php if(isset($data_info['type'])&&($data_info['type']=='电吹风轮播图')) { ?> selected="selected" <?php } ?>            >电吹风轮播图</option>
+				<option value='理发器轮播图' <?php if(isset($data_info['type'])&&($data_info['type']=='理发器轮播图')) { ?> selected="selected" <?php } ?>            >理发器轮播图</option>
+				<option value='美容健康轮播图' <?php if(isset($data_info['type'])&&($data_info['type']=='美容健康轮播图')) { ?> selected="selected" <?php } ?>            >美容健康轮播图</option>
 </select>
 				</div>
 			</div>

@@ -42,7 +42,7 @@
 			<div id="home_slider" class="flexslider">
 
 				<div class="flex-viewport" style="overflow: hidden; position: relative;">
-					<ul class="slides" style="width: 1000%; margin-left: -2560px;">
+					<ul class="slides" style="width: 1000%;">
 						<?php foreach($images as $v):?>
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
@@ -174,7 +174,7 @@
 						<p class="index_three_zw">
 						美容健康系列 ▸
 						</p>
-						<p class="index_three_num">
+						<p class="index_four_num">
 						04
 						</p>
 						</div>
