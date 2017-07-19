@@ -66,7 +66,7 @@
 						<p class="style_4_1">
 							<span class="eng color_red"><?=$showgrouds[$k+1]['name']?></span>的晒单
 						</p>
-						<img src="images/<?=$showgrouds[$k]['image']?>">
+						<img src="images/<?=$showgrouds[$k+1]['image']?>">
 						<div class="style_4_2">
 							<?=$showgrouds[$k+1]['content']?>
 							<p class="style_4_2_date">
