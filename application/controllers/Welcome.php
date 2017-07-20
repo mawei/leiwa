@@ -198,7 +198,7 @@ class Welcome extends Front_Controller {
 
 	function pro()
 	{
-		$images = $this->db->query("select * from `t_aci_fashionhair` where type='产品轮播图' order by fashionhair_id desc")->result_array();
+		$images = $this->db->query("select * from `t_aci_fashionhair` where type='产品首页轮播图' order by fashionhair_id desc")->result_array();
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 

@@ -14,6 +14,8 @@
 <![endif]-->
 <link type="text/css" href="<?php echo base_url('css/jquery-ui-1.10.0.custom.css')?>" rel="stylesheet" />
 <link rel="stylesheet" href="<?php echo ADMIN_CSS_PATH.'style.css'?>">
+<script src="<?php echo base_url('/scripts/lib/jquery.js')?>" ></script>
+
 <?php if(isset($require_js)):?>
 <script language="javascript" type="text/javascript"> var SITE_URL = "<?php echo SITE_URL?>";</script>
 <script src="<?php echo base_url('/scripts/require.js')?>" ></script>
