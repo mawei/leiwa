@@ -4894,7 +4894,7 @@ margin-right: 10px;
 
 }
 .wd900{
-    height: 900px;
+    height: 700px;
     margin: 0 auto;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -4904,7 +4904,7 @@ margin-right: 10px;
         width: 60%;
     }
     .wd900{
-        height: 780px;
+        height: 680px;
     }
    .wd1000 .cha{top: 45%}
 }
