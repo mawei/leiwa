@@ -62,7 +62,7 @@
                             <p class="index_three_num"> 01</p>
                         </div>
                     </a>
-                    <a href="<?=base_url()?>prolist/2/1">
+                    <a href="<?=base_url()?>prolist/3/1">
                         <img src="static/images/index_02_11.png">
                         <div class="index_three_fu index_three_fu3">
                             <p class="eng_fu3">HAIR <br>CLIPPER </p>
@@ -72,7 +72,7 @@
                     </a>
                 </li>
                 <li class="col-md-6 col-sm-6 col-xs-6 tow">
-                    <a href="<?=base_url()?>prolist/3/1">
+                    <a href="<?=base_url()?>prolist/2/1">
                         <img src="static/images/index_02_03.png">
                         <div class="index_three_fu index_three_fu2">
                             <p class="eng">HAIR <br>DRIER</p>
