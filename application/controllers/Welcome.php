@@ -47,7 +47,7 @@ class Welcome extends Front_Controller {
 	function news($years=0,$page = 1)
 	{
 		// $type = ($newstype == 'company' || $newstype == '') ? "公司新闻":"产品新闻";
-		$allyears = $this->db->query("select distinct years from `t_aci_news` order by years desc")->result_array();
+		$allyears = $this->db->query("select distinct years from `t_aci_news` order by news_id desc")->result_array();
 		$years = $years == 0 || $years == ""? $allyears[0]['years']:$years;
 
 		$number = 3;
@@ -63,7 +63,7 @@ class Welcome extends Front_Controller {
 			$news = $allnews;
 		}else{
 			// $news = $this->db->query("select * from `t_aci_news` where years='{$years}' and type='{$type}' limit {$start},{$number}")->result_array();	
-			$news = $this->db->query("select * from `t_aci_news` where years='{$years}' limit {$start},{$number}")->result_array();	
+			$news = $this->db->query("select * from `t_aci_news` where years='{$years}' order by news_id desc limit {$start},{$number}")->result_array();	
 		}
 
 
@@ -231,7 +231,7 @@ class Welcome extends Front_Controller {
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
 		$number =11;
-		$allproducts = $this->db->query("select * from `t_aci_product` where type='{$typename}'")->result_array();
+		$allproducts = $this->db->query("select * from `t_aci_product` where type='{$typename}' order by sort desc,product_id desc")->result_array();
 		// print_r($allproducts);
 		$maxpage = ceil(count($allproducts)/$number);
 		$page = $page == ""||$page < 1 ? 1 : $page;
@@ -242,7 +242,7 @@ class Welcome extends Front_Controller {
 		{
 			$products = $allproducts;
 		}else{
-			$products = $this->db->query("select * from `t_aci_product` where type='{$typename}' limit {$start},{$number}")->result_array();	
+			$products = $this->db->query("select * from `t_aci_product` where type='{$typename}' order by sort desc,product_id desc limit {$start},{$number}")->result_array();	
 		}
 
 		$this->view('prolist',array('products'=>$products,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage,'images'=>$images));

@@ -38,7 +38,7 @@
 		</div>
 	</div>
 	<div class="pro2_one">
-		<img src="<?=base_url();?>/static/images/pr2.png">
+		<img src="<?=base_url();?>/static/images/pr2.gif">
 		<div class="pro2_one_main">
 			<div class="container">
 				<p class="pro2_one_main1">
@@ -79,7 +79,7 @@
 					<ul class="slides" style="width: 1000%;">
 						<?php foreach($images as $v):?>
 						<li class="clone" style="width: 1280px; float: left; display: block;">
-							<a href="#">
+							<a href="<?=$v['content']?>">
 							<img src="<?=base_url();?>/images/<?=$v['image']?>">
 							</a>
 						</li>
