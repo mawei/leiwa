@@ -3539,6 +3539,7 @@
     position: fixed;  
     bottom: 50px;  
     right: 50px;  
+    z-index: 100000;
 }
 
 #content {
@@ -3663,7 +3664,7 @@
 
 .pro1_one img {
     width: 100vw;
-    height: 39.9vw;
+    /*height: 39.9vw;*/
     vertical-align: middle;
 }
 
