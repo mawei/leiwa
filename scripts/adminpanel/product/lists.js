@@ -94,13 +94,13 @@
 							}
 						 }
 					 },
-					 1haodian: {
-						 validators: {
-							notEmpty: {
-								message: '1号店链接输入错误'
-							}
-						 }
-					 },
+					 // 1haodian: {
+						//  validators: {
+						// 	notEmpty: {
+						// 		message: '1号店链接输入错误'
+						// 	}
+						//  }
+					 // },
 					 teach_video: {
 						 validators: {
 							notEmpty: {
