@@ -72,7 +72,7 @@
 				<li>
 					<a class="clearfix">
 						<div class="news_bmain_lf style4_img_main" id="<?=$v['news_id']?>">
-							<img src="<?=base_url();?>/static/images/news_09.png">
+							<img src="<?=base_url();?>images/<?=$v['image']?>">
 						</div>
 						<div class="news_bmain_rt style4_img_main" id="<?=$v['news_id']?>">
 							<p class="news_bmain_rttl">
