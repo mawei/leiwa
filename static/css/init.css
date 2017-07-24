@@ -10,6 +10,20 @@ body {
     font-family: '微软雅黑','Microsoft Yahei';
     font-weight: 300;
 }
+@media(max-width: 700px)
+{
+    body {
+        margin: 0px auto;
+        padding: 0;
+        overflow-x: hidden;
+        color: #505050;
+        font-size: 2vw;
+        line-height: 2.56vw;
+        font-family: '微软雅黑','Microsoft Yahei';
+        font-weight: 300;
+    }
+}
+
 
 div,
 dl,

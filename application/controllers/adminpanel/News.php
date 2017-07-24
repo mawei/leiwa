@@ -119,7 +119,8 @@ class News extends Admin_Controller {
 			if($_arr['years']=='')exit(json_encode(array('status'=>false,'tips'=>'所属年份必填')));
 			$_arr['content'] = isset($_POST["content"])?trim(addslashes($_POST["content"])):exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
 			if($_arr['content']=='')exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
-			$_arr['createtime'] = date('Y-m-d H:i:s');
+			$_arr['createtime'] = isset($_POST["createtime"])?trim(safe_replace($_POST["createtime"])):exit(json_encode(array('status'=>false,'tips'=>'创建时间必填')));
+            if($_arr['createtime']=='')exit(json_encode(array('status'=>false,'tips'=>'创建时间必填')));
 			
             $new_id = $this->news_model->insert($_arr);
             if($new_id)
@@ -201,8 +202,10 @@ class News extends Admin_Controller {
 			if($_arr['years']=='')exit(json_encode(array('status'=>false,'tips'=>'所属年份必填')));
 			$_arr['content'] = isset($_POST["content"])?trim(addslashes($_POST["content"])):exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
 			if($_arr['content']=='')exit(json_encode(array('status'=>false,'tips'=>'内容必填')));
-			$_arr['createtime'] = date('Y-m-d H:i:s');
-			
+
+            $_arr['createtime'] = isset($_POST["createtime"])?trim(safe_replace($_POST["createtime"])):exit(json_encode(array('status'=>false,'tips'=>'创建时间必填')));
+            if($_arr['createtime']=='')exit(json_encode(array('status'=>false,'tips'=>'创建时间必填')));
+                			
             $status = $this->news_model->update($_arr,array('news_id'=>$id));
             if($status)
             {

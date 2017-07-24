@@ -52,6 +52,14 @@
 					<input type="text" name="years"  id="years"  value='<?php echo isset($data_info['years'])?$data_info['years']:'' ?>'  class="form-control validate[required]"  placeholder="请输入所属年份" >
 				</div>
 			</div>
+
+
+			<div class="form-group">
+				<label for="createtime" class="col-sm-2 control-label form-control-static">创建时间</label>
+				<div class="col-sm-9 ">
+					<input type="text" name="createtime"  id="createtime"  value='<?php echo isset($data_info['createtime'])?$data_info['createtime']:'' ?>'  class="form-control validate[required]"  placeholder="请输入创建时间" >
+				</div>
+			</div>
 													
 			<div class="form-group">
 				<label for="content" class="col-sm-2 control-label form-control-static">内容</label>
