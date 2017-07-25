@@ -197,7 +197,7 @@
 				<p class="pro3_four_tl">
 					视频教程：
 				</p>
-				<div class="shipin_main prodetail_img_main" src="<?=base_url();?>video/<?=$product['teach_video']?>">
+				<div class="shipin_main prodetail_img_main pro3_main" src="<?=base_url();?>video/<?=$product['teach_video']?>">
 					<img src="<?=base_url();?>/images/<?=$product['teach_image']?>">
 				</div>
 				<p class="pro3_four_text">
