@@ -193,6 +193,7 @@
 					<?php endforeach;?>
 				</ul>
 			</div>
+			<?php if ($product['teach_image'] != ''): ?>
 			<div class="shipin">
 				<p class="pro3_four_tl">
 					视频教程：
@@ -204,9 +205,12 @@
 					只要10分钟<br> 教你打造自己的时尚发型
 				</p>
 			</div>
+			<?php endif; ?>
 			<div class="mai">
 				
 				<div class="clearfix">
+					
+					<?php if ($product['tmall'] != ''): ?>
 					<div class="mai_main left">
 						<p class="pro3_four_tl">
 						欢迎进入购买
@@ -219,15 +223,16 @@
 						了解更多
 						</a>
 					</div>
-						<?php if ($product['qr_image'] == ''): ?>
-						<div class="mai_main left">
-							<p class="pro3_four_tl" style="color: white">  1</p>
-							<img src="<?=base_url();?>/images/<?=$product['qr_image']?>">
-							<p>
-								手机扫一扫<br> 了解更多详细信息
-							</p>
-						</div>
-						<?php endif; ?>
+					<?php endif; ?>
+					<?php if ($product['qr_image'] != ''): ?>
+					<div class="mai_main left">
+						<p class="pro3_four_tl" style="color: white">  1</p>
+						<img src="<?=base_url();?>/images/<?=$product['qr_image']?>">
+						<p>
+							手机扫一扫<br> 了解更多详细信息
+						</p>
+					</div>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
