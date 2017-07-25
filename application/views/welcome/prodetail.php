@@ -193,7 +193,7 @@
 					<?php endforeach;?>
 				</ul>
 			</div>
-			<?php if ($product['teach_image'] != ''): ?>
+			<?php if ($product['teach_video'] != ''): ?>
 			<div class="shipin">
 				<p class="pro3_four_tl">
 					视频教程：
@@ -215,7 +215,7 @@
 						<p class="pro3_four_tl">
 						欢迎进入购买
 						</p>
-						<a href="<?=$product['tmall']?>" target="blank" class="qijian_a">
+						<a href="<?=$product['tmall']?>" target="blank" >
 						<img src="<?=base_url();?>/static/images/pro3_07.jpg">
 						</a>
 						<p>雷瓦天猫官方旗舰店</p>
