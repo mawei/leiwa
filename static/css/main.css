@@ -1470,6 +1470,9 @@
 
 .about1 {
     margin-top: 20px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .abou1_1 {
@@ -1795,6 +1798,7 @@
     background-size: 100%;
     width: 71.66vw;
     height: 68vw;
+    margin: 0 auto;
 }
 
 .ab4_1_1 {
@@ -1811,7 +1815,7 @@
     /*position: absolute;*/
     padding-left: 1vw;
     text-align: left;
-    width: 50vw;
+    width: 20vw;
     z-index: 100;
     padding-top: 25.3vw;
     float:left;
@@ -1834,6 +1838,7 @@
     text-align: left;
     float: left;
     z-index: 100;
+    margin-left: 30vw;
     padding-top: 25.3vw;
     width: 20vw;
 }
@@ -2392,7 +2397,7 @@
     z-index: -1;
 }
 .index_two_bc{
-    width: 200%;
+    width: 120%;
     margin-left: -10vw;
     margin-right: -10vw;
     margin-top: -11.23vw;
@@ -3403,7 +3408,7 @@
     z-index: 3000;
     background: #545454;
     padding: 40px 5px;
-    top: 50%;
+    top: 30%;
     margin-top: -150px;
     display: none;
 }
@@ -4191,6 +4196,11 @@
     color: #646464;
 }
 
+.pro2_three_ul{
+    width: 80vw;
+    margin:0 auto;
+}
+
 .pro2_three li a:hover .pro2_three_ul4 {
     color: #d6001d;
 }
@@ -4353,7 +4363,6 @@
 
 .liandiang {
     border-right: 1px solid #bbbcbd;
-    height: 12.55vw;
     width: 22.7vw;
     float:left;
 }
@@ -4457,7 +4466,6 @@
 .por3_five {
     background: #fff;
     padding-bottom: 5.2vw;
-    padding-left: 12.34vw;
     width: 100vw;
 }
 
@@ -4518,8 +4526,6 @@
 
     .liandiang{
         width: 100%;
-        height: 100px;
-
         border-top: 1px solid #bbbcbd;
         border-bottom: 1px solid #bbbcbd;
         padding: 0.73vw 0px;
@@ -4568,6 +4574,7 @@
 
     .shipin_main img {
         width: 30vw;
+        height: 19vw;
         vertical-align: middle;
     }
 
@@ -5564,10 +5571,20 @@ margin-right: 10px;
     .abt2_2{
         line-height: 2.56vw;
         font-size: 2vw;
+        /*position: relative;*/
+        padding-top: 2vw;
+        padding-left: 4vw;
+        width: 60vw;
+    }
+    .about2_2_tl{
+        font-size: 3vw;
     }
     .about4_box .histroy{
         font-size: 1.5vw;
         width: 50%
+    }
+    .ab3 img{
+        width: 100vw;
     }
     .about4_box:nth-child(2n+1) .histroy{
         font-size: 1.5vw;
@@ -5576,12 +5593,182 @@ margin-right: 10px;
     .about4_box.img11 .histroy_end{
         font-size: 2vw;
     }
+
+    .about1 {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .head_t {
+        border-bottom: 0px solid #4a4b4f;
+    }
+
+    .menu {
+        border-bottom: 0px solid #4a4b4f;
+    }
+
+    .nav > li {
+        line-height: 5vw;
+    }
+
+    .abou1_3{
+        line-height: 2.56vw;
+        height: 2.56vw;
+    }
+    .about_ul_rttl_big_81{
+        text-align: left;
+    }
+
+    .ab4{
+        width: 100vw;
+        height: 95vw;
+    }
+    .ab4_1{
+        padding-left: 5vw;
+        width: 30vw;
+    }
+    .ab4_1_3 {
+        font-size:2vw;
+        line-height: 2.56vw;
+    }
+    .ab4_2{
+        margin-left: 40vw;
+    }
+
+    .ab3_3{
+        font-size: 2vw;
+        line-height: 2.56vw;
+    }
+
+    .ab2{
+        width: 100vw;
+    }
+
+    .ab2_1{
+        font-size: 4.5vw;
+    }
+
+    .ab2_1 p{
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+
+    .index_two_txt{
+        display: none;
+    }
+    .index_two .index_two_txt{
+        display: none;
+    }
+
+    .index_four_text_ul {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .index_line span{
+        font-size: 3vw;
+        height: 5vw;
+        line-height: 5vw;
+        background-size: 100% 1%;
+    }
+    .index_three_tl_china2{
+        font-size: 3vw;
+        line-height: 6vw;
+    }
+    .index_three_tl_eng2{
+        font-size: 8vw;
+        line-height: 8vw;
+    }
+    .index_line{
+        height: 5vw;
+    }
+
+    .index_four_more_main a{
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 20vw;
+    }
+    .index_three_li1 .index_three_fu10{
+        right: -15%;
+    }
+    .index_three_li4 .index_three_fu14{
+        left:10%;
+    }
+    .mai_main > :first-child{
+        font-size: 3vw;
+    }
+
+    .pro2_three_ul{
+        width: 80vw;
+        margin:0 auto;
+    }
+
+    .pro2_three_ul1{
+        font-size: 3vw;
+        line-height: 4vw;
+        height: 4vw;
+    }
+    .pro2_three_ul2{
+        font-size: 2.5vw;
+        line-height: 3vw;
+        height: 3vw;
+    }
+
+    .alert_main{
+        width: 100vw;
+        margin: 0 auto;
+        background: background-color: rgba(255,255,255,0);
+    }
+    .alert_main video{
+        margin: 0 auto;
+        width: 100vw;
+
+    }
+    .news_bmain_rttl{
+        height: 3vw;
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+    .news_bmain_lf img{
+        height: 16vw;
+    }
+    .news_bmian_text{
+        width: 60vw;
+        line-height: 3vw;
+    }
+
+    .about_tl_t{
+        font-size: 4vw;
+        line-height: 8vw;
+    }
+    .about_menu{
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+    .ers1{
+        height: 174.5vw;
+        /*background: url(../images/cp_bg.jpg) no-repeat center;*/
+        background-size: 100% 100%;
+        margin-top: -12vw;
+    }
+    .index_three_t{
+        display: none;
+    }
+    .index_three_tl{
+        display: none;
+    }
 }
 
 @media(min-width: 1000px)
 {
+    .esr1img{
+        display: none;
+    }
     .style3_img_main_b{
         height: 7vw;
+    }
+    .liandiang{
+        height: 12.55vw;
     }
 }
 

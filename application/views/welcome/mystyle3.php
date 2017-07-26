@@ -31,9 +31,9 @@
         </p>
         <div class="about_menu">
             <a href="mystyle3"  class="ahover">魔发秀</a>
-            <a href="mystyle4">达人秀场</a>
-            <a href="mystyle">潮流发型</a>
-            <a href="mystyle2">未来发型趋势</a>
+            <a href="<?=base_url()?>mystyle4">达人秀场</a>
+            <a href="<?=base_url()?>mystyle">潮流发型</a>
+            <a href="<?=base_url()?>mystyle2">未来发型趋势</a>
         </div>
     </div>
     <div class="my_style_ban" style="background: url(<?=base_url();?>/static/images/mystyle3_02.png) no-repeat center;background-size: cover;color: #ddb191; background-size:100% 21.09vw;">

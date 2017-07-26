@@ -67,7 +67,7 @@
             让消费者科学理性的找到属于自己的美。
         </div>
     </div>
-    <div class="ab3 container" align="center">
+    <div class="ab3" align="center">
         <img src="<?=base_url();?>/static/images/about2bg_05.jpg">
         <div class="ab3_main">
             <p class="ab3_1">
@@ -80,7 +80,7 @@
             </p>
         </div>
     </div>
-    <div class="ab4 container" align="center" style>
+    <div class="ab4" align="center" style>
 <!--         <img src="<?=base_url();?>/static/images/about2_07.png">
  -->        <div class="ab4_1">
             <span class="ab4_1_1">

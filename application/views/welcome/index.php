@@ -42,6 +42,7 @@
         <div class="index_two_bc"></div>
     </div>
     <div class="index_three ers1">
+        <img class="esr1img" width="100%" src="static/images/cp_bg.jpg">
         <div class="index_three_tl">
            <img src="static/images/ers_06.png">
             <p class="index_three_tl_eng">
@@ -97,7 +98,7 @@
         </div>
     </div>
     <div class="index_four">
-        <div class="index_four_tl container">
+        <div class="index_four_tl">
             <p class="index_three_tl_eng2">
                 STYLE YOURSELF
             </p>
@@ -112,7 +113,7 @@
         </div>
         <div class="container">
             <ul class="index_four_text_ul clearfix">
-                <li class="col-md-3 col-sm-3 col-xs-12">
+                <li class="col-md-3 col-sm-3 col-xs-6">
                     <a href="<?=base_url()?>mystyle3">
                         <p class="index_four_text_ul_tl">
                             魔发秀
@@ -124,7 +125,7 @@
                         </div>
                     </a>
                 </li>               
-                <li class="col-md-3 col-sm-3 col-xs-12">
+                <li class="col-md-3 col-sm-3 col-xs-6">
                     <a href="<?=base_url()?>mystyle4">
                         <p class="index_four_text_ul_tl">
                             达人秀场
@@ -136,7 +137,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="col-md-3 col-sm-3 col-xs-12">
+                <li class="col-md-3 col-sm-3 col-xs-6">
                     <a href="<?=base_url()?>mystyle">
                         <p class="index_four_text_ul_tl">
                             潮流发型
@@ -148,7 +149,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="col-md-3 col-sm-3 col-xs-12">
+                <li class="col-md-3 col-sm-3 col-xs-6">
                     <a href="<?=base_url()?>mystyle2">
                         <p class="index_four_text_ul_tl">
                             未来发型趋势

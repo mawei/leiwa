@@ -47,7 +47,7 @@
             <p class="about1_ban_text2">SO SIMPLE</p>
         </div>
     </div>
-    <div class="about1 container clearfix">
+    <div class="about1  clearfix">
         <div class="left abou1_1">
             <img src="<?=base_url();?>/static/images/about-01_05.png">
         </div>
