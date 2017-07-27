@@ -42,7 +42,10 @@
         <div class="index_two_bc"></div>
     </div>
     <div class="index_three ers1">
-        <img class="esr1img" width="100%" src="static/images/cp_bg.jpg">
+        <img class="esr1img" width="100%" src="static/images/cp_bg.jpg" usemap="#map1501133001" border="0">
+        <map id="map" name="map1501133001">
+            <area shape="rect" coords="1,277,394,765" title="" href="/prolist/1/1"><area shape="rect" coords="403,278.5,748,810" title="" href="/prolist/2/1"><area target="_blank" shape="rect" coords="399,816,750,1308" title="" href="/prolist/4/1"><area target="_blank" shape="rect" coords="6,770,396,1306" title="" href="/prolist/3/1">
+        </map>
         <div class="index_three_tl">
            <img src="static/images/ers_06.png">
             <p class="index_three_tl_eng">
