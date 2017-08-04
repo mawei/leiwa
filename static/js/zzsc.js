@@ -1,6 +1,8 @@
 $(function () {
     var galleries = $('.ad-gallery').adGallery({
-        autostart: true,
+        slideshow: {
+            autostart: true
+        },
         callbacks: {
             // Executes right after the internal init, can be used to choose which images
             // you want to preload
@@ -12,7 +14,18 @@ $(function () {
               // this.preloadImage(1);
               // this.preloadImage(2);
             }
-        }
+        },
+        afterImageVisible: function() {
+          // For example, preload the next image
+          var context = this;
+          this.loading(true);
+          this.preloadImage(this.current_index + 1,
+            function() {
+              // This function gets executed after the image has been loaded
+              context.loading(false);
+            }
+          );
+        },
     });
     $('#switch-effect').change(function () {
         galleries[0].settings.effect = $(this).val();
