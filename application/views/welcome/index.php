@@ -7,7 +7,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="renderer" content="webkit">
 
-    <title></title>
+    <title><?=$mytitle?></title>
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/init.css">
     <link rel="stylesheet" href="static/css/main.css">

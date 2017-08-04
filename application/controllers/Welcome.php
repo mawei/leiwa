@@ -10,42 +10,47 @@ class Welcome extends Front_Controller {
 	
 	function index()
 	{
-
+		$mytitle = "首页_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
-		$this->view('index',array('links'=>$this->getLinks()));
+		$this->view('index',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 	
 	function about()
 	{
+		$mytitle = "品牌故事_关于雷瓦_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('about',array('links'=>$this->getLinks()));
+		$this->view('about',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 
 	function about2()
 	{
+		$mytitle = "品牌理念_关于雷瓦_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('about2',array('links'=>$this->getLinks()));
+		$this->view('about2',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 
 	function about3()
 	{
+		$mytitle = "品牌印记_关于雷瓦_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('about3',array('links'=>$this->getLinks()));
+		$this->view('about3',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 
 	function about4()
 	{
+		$mytitle = "核心实力_关于雷瓦_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('about4',array('links'=>$this->getLinks()));
+		$this->view('about4',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 	
 
 	function news($years=0,$page = 1)
 	{
+		$mytitle = "雷瓦咨询_雷瓦官网";
 		// $type = ($newstype == 'company' || $newstype == '') ? "公司新闻":"产品新闻";
 		$allyears = $this->db->query("select distinct years from `t_aci_news` order by news_id desc")->result_array();
 		$years = $years == 0 || $years == ""? $allyears[0]['years']:$years;
@@ -70,7 +75,7 @@ class Welcome extends Front_Controller {
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
 		// $this->view('news',array('news'=>$news,'newstype'=>$newstype, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
-		$this->view('news',array('links'=>$this->getLinks(),'news'=>$news, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
+		$this->view('news',array('links'=>$this->getLinks(),'mytitle'=>$mytitle,'news'=>$news, 'years'=>$years,'allyears'=>$allyears,'page'=>$page,'maxpage'=>$maxpage));
 	}
 
 	function newsdetail($news_id)
@@ -84,6 +89,7 @@ class Welcome extends Front_Controller {
 	
 	function experience()
 	{
+		$mytitle = "常见问题_贴心体验_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$questions = array();
 		$result = $this->db->query("select * from `t_aci_question` order by createtime desc")->result_array();
@@ -95,25 +101,28 @@ class Welcome extends Front_Controller {
 				$questions[$value['type']] = array($value);
 			}
 		}
-		$this->view('experience',array('links'=>$this->getLinks(),'questions'=>$questions));
+		$this->view('experience',array('links'=>$this->getLinks(),'mytitle'=>$mytitle,'questions'=>$questions));
 	}
 
 	function experience2()
 	{
+		$mytitle = "星级服务_贴心体验_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('experience2',array('links'=>$this->getLinks()));
+		$this->view('experience2',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 
 	function contactus()
 	{
+		$mytitle = "联系我们_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('contactus',array('links'=>$this->getLinks()));
+		$this->view('contactus',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 
 	function mystyle()
 	{
+		$mytitle = "潮流发型_我型我造_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$hairs = array();
 		$result = $this->db->query("select * from `t_aci_fashionhair` order by fashionhair_id asc")->result_array();
@@ -125,11 +134,12 @@ class Welcome extends Front_Controller {
 				$hairs[$value['type']] = array($value);
 			}
 		}
-		$this->view('mystyle',array('hairs'=>$hairs,'links'=>$this->getLinks()));
+		$this->view('mystyle',array('hairs'=>$hairs,'links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 
 	function mystyle2()
 	{
+		$mytitle = "未来发型趋势_我型我造_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
 		$hairs = array();
@@ -142,11 +152,12 @@ class Welcome extends Front_Controller {
 				$hairs[$value['type']] = array($value);
 			}
 		}
-		$this->view('mystyle2',array('hairs'=>$hairs,'links'=>$this->getLinks()));
+		$this->view('mystyle2',array('hairs'=>$hairs,'links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 
 	function mystyle3($type=1,$page=1)
 	{
+		$mytitle = "魔发秀_我型我造_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$typename = "";
 		switch ($type) {
@@ -185,24 +196,26 @@ class Welcome extends Front_Controller {
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('mystyle3',array('shows'=>$shows,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage));
+		$this->view('mystyle3',array('shows'=>$shows,'links'=>$this->getLinks(),'mytitle'=>$mytitle,'type'=>$type,'page'=>$page,'maxpage'=>$maxpage));
 	}
 
 	function mystyle4()
 	{
+		$mytitle = "达人秀场_我型我造_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$showgrouds = $this->db->query("select * from `t_aci_showgroud` order by showgroud_id asc")->result_array();
 
-		$this->view('mystyle4',array('showgrouds'=>$showgrouds,'links'=>$this->getLinks()));
+		$this->view('mystyle4',array('showgrouds'=>$showgrouds,'links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 
 	function pro()
 	{
+		$mytitle = "造型产品_雷瓦官网";
 		$images = $this->db->query("select * from `t_aci_fashionhair` where type='产品首页轮播图' order by fashionhair_id desc")->result_array();
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
-		$this->view('pro',array('links'=>$this->getLinks(),'images'=>$images));
+		$this->view('pro',array('links'=>$this->getLinks(),'mytitle'=>$mytitle,'images'=>$images));
 	}
 
 
@@ -225,6 +238,7 @@ class Welcome extends Front_Controller {
 				$typename = "烫发器";
 				break;
 		}
+		$mytitle = $typename."_造型产品_雷瓦官网";
 		$images = $this->db->query("select * from `t_aci_fashionhair` where type='{$typename}轮播图' order by fashionhair_id desc")->result_array();
 
 		$banner = $this->db->query("select * from `t_aci_fashionhair` where type='{$typename}品类海报' order by fashionhair_id desc")->result_array();
@@ -246,7 +260,7 @@ class Welcome extends Front_Controller {
 			$products = $this->db->query("select * from `t_aci_product` where type='{$typename}' order by sort desc,product_id desc limit {$start},{$number}")->result_array();	
 		}
 
-		$this->view('prolist',array('products'=>$products,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage,'images'=>$images, 'banner'=>$banner));
+		$this->view('prolist',array('products'=>$products,'links'=>$this->getLinks(),'mytitle'=>$mytitle,'type'=>$type,'page'=>$page,'maxpage'=>$maxpage,'images'=>$images, 'banner'=>$banner));
 	}
 
 	function prodetail($type=1,$product_id)
@@ -275,8 +289,9 @@ class Welcome extends Front_Controller {
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$product = $this->db->query("select * from `t_aci_product` where product_id='{$product_id}'")->result_array()[0];
+		$mytitle = $product[0]['mytitle']."_造型产品_雷瓦官网";
 		$memos = explode("\n", $product['memo']);
-		$this->view('prodetail',array('type'=>$type,'product'=>$product,'images'=>$images,'memos'=>$memos,'allproducts'=>$allproducts,'links'=>$this->getLinks()));
+		$this->view('prodetail',array('type'=>$type,'product'=>$product,'images'=>$images,'memos'=>$memos,'allproducts'=>$allproducts,'links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
 	
 	function getLinks()

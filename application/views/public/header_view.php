@@ -11,7 +11,7 @@
     <link rel="icon" href="favicon.ico">
     <meta name="renderer" content="webkit">
 
-    <title><?php echo $title?></title>
+    <title><?=$title?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">

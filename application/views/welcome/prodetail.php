@@ -8,7 +8,7 @@
 
 	<meta name="format-detection" content="telephone=no">
 	<meta name="renderer" content="webkit">
-	<title></title>
+	<title><?=$mytitle?></title>
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
 	<link rel="stylesheet" type="text/css" href="<?=base_url();?>/static/css/jquery.ad-gallery.css">
