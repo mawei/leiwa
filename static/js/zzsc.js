@@ -1,6 +1,6 @@
 $(function () {
     var galleries = $('.ad-gallery').adGallery({
-        autostart: true
+        autostart: true,
         callbacks: {
             // Executes right after the internal init, can be used to choose which images
             // you want to preload
