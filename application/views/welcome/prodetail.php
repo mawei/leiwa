@@ -70,8 +70,9 @@
 	<div class="pro3_three" >
 		<div id="gallery" class="ad-gallery">
 			<div class="ad-image-wrapper">
-				<div class="ad-image" style="width: 52vw; height: 30vw; top: 0px; left: 0px;"><img src="<?=base_url();?>/static/images/pro4_03.jpg" width="52vw" height="30vw"></div><img class="ad-loader" src="<?=base_url();?>/static/images/loader.gif"
-				 style="display: none;">
+				<div class="ad-image" style="width: 52vw; height: 30vw; top: 0px; left: 0px;">
+				<!-- <img src="<?=base_url();?>/static/images/pro4_03.jpg" width="52vw" height="30vw"> -->
+				</div>
 				<div class="ad-next">
 					<div class="ad-next-image" style="opacity: 0.7;"></div>
 				</div>
