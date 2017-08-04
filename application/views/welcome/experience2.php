@@ -94,7 +94,7 @@
                     </div>
                     <ul class="at32_ul exp_ul">
                         <li>
-                            <span>7天内非人为损害质量问题退换货、</span>
+                            <span>7天内非人为损坏无理由退换货、</span>
                         </li>
                         <li>
                             <span>8~30天内非人为损害质量问题换货或维修、</span>

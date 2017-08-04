@@ -227,6 +227,7 @@ class Welcome extends Front_Controller {
 		}
 		$images = $this->db->query("select * from `t_aci_fashionhair` where type='{$typename}轮播图' order by fashionhair_id desc")->result_array();
 
+		$banner = $this->db->query("select * from `t_aci_fashionhair` where type='{$typename}品类海报' order by fashionhair_id desc")->result_array();
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
@@ -245,7 +246,7 @@ class Welcome extends Front_Controller {
 			$products = $this->db->query("select * from `t_aci_product` where type='{$typename}' order by sort desc,product_id desc limit {$start},{$number}")->result_array();	
 		}
 
-		$this->view('prolist',array('products'=>$products,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage,'images'=>$images));
+		$this->view('prolist',array('products'=>$products,'links'=>$this->getLinks(),'type'=>$type,'page'=>$page,'maxpage'=>$maxpage,'images'=>$images, 'banner'=>$banner));
 	}
 
 	function prodetail($type=1,$product_id)

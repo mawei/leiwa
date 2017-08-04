@@ -47,7 +47,8 @@
 						<li class="clone" style="width: 1280px; float: left; display: block;">
 							<div class="pro_one_nr">
 						        <a href="<?=$v['content']?>">
-								<img src="<?=base_url();?>/images/<?=$v['image']?>"></a>
+								<img src="<?=base_url();?>/images/<?=$v['image']?>">
+								</a>
 							</div>
 						</li>
 						<?php endforeach;?>

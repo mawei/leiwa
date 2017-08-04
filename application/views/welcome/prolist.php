@@ -38,8 +38,9 @@
 		</div>
 	</div>
 	<div class="pro2_one">
-		<img src="<?=base_url();?>/static/images/pr2.gif">
-		<div class="pro2_one_main">
+		<a href="<?=$banner[0]['content']?>"><img src="<?=base_url();?>/images/<?=$banner[0]['image']?>"></a>
+		<!-- <img src="<?=base_url();?>/static/images/pr2.gif"> -->
+		<!-- <div class="pro2_one_main">
 			<div class="container">
 				<p class="pro2_one_main1">
 					<span><?php if ($type == 1): ?>01<?php endif; ?><?php if ($type == 2): ?>02<?php endif; ?><?php if ($type == 3): ?>03<?php endif; ?><?php if ($type == 4): ?>04<?php endif; ?></span>
@@ -64,7 +65,7 @@
 					<?php if ($type == 4): ?>https://riwa.tmall.com/category-631923967.htm?spm=a1z10.5-b-s.w13846666-15137289610.4.8360978BSYke9&search=y&catName=%C3%C0%C8%DD%BB%A4%C0%ED%CF%B5%C1%D0<?php endif; ?>" target="blank">GO TO TMALL</a>
 				</p>
 			</div>
-		</div>
+		</div> -->
 	</div>
 	<div class="pro2_ban">
 		<div class="pro2_text">
@@ -74,7 +75,6 @@
 		</div>
 		<div class="block_home_slider">
 			<div id="home_slider" class="flexslider">
-
 				<div class="flex-viewport" style="overflow: hidden; position: relative;">
 					<ul class="slides" style="width: 1000%;">
 						<?php foreach($images as $v):?>

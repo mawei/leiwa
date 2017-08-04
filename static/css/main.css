@@ -1409,10 +1409,10 @@
 .about_ul_rt3 {
     background: url("../images/about1_bc.jpg") no-repeat left top;
     background-size: 50%;
-    padding-top: 9.85vw;
+    padding-top:11.85vw;
     padding-left: 3vw;
     float: left;
-    width: 42vw;
+    width: 46vw;
 }
 
 .about_ul_lf4{
@@ -1676,8 +1676,8 @@
 }
 
 .ab4_1_2 {
-    font-size: 2.6vw;
-    line-height:3.64vw;
+    font-size: 3vw;
+    line-height:4.64vw;
     font-family: 'fontDidot','微软雅黑','Microsoft Yahei';
 }
 
@@ -3160,7 +3160,7 @@
 
     .style3_img_main_t img {
         width: 35.5vw;
-        height: 30.72vw;
+        height: 23.72vw;
         vertical-align: middle;
     }
 
@@ -3778,12 +3778,17 @@
     margin-top: -4.16vw;
 }
 
+.pro2_one a  {
+    width: 100vw;
+}
+
 .pro2_one img {
-    width: 100%;
+    width: 100vw;
     vertical-align: middle;
 }
 
 .pro2_one {
+    z-index: 10;
     position: relative;
 }
 
@@ -3838,13 +3843,14 @@
 
 .pro2_ban {
     position: relative;
-    z-index: -1;
+    z-index: 1;
     margin-top: -3.75vw;
 }
 
 .pro2_ban img {
     width: 100%;
     vertical-align: middle;
+
 }
 
 .flex-control-nav li a {
@@ -3985,15 +3991,22 @@
 @media (max-width: 768px){
     .pro2_three li.pro-list{
             width: 50%;
+            padding-left: 5px;
+            padding-right: 5px;
+
     }
 
     .pro2_three li {
-    /*margin-top: 26vw;*/
-    padding-bottom: 2.6vw;
+        /*margin-top: 26vw;*/
+        padding-bottom: 2.6vw;
+
+    }
+
+    .ad-image{
+        top:0px;
+    }
 
 }
-
- }
 
 
 .pro2_three_ul1 {
@@ -5255,7 +5268,7 @@ margin-right: 10px;
     }
 
     .color_red {
-        font-size:2vw;
+        font-size:2.56vw;
         color: #d7001d;
     }
 
@@ -5264,6 +5277,11 @@ margin-right: 10px;
         height: 2px;
         width: 35px;
         background: #aeadad;
+    }
+
+    .about3{
+        font-size: 2.56vw;
+        line-height: 4vw;
     }
 
     .footer1_1{
@@ -5396,15 +5414,16 @@ margin-right: 10px;
         font-size: 2vw;
     }
     .abt2_2{
-        line-height: 2.56vw;
+        line-height: 3.2vw;
         font-size: 2vw;
         /*position: relative;*/
-        padding-top: 2vw;
+        padding-top: 3vw;
         padding-left: 4vw;
         width: 60vw;
     }
     .about2_2_tl{
         font-size: 3vw;
+        line-height: 4vw;
     }
     .about4_box .histroy{
         font-size: 1.5vw;
@@ -5453,13 +5472,15 @@ margin-right: 10px;
     .ab4_1{
         padding-left: 5vw;
         width: 30vw;
+        padding-top: 50vw;
     }
     .ab4_1_3 {
         font-size:2vw;
-        line-height: 2.56vw;
+        line-height: 3.56vw;
     }
     .ab4_2{
         margin-left: 40vw;
+        padding-top: 50vw;
     }
 
     .ab3_3{
@@ -5469,6 +5490,7 @@ margin-right: 10px;
 
     .ab2{
         width: 100vw;
+        height: 75vw;
     }
 
     .ab2_1{
@@ -5551,6 +5573,9 @@ margin-right: 10px;
         width: 100vw;
 
     }
+    .news_b li{
+        margin-bottom: 4vw;
+    }
     .news_bmain_rttl{
         height: 3vw;
         font-size: 2.5vw;
@@ -5562,6 +5587,7 @@ margin-right: 10px;
     .news_bmian_text{
         width: 60vw;
         line-height: 3vw;
+        overflow: hidden;
     }
 
     .about_tl_t{
@@ -5616,6 +5642,58 @@ margin-right: 10px;
     .ad-nav.pro3_video{
         display: none;
     }
+
+    .about_ul_title{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    .rucimei {
+        background: #d7001d;
+        color: #fff;
+        font-size: 2.56vw;
+        line-height: 3vw;
+    }
+
+    .ab4_1_1 {
+        font-size: 4.1vw;
+        line-height: 5.1vw;
+    }
+
+    .at1_lf .at1_lf_txt {
+        padding-top: 24vw;
+        padding-bottom: 5.4vw;
+        text-align: left;
+        color: #505050;
+        padding-left: 3vw;
+        line-height: 180%;
+        width: 100vw;
+        float: left;
+    }
+
+    .index_three_zw {
+        display: inline-block;
+        /*width: 10vw;*/
+        /*background: url(../images/sj_03.png) no-repeat right 4px;*/
+    /*    background-size: 2vw;
+    */    padding-right: 0.7vw;
+        font-size: 1.17vw;
+        padding-left: 1.56vw;
+        line-height: 2.17vw;
+        padding-bottom: 2vw;
+    }
+
+    .pro2_three_tl span {
+        display: inline-block;
+        background: #fff;
+        line-height: 5vw;
+        padding: 0px 3.125vw;
+        font-size: 3.16vw;
+        color: #323232;
+        margin-bottom: 1.56vw;
+    }
+
+
 }
 
 @media(min-width: 1000px)

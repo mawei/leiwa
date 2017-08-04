@@ -95,7 +95,7 @@
 						<?php foreach($images as $k=>$v):?>
 						<li>
 							<a href="<?=base_url();?>/images/<?=$v['image']?>" class="ad-thumb<?=$k?> <?php if ($k == 0): ?>ad-active<?php endif; ?>">
-							<img src="<?=base_url();?>/images/<?=$v['image']?>" class="image<?=$k?>" style="opacity: <?php if ($k == 0): ?>1<?php endif; ?><?php if ($k != 0): ?>0.7<?php endif; ?>;">
+							<img src="<?=base_url();?>/images/<?=str_replace(".", "_thumb.", $v['image'])?>" class="image<?=$k?>" style="opacity: <?php if ($k == 0): ?>1<?php endif; ?><?php if ($k != 0): ?>0.7<?php endif; ?>;">
 							</a>
 						</li>
 
@@ -305,5 +305,6 @@
         $(".alert_main").hide();
         video.pause();
     });
+    $(".ad-image").css("top","0");
 </script>
 </html>

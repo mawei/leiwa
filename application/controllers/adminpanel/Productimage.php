@@ -86,6 +86,8 @@ class Productimage extends Admin_Controller {
 			if($_arr['image']=='')exit(json_encode(array('status'=>false,'tips'=>'图片必填')));
 			$_arr['product_id'] = isset($_POST["product_id"])?trim(safe_replace($_POST["product_id"])):exit(json_encode(array('status'=>false,'tips'=>'对应产品必填')));
 			if($_arr['product_id']=='')exit(json_encode(array('status'=>false,'tips'=>'对应产品必填')));
+
+
 			
             $new_id = $this->productimage_model->insert($_arr);
             if($new_id)
@@ -229,6 +231,18 @@ class Productimage extends Admin_Controller {
                 $image_width = $isImage?$filedata['image_width']:0;
                 $image_height =  $isImage?$filedata['image_height']:0;
                 $uc_first_id=  ucfirst($controlId);
+
+                $config['image_library'] = 'gd2';
+                $config['source_image'] = $filedata['full_path'];
+                $config['create_thumb'] = TRUE;
+                $config['maintain_ratio'] = TRUE;
+                $config['width']     = 75;
+                $config['height']   = 50;
+
+                $this->load->library('image_lib', $config);
+
+                $this->image_lib->resize();
+
                 $this->showmessage("上传成功！",'','','',$callbackJSfunction?"window.parent.get{$uc_first_id}(\"$file_name\",\"$file_size\",\"$image_width\",\"$image_height\");":"$(window.parent.document).find(\"#$controlId\").val(\"$file_name\");$(\"#dialog\" ).dialog(\"close\")");	
             }else
             {

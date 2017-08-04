@@ -66,7 +66,7 @@
                     <p class="style3_qhcon1">
                         TOOLS
                     </p>
-                    <a href="#" class="style3_qhcon3">MORE PRODUCTS</a>
+                    <!-- <a href="#" class="style3_qhcon3">MORE PRODUCTS</a> -->
                 </div>
                 <div class="style3_qhcon <?php if ($type == 2): ?>active<?php endif; ?>">
                     <p class="style3_qhcon1">
@@ -78,7 +78,7 @@
                     <p class="style3_qhcon1">
                         DRIER
                     </p>
-                    <a href="#" class="style3_qhcon3">MORE PRODUCTS</a>
+                    <!-- <a href="#" class="style3_qhcon3">MORE PRODUCTS</a> -->
                 </div>
                 <div class="style3_qhcon <?php if ($type == 3): ?>active<?php endif; ?>">
                     <p class="style3_qhcon1">
@@ -90,7 +90,7 @@
                     <p class="style3_qhcon1">
                         CLIPPER
                     </p>
-                    <a href="#" class="style3_qhcon3">MORE PRODUCTS</a>
+                    <!-- <a href="#" class="style3_qhcon3">MORE PRODUCTS</a> -->
                 </div>
                 <div class="style3_qhcon <?php if ($type == 4): ?>active<?php endif; ?>">
                     <p class="style3_qhcon1">
@@ -102,7 +102,7 @@
                     <p class="style3_qhcon1">
                         HEALTH SERIES
                     </p>
-                    <a href="#" class="style3_qhcon3">MORE PRODUCTS</a>
+                    <!-- <a href="#" class="style3_qhcon3">MORE PRODUCTS</a> -->
                 </div>
             </div>
         </div>
