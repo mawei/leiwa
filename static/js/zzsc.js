@@ -1,6 +1,7 @@
 $(function () {
     var galleries = $('.ad-gallery').adGallery({
         slideshow: {
+            enable: true,
             autostart: true
         },
         callbacks: {
