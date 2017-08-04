@@ -289,7 +289,7 @@ class Welcome extends Front_Controller {
 
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$product = $this->db->query("select * from `t_aci_product` where product_id='{$product_id}'")->result_array()[0];
-		$mytitle = $product[0]['title']."_造型产品_雷瓦官网";
+		$mytitle = $product[0]['name']."_造型产品_雷瓦官网";
 		$memos = explode("\n", $product['memo']);
 		$this->view('prodetail',array('type'=>$type,'product'=>$product,'images'=>$images,'memos'=>$memos,'allproducts'=>$allproducts,'links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}

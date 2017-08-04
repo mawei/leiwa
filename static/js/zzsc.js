@@ -9,7 +9,7 @@ $(function () {
               // this.preloadAll();
               // Or, just preload the first three
               this.preloadImage(0);
-              this.preloadImage(1);
+              // this.preloadImage(1);
               // this.preloadImage(2);
             }
         }
