@@ -985,18 +985,21 @@
     padding: 2.6vw 0px;
     margin-bottom: 0.5vw;
     height: 16.56vw;
+
 }
 
 .footer1_1{
     padding-left: 22.86vw;
     float: left;
+
+
 }
 
-/*.footer1_1 img {
-    width: 11.4vw;
-    height: 9.47vw;*/
+.footer1_1 img {
+    width: 19.36vw;
+    height: 12vw;
     /*max-width: 100%;*/
-/*}*/
+}
 
 .footer1_2{
     padding-left: 20vw;
