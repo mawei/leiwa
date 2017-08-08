@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
-	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery.js"></script>
 	<script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery.flexslider-min.js"></script>
 </head>
