@@ -3,7 +3,7 @@
 
         <div class="footer1">
                 <div class="footer1_1">
-                    <img src="<?=base_url();?>/static/images/index_37.png">
+                    <img src="<?=base_url();?>/static/images/index_37.png" alt="雷瓦造型小家电_美·如此简单">
                 </div>
                 <div class="footer1_2">
                     <img src="<?=base_url();?>/static/images/weixin.png">

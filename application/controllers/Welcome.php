@@ -10,7 +10,7 @@ class Welcome extends Front_Controller {
 	
 	function index()
 	{
-		$mytitle = "首页_雷瓦官网";
+		$mytitle = "雷瓦造型小家电_美·如此简单";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 		$this->view('index',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
