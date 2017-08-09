@@ -62,10 +62,12 @@
     var current_top = parseInt(img_container.css('top'), 10);
     if(direction == 'left') {
       var old_image_top = '-'+ this.image_wrapper_height +'px';
-      img_container.css('top', this.image_wrapper_height +'px');
+      // img_container.css('top', this.image_wrapper_height +'px');
+      img_container.css('top', '0px');
     } else {
       var old_image_top = this.image_wrapper_height +'px';
-      img_container.css('top', '-'+ this.image_wrapper_height +'px');
+      // img_container.css('top', '-'+ this.image_wrapper_height +'px');
+      img_container.css('top', '0px');
     };
     if(desc) {
       desc.css('bottom', '-'+ desc[0].offsetHeight +'px');
