@@ -81,7 +81,7 @@
         </div>
         <div class="exp_2b exp2">
             <div class="container clearfix">
-                <div class="col-md-6 col-sm-6 col-xs-12 exp_2b_pz">
+                <div class="exp_2b_pz">
                     <div class="exp1_1">
                         品质承诺
                     </div>

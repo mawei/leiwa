@@ -4932,6 +4932,7 @@ margin-right: 10px;
 .exp2 .exp_2b{
     bottom: -16%;
     z-index: 99;
+    padding-left: 2vw;
 }
 /*@media (max-width:1680px) {
     .exp2 .exp_2b{
