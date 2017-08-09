@@ -55,7 +55,7 @@ class Welcome extends Front_Controller {
 		$allyears = $this->db->query("select distinct years from `t_aci_news` order by news_id desc")->result_array();
 		$years = $years == 0 || $years == ""? $allyears[0]['years']:$years;
 
-		$number = 3;
+		$number = 8;
 		// $allnews = $this->db->query("select * from `t_aci_news` where years='{$years}' and type='{$type}'")->result_array();
 		$allnews = $this->db->query("select * from `t_aci_news` where years='{$years}'")->result_array();
 		$maxpage = ceil(count($allnews)/$number);

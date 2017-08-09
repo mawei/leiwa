@@ -876,9 +876,9 @@
     overflow: hidden;
 }
 
-.index_four_text_ul li:last-child {
+/*.index_four_text_ul li:last-child {
     border: none;
-}
+}*/
 
 .index_fourimg_ul li {
     padding: 0px 5px;
@@ -1671,7 +1671,7 @@
     /*position: absolute;*/
     padding-left: 1vw;
     text-align: left;
-    width: 20vw;
+    width: 24vw;
     z-index: 100;
     padding-top: 25.3vw;
     float:left;
@@ -1694,7 +1694,7 @@
     text-align: left;
     float: left;
     z-index: 100;
-    margin-left: 30vw;
+    margin-left: 26vw;
     padding-top: 25.3vw;
     width: 20vw;
 }
@@ -3839,11 +3839,11 @@
     /*margin-top: 1.04vw;*/
 }
 
-.pro2_one a:hover {
+/*.pro2_one a:hover {
     color: #fff;
     opacity: 0.8;
 }
-
+*/
 .pro2_ban {
     position: relative;
     z-index: 1;

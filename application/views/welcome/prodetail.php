@@ -221,7 +221,7 @@
 						</a>
 						<p>雷瓦天猫官方旗舰店</p>
 						<a href="<?=$product['tmall']?>" target="blank" class="qijian_a">
-						了解更多
+						点击购买
 						</a>
 					</div>
 					<?php endif; ?>
@@ -230,7 +230,7 @@
 						<p class="pro3_four_tl" style="color: white">  1</p>
 						<img src="<?=base_url();?>/images/<?=$product['qr_image']?>">
 						<p>
-							手机扫一扫<br> 了解更多详细信息
+							手机扫一扫<br> 点击购买
 						</p>
 					</div>
 					<?php endif; ?>
@@ -306,6 +306,8 @@
         $(".alert_main").hide();
         video.pause();
     });
-    $(".ad-image").css("top","0");
+    $(document).ready(function(){
+    	$(".ad-image").css("top","0");
+    });
 </script>
 </html>
