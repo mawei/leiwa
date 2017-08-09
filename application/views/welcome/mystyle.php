@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/init.css">
     <link rel="stylesheet" href="static/css/main.css">
-    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
 </head>
 
@@ -37,7 +37,7 @@
         </div>
     </div>
     <div class="my_style_ban">
-        <div class="container">
+        <!-- <div class="container">
             <div class="my_ban_main">
                 <div class="my_style_big_tl">
                     潮流发型
@@ -45,7 +45,7 @@
                 如果说学会美妆是你接近时尚的基石，学会搭配服装是你走入时尚大门的钥匙，那么拥有漂亮发型就是你挤进时尚界的板砖
                 <br>——<br> 把那些跟你穿的差不多的女的都拍下神坛。在这个发型热潮的社会，发型设计的不同，决定着气质与风格的不同，发型可以<br>修饰脸型、可以为服装造型加分、可以传递性格，甚至可以影响人生。
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="my_syle_b">
         <div class="mystyle_tl">

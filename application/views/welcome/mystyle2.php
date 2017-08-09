@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/init.css">
     <link rel="stylesheet" href="static/css/main.css">
-    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
 </head>
 
@@ -36,8 +36,8 @@
             <a href="mystyle2"  class="ahover">未来发型趋势</a>
         </div>
     </div>
-    <div class="my_style_ban" style="background: url(static/images/style2_02.png) no-repeat center;background-size: cover;color: #ddb191;">
-        <div class="container">
+    <div class="my_style_ban" style="background: url(static/images/11_mystyle-02.jpg) no-repeat center;background-size: cover;color: #ddb191;">
+        <!-- <div class="container">
             <div class="my_ban_main">
                 <div class="my_style_big_tl" style="padding-bottom: 0.82vw;">
                     未来发型趋势
@@ -46,7 +46,7 @@
                 </div>
                 <br> 每一年，新一季的潮流趋势发布后，衣橱大换血，化妆品护肤品更新换代，发型“洗心革面”一番。<br> 就近几年的造型来看，不难发现，当下流行的发型更趋于简洁大气风范，女性的自信张扬及独立个性被放大， <br> 中长发及短发的各种造型开始逐渐被追捧，成为时尚潮流趋势。
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="my_syle_b myst2">
         <ul class="clearfix mystyle_ul container" style="background: #dedddd;">

@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
 	<link rel="stylesheet" type="text/css" href="<?=base_url();?>/static/css/jquery.ad-gallery.css">
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
-	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery.js"></script>
+	<script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
 	<script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?=base_url();?>/static/js/jquery.ad-gallery.js"></script>
 	<script type="text/javascript" src="<?=base_url();?>/static/js/zzsc.js"></script>

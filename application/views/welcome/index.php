@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/init.css">
     <link rel="stylesheet" href="static/css/main.css">
-    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    
 </head>
 
 <body style="background: #ebeaea;">

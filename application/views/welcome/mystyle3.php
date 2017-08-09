@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
     <link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
-    <script type="text/javascript" src="<?=base_url();?>/static/js/jquery.js"></script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="<?=base_url();?>/static/js/bootstrap.min.js"></script>
 </head>
 
@@ -36,8 +36,8 @@
             <a href="<?=base_url()?>mystyle2">未来发型趋势</a>
         </div>
     </div>
-    <div class="my_style_ban" style="background: url(<?=base_url();?>/static/images/mystyle3_02.png) no-repeat center;background-size: cover;color: #ddb191; background-size:100% 21.09vw;">
-        <div class="container">
+    <div class="my_style_ban" style="background: url(<?=base_url();?>/static/images/12_mystyle-03.jpg) no-repeat center;background-size: cover;color: #ddb191; background-size:100% 21.09vw;">
+<!--         <div class="container">
             <div class="my_ban_main" style="color: #ffffff;">
                 <p class="my_style_big_tl" style="color: #faf2d4;padding-bottom: 2.1vw;padding-top: 4.4vw">魔发秀</p>
                 <p class="my_style_small" style="color: #fffca9;padding-bottom: 0.83vw;">不可思议的10分钟</p>
@@ -45,7 +45,7 @@
                     每天10分钟，静静走走，自我反省；每天10分钟，一杯茶一本书，心灵人生；每天10分钟，听音乐听段子，缓解压力；当然每天10分钟，还能完成华丽蜕变。<br> 面对不同的场合，不同的服饰妆容，不同的脸型气质，雷瓦为所有用户提供各种时尚前沿的魔发秀，<br> 在不可思议的10分钟内，每天百变造型，开启美丽新纪元。
                 </p>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="clearfix style3_main">
         <div class="style3_title">
