@@ -3074,6 +3074,7 @@
 .style4_img_main {
     display: block;
     float: left;
+    cursor:pointer;
 }
 
 

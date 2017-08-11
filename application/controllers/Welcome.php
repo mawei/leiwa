@@ -239,6 +239,10 @@ class Welcome extends Front_Controller {
 				break;
 		}
 		$mytitle = $typename."_造型产品_雷瓦官网";
+		if($type == '1')
+		{
+			$mytitle = "卷发棒_造型产品_雷瓦官网";
+		}
 		$images = $this->db->query("select * from `t_aci_fashionhair` where type='{$typename}轮播图' order by fashionhair_id desc")->result_array();
 
 		$banner = $this->db->query("select * from `t_aci_fashionhair` where type='{$typename}品类海报' order by fashionhair_id desc")->result_array();
