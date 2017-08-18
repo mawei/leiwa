@@ -5443,6 +5443,37 @@ margin-right: 10px;
         font-size: 1.8vw;
     }
 
+    .qushi {
+        display: block;
+        background: url(../images/style2_05.png) no-repeat center;
+        background-size: 10.05vw;
+        width: 10.05vw;
+        height: 10.05vw;
+        line-height: 10.05vw;
+        text-align: center;
+        color: #fff;
+        font-size: 2.04vw;
+        position: absolute;
+        left: 1vw;
+        top: 1vw;
+    }
+
+    .qushi1 {
+        display: block;
+        background: url(../images/style2_05.png) no-repeat center;
+        position: absolute;
+        background-size: 10vw;
+        width: 10vw;
+        height: 10vw;
+        line-height: 10vw;
+        text-align: center;
+        color: #fff;
+        font-size: 2.04vw;
+        position: absolute;
+        right: 1vw;
+        top: 1vw;
+    }
+
     .exp_2t{
         top:3vw;
         width: 42vw;
