@@ -3092,6 +3092,7 @@
     width: 24vw;
     height: 21.3vw;
     padding-top: 7.3vw;
+    float: right;
 }
 
 .style3_img.next img{
@@ -3181,6 +3182,7 @@
         width: 24vw;
         height: 21.3vw;
         padding-top: 7.3vw;
+        float: right;
     }
 
     .style3_img.next img{
@@ -5059,8 +5061,8 @@ margin-right: 10px;
 }
 
 .about4_box:nth-child(even) .histroy {
-    margin-left: -36%;
-    width: 35%;
+    margin-left: -41%;
+    width: 40%;
     text-align: right;
 }
 
@@ -5294,10 +5296,22 @@ margin-right: 10px;
         float: left;
     }
 
-    .footer1_1 img{
-        width: 33vw;
-        height: 27vw;
+    .footer1_1 img {
+        width: 38.72vw;
+        height: 24vw;
+        /*max-width: 100%;*/
     }
+
+    .footer1_2{
+        padding-left: 5vw;
+    }
+
+    .footer1_3{
+        padding-left: 8.6vw;
+        float: left;
+        text-align: center;
+    }
+
     .footer1{
         height: 32vw;
     }
@@ -5313,8 +5327,22 @@ margin-right: 10px;
         height: 20vw;
     }
 
-    .footer1_2{
-        padding-left: 15vw;
+    .about_ul_rttl_big{
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+
+    .about_ul_rttl_big_81{
+        font-size: 6vw;
+        line-height: 8vw; 
+    }
+
+    .alert_main.box-detail{
+        padding: 3vw;
+    }
+
+    .topbtn{
+        right:8vw;
     }
 
     .footer1_2 p{
@@ -5585,10 +5613,15 @@ margin-right: 10px;
         height: 3vw;
         font-size: 2.5vw;
         line-height: 3vw;
+        width: 62vw;
     }
-    .news_bmain_lf img{
+
+    .news_bmain_lf img {
+        width: 26vw;
         height: 16vw;
+        vertical-align: middle;
     }
+
     .news_bmian_text{
         width: 60vw;
         line-height: 3vw;
@@ -5682,9 +5715,9 @@ margin-right: 10px;
         /*background: url(../images/sj_03.png) no-repeat right 4px;*/
     /*    background-size: 2vw;
     */    padding-right: 0.7vw;
-        font-size: 1.17vw;
+        font-size: 3vw;
         padding-left: 1.56vw;
-        line-height: 2.17vw;
+        line-height: 4.17vw;
         padding-bottom: 2vw;
     }
 
@@ -5698,6 +5731,13 @@ margin-right: 10px;
         margin-bottom: 1.56vw;
     }
 
+    .pro3 .pro2_three_tl span{
+        top:-1.5vw;
+    }
+
+    .pro3 .pro2_three_tl p{
+        font-size: 2.5vw;
+    }
 
 }
 

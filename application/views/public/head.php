@@ -3,9 +3,10 @@
 </div>
 <div class="menu">
     <div class="container">
-        <nav class="navbar navbar-default equinav" role="navigation">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle left" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle collapsed left" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -13,8 +14,8 @@
                 <span class="navbar-brand"></span>
             </div>
 
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav clearfix">
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
                     <li>
                         <a href="<?=base_url()?>about">
                                         关于雷瓦
@@ -51,6 +52,7 @@
                                     </a>
                     </li>
                 </ul>
+            </div>
             </div>
         </nav>
     </div>

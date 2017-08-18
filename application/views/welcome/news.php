@@ -123,7 +123,7 @@
 	<div class="bg"></div>
 	<div class="alert_main_bg">
 		<div class="alert_main detail box-detail">
-			<div class="wd1000">
+			<div class="wd1200">
 				<div class="wd900">
 					<em class="cha"></em>
 					<a href="#top-detail"><div class="upload"></div></a>
