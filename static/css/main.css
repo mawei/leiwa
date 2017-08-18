@@ -1415,7 +1415,7 @@
     padding-top:11.85vw;
     padding-left: 3vw;
     float: left;
-    width: 46vw;
+    width: 41vw;
 }
 
 .about_ul_lf4{
@@ -1431,7 +1431,7 @@
     margin-top: 4.85vw;
     margin-left: 20.83vw;
     float: left;
-    width: 25.4vw;
+    width: 18.4vw;
 }
 
 .about_ul_rt_big {
@@ -5441,6 +5441,14 @@ margin-right: 10px;
 
     .exp_2t{
         top:3vw;
+        width: 40vw;
+        font-size: 1.7vw;
+        line-height: 2vw;
+    }
+    .exp2 .exp_2b{
+        width: 59vw;
+        font-size: 1.7vw;
+        line-height: 2vw;
     }
     .right.contact_ban_con{
         font-size: 2vw;
@@ -5701,6 +5709,15 @@ margin-right: 10px;
         font-size: 2.56vw;
         line-height: 3vw;
     }
+
+    .about_ul_rt4 {
+        margin-top: 4.85vw;
+        margin-left: 0vw;
+        padding-left: 10vw;
+        float: left;
+        width: 80.4vw;
+    }
+
 
     .ab4_1_1 {
         font-size: 4.1vw;
