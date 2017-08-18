@@ -3179,15 +3179,15 @@
     }
 
     .style3_img.next{
-        width: 24vw;
+        width: 40vw;
         height: 21.3vw;
         padding-top: 7.3vw;
         float: right;
     }
 
     .style3_img.next img{
-        width: 6.67vw;
-        height: 6.67vw;
+        width: 13vw;
+        height: 13vw;
     }
 
     .style3_play {
@@ -4043,8 +4043,12 @@
 }
 
 .pro2_three_ul{
-    width: 80vw;
+    width: 90vw;
     margin:0 auto;
+}
+
+.top-detail{
+    font-weight: 500;
 }
 
 .pro2_three li a:hover .pro2_three_ul4 {
@@ -5441,7 +5445,7 @@ margin-right: 10px;
 
     .exp_2t{
         top:3vw;
-        width: 40vw;
+        width: 42vw;
         font-size: 1.7vw;
         line-height: 2vw;
     }
