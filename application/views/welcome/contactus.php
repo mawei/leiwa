@@ -7,6 +7,9 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="renderer" content="webkit">
     <title><?=$mytitle?></title>
+    <meta name="keywords" content="联系我们，卷发棒，卷发器，直板夹，直发器，个人护理，卷发棒品牌，雷瓦卷发棒，雷瓦吹风机"/>
+    <meta name="description" content="雷瓦为所有用户承诺提供品质服务，安心放心使用雷瓦造型产品，打造美丽人生。"/>
+
     <link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
     <link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">

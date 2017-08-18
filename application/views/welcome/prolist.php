@@ -8,6 +8,14 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="renderer" content="webkit">
 	<title><?=$mytitle?></title>
+	<?php if ($type != 4): ?>
+		<meta name="keywords" content="卷发棒，卷发器，直板夹，直发器，个人护理，卷发棒品牌，雷瓦卷发棒，雷瓦吹风机"/>
+	<?php endif; ?>
+	<?php if ($type == 4): ?>
+		<meta name="keywords" content="剃毛仪，个人护理，电动牙刷，鼻毛修剪器 "/>
+	<?php endif; ?>
+	<meta name="description" content="雷瓦百变造型产品中心，涵盖烫发器，电吹风，理发器及个护系列四大主营品类，满足不同选择"/>
+
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/main.css">
