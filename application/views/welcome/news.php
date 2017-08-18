@@ -129,10 +129,10 @@
 			<div class="wd1200">
 				<div class="wd900">
 					<em class="cha"></em>
-					<a href="#top-detail" class="top-detail"><div class="upload"></div></a>
+					<a href="#top-detail" ><div class="upload"></div></a>
 					<div class="box-detail-ct">
 						<div class="detail-cont"  style="color: white">
-							<p id="top-detail" ></p>
+							<p id="top-detail" class="top-detail" ></p>
 							<p style="margin: 0; color: red;" id="createtime"></p>
 							<p id="content"></p>
 						</div>
