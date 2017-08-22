@@ -58,7 +58,7 @@
         </div>
         <div class="footer_3">
             <p>
-                ©2009-2015雷瓦版权所有，并保留所有权利&nbsp;沪ICP备13023603号-1
+                ©2009-2015雷瓦版权所有，并保留所有权利&nbsp;<a href="http://www.miit.gov.cn">沪ICP备13023603号-1</a>
             </p>
             <img src="<?=base_url();?>/static/images/index_45.png">
         </div>

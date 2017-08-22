@@ -33,7 +33,7 @@ class Welcome extends Front_Controller {
 
 	function about3()
 	{
-		$mytitle = "品牌印记_关于雷瓦_雷瓦官网";
+		$mytitle = "核心实力_关于雷瓦_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
 		$this->view('about3',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
@@ -41,7 +41,7 @@ class Welcome extends Front_Controller {
 
 	function about4()
 	{
-		$mytitle = "核心实力_关于雷瓦_雷瓦官网";
+		$mytitle = "品牌印记_关于雷瓦_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
 
 		$this->view('about4',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
@@ -50,7 +50,7 @@ class Welcome extends Front_Controller {
 
 	function news($years=0,$page = 1)
 	{
-		$mytitle = "雷瓦咨询_雷瓦官网";
+		$mytitle = "雷瓦资讯_雷瓦官网";
 		// $type = ($newstype == 'company' || $newstype == '') ? "公司新闻":"产品新闻";
 		$allyears = $this->db->query("select distinct years from `t_aci_news` order by news_id desc")->result_array();
 		$years = $years == 0 || $years == ""? $allyears[0]['years']:$years;

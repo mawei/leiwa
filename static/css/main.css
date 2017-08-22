@@ -3288,8 +3288,8 @@
 .cha {
     display: block;
     background: url(../images/cha.png) no-repeat;
-    width: 44px;
-    height: 44px;
+    width: 46px;
+    height: 46px;
     position: absolute;
     right: -10px;
     top: -60px;
@@ -4772,8 +4772,8 @@ margin-right: 10px;
   padding-left: 10px;  line-height: 25px;font-size: 15px;color: #fff;
 }
 .box-detail .cha{
-    top: 50%;
-    right: -53px;z-index: 4000;
+    top: 45%;
+    right: -5vw;z-index: 4000;
 }
 .box-detail .upload{
     display: block;
@@ -4782,7 +4782,7 @@ margin-right: 10px;
     height: 46px;
     position: absolute;
     top: 58%;
-    right: -53px;
+    right: -5vw;
     cursor: pointer;
 }
 .donghua{
@@ -5080,6 +5080,12 @@ margin-right: 10px;
     line-height: 1.56vw;
 }
 
+.wd1200{
+    width: 60%;
+    margin:0 auto;
+    position: relative;
+}
+
 .about4_box img {
     width: 100%;
     object-fit: scale-down;
@@ -5197,6 +5203,12 @@ margin-right: 10px;
     } 
     .about_ul_lf1{
         padding-left: 0vw;
+    }
+
+    .wd1200{
+        width: 100%;
+        margin:0 auto;
+        position: relative;
     }
 
     .about_ul li {
