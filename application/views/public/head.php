@@ -47,7 +47,7 @@
                                     </a>
                     </li>
                     <li>
-                        <a href="https://store.taobao.com/shop/view_shop.htm?spm=a220m.1000862.1000730.2.7c054992Oug8fp&user_number_id=528707031&rn=5f3a8ae8a86b229cfb6abd99daa31d70">
+                        <a href="https://store.taobao.com/shop/view_shop.htm?spm=a220m.1000862.1000730.2.7c054992Oug8fp&user_number_id=528707031&rn=5f3a8ae8a86b229cfb6abd99daa31d70" target="blank">
                                     官方商城
                                     </a>
                     </li>
