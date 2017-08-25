@@ -46,7 +46,7 @@
 		</div>
 	</div>
 	<div class="pro2_one">
-		<a href="<?=$banner[0]['content']?>" ><img src="<?=base_url();?>/images/<?=$banner[0]['image']?>" target="blank"></a>
+		<a href="<?=$banner[0]['content']?>" target="blank"><img src="<?=base_url();?>/images/<?=$banner[0]['image']?>" ></a>
 		<!-- <img src="<?=base_url();?>/static/images/pr2.gif"> -->
 		<!-- <div class="pro2_one_main">
 			<div class="container">
