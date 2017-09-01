@@ -3100,6 +3100,18 @@
     height: 6.67vw;
 }
 
+.style3_img.next2{
+    width: 24vw;
+    height: 21.3vw;
+    padding-top: 7.3vw;
+    float: right;
+}
+
+.style3_img.next2 img{
+    width: 6.67vw;
+    height: 6.67vw;
+}
+
 .page{
     padding-top: 4.16vw;
 }
@@ -3183,6 +3195,14 @@
         height: 21.3vw;
         padding-top: 7.3vw;
         float: right;
+    }
+
+    .style3_img.next2{
+        width: 35.5vw;
+        height: 21.3vw;
+        padding-top: 7.3vw;
+        float: right;
+        display: none;
     }
 
     .style3_img.next img{
