@@ -177,10 +177,10 @@ class Welcome extends Front_Controller {
 				$typename = "烫发器";
 				break;
 		}
-		$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc")->result_array();
+		$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id desc")->result_array();
 
 		$number =10;
-		$allshows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc")->result_array();
+		$allshows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id desc")->result_array();
 		$maxpage = ceil(count($allshows)/$number);
 		$page = $page == ""||$page < 1 ? 1 : $page;
 		$page = $page > $maxpage? $maxpage:$page;
@@ -190,7 +190,7 @@ class Welcome extends Front_Controller {
 		{
 			$shows = $allshows;
 		}else{
-			$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id asc  limit {$start},{$number}")->result_array();
+			$shows = $this->db->query("select * from `t_aci_magicshow` where type='{$typename}' order by magicshow_id desc  limit {$start},{$number}")->result_array();
 		}
 
 
@@ -203,7 +203,7 @@ class Welcome extends Front_Controller {
 	{
 		$mytitle = "达人秀场_我型我造_雷瓦官网";
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
-		$showgrouds = $this->db->query("select * from `t_aci_showgroud` order by showgroud_id asc")->result_array();
+		$showgrouds = $this->db->query("select * from `t_aci_showgroud` order by showgroud_id desc")->result_array();
 
 		$this->view('mystyle4',array('showgrouds'=>$showgrouds,'links'=>$this->getLinks(),'mytitle'=>$mytitle));
 	}
