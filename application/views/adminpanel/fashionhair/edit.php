@@ -31,6 +31,7 @@
 				<option value='电吹风品类海报' <?php if(isset($data_info['type'])&&($data_info['type']=='电吹风品类海报')) { ?> selected="selected" <?php } ?>            >电吹风品类海报</option>
 				<option value='理发器品类海报' <?php if(isset($data_info['type'])&&($data_info['type']=='理发器品类海报')) { ?> selected="selected" <?php } ?>            >理发器品类海报</option>
 				<option value='美容健康品类海报' <?php if(isset($data_info['type'])&&($data_info['type']=='美容健康品类海报')) { ?> selected="selected" <?php } ?>            >美容健康品类海报</option>
+				<option value='首页轮播图' <?php if(isset($data_info['type'])&&($data_info['type']=='首页轮播图')) { ?> selected="selected" <?php } ?>            >首页轮播图</option>
 </select>
 				</div>
 			</div>

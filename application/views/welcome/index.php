@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="static/css/main.css">
     <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?=base_url();?>/static/js/jquery.flexslider-min.js"></script>
+
     
 </head>
 
@@ -28,15 +30,80 @@
             <!--#include file="inc/head.htm" -->
             <!--head end-->
         </div>
-        <div class="idx_banner_txt">
+        <div class="pro1_one">
+        <div class="block_home_slider">
+            <div id="home_slider" class="flexslider">
+
+                <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                    <ul class="slides" style="width: 1000%;">
+                        <?php foreach($images as $v):?>
+                        <li class="clone" style="width: 1280px; float: left; display: block;">
+                            <div class="pro_one_nr">
+                                <a href="<?=$v['content']?>" target="blank">
+                                <img src="<?=base_url();?>/images/<?=$v['image']?>">
+                                </a>
+                            </div>
+                        </li>
+                        <?php endforeach;?>
+<!-- 
+                        
+                        <li class="clone" style="width: 1280px; float: left; display: block;">
+                            <div class="pro_one_nr">
+                                <img src="<?=base_url();?>/static/images/pro_02.jpg">
+                                <div class="pro1_one_main">
+                                        <div class="pro1_one_main_con">
+                                            <p class="pro1_one1">
+                                                聚焦造型小家电
+                                            </p>
+                                            <p>
+                                                雷瓦百变造型产品中心，涵盖
+                                            </p>
+                                            <p class="pro1_one2">
+                                                烫发器、电吹风、理发器、美容健康<br>四大主营品类。
+                                            </p>
+                                            <p class="sj_pro1_one1">
+                                                所有造型产品外观设计时尚简约，色彩活力悦动。雷瓦工<br>程师们从技术到生产工艺，注重每一处细节，精工细琢。<br>
+                                                同时充分考虑用户造型的需求及困难，注重产品实用功能<br>化设计，使百变造型轻松简单，游刃有余。
+                                            </p>
+                                        </div>
+                                </div>
+                            </div>
+                        </li> -->
+
+                    </ul>
+                    <div class="ad-next"></div>
+                    <div class="ad-prev"></div>
+                </div>
+                
+            </div>
+            <script type="text/javascript">
+                $(function () {
+                    $('#home_slider').flexslider({
+                        animation: 'slide',
+                        controlNav: true,
+                        initDelay: 0,
+                        animationSpeed: 700,
+                        slideshowSpeed: 3000,
+                        directionNav: false,
+                        animationLoop: true,
+                        slideshow: true,
+                        pauseOnHover: true,
+                        useCSS: false
+                    });
+
+                });
+            </script>
+        </div>
+    </div>
+<!--         <div class="idx_banner_txt">
             <span class="idx_banner_txt_en">
                 <small>TO BE BEAUTIFUL<br> </small>
                 <span class="idx_banner_txt_en_big">SO SIMPLE<br></span>
             </span>
 
             <span class="idx_banner_txt_cn">美，如此简单</span>
-        </div>
-        <img src="static/images/index_01.png" class="index_banner_img">
+        </div> -->
+        <!-- <img src="static/images/index_01.png" class="index_banner_img"> -->
     </div>
     <div class="container index_two" align="center">
         <div class="index_two_txt">

@@ -11,8 +11,11 @@ class Welcome extends Front_Controller {
 	function index()
 	{
 		$mytitle = "雷瓦造型小家电_美·如此简单";
+		$images = $this->db->query("select * from `t_aci_fashionhair` where type='首页轮播图' order by fashionhair_id desc")->result_array();
+
+		// print_r($images);die();
 		$this->reload_all_cache();//更新全局菜单缓存，可以去掉这行
-		$this->view('index',array('links'=>$this->getLinks(),'mytitle'=>$mytitle));
+		$this->view('index',array('links'=>$this->getLinks(),'mytitle'=>$mytitle,'images'=>$images));
 	}
 	
 	function about()
