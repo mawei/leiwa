@@ -105,7 +105,7 @@
         </div> -->
         <!-- <img src="static/images/index_01.png" class="index_banner_img"> -->
     </div>
-    <div class="container index_two" align="center">
+    <div class="container index_two" align="center" style="margin-top: 3vw">
         <div class="index_two_txt">
             为每一位用户，每一位女性带来轻松简单的美丽，<br> 主张 <span class="fontRed">“每个人都可以通过给自己造型的小改变，去大胆创造属于自己的美”</span>。
         </div>
