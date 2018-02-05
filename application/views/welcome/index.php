@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="renderer" content="webkit">
-
+    <meta name="baidu-site-verification" content="EyAuX2bEX9" />
     <title><?=$mytitle?></title>
     <meta name="keywords" content="雷瓦，卷发棒，卷发器，直板夹，直发器，个人护理，卷发棒品牌，雷瓦卷发棒，雷瓦吹风机"/>
     <meta name="description" content="RIWA雷瓦，轻松私人造型小家电品牌，旨在为每一位用户带去轻松便捷的造型产品，让每位女性都能轻松拥有美丽和时尚的渴望。美，如此简单。"/>
