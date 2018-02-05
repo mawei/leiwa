@@ -10,7 +10,7 @@
     <meta name="author" content="autocodeigniter.com">
     <link rel="icon" href="favicon.ico">
     <meta name="renderer" content="webkit">
-    <meta name="baidu-site-verification" content="EyAuX2bEX9" />
+    <meta name="baidu-site-verification" content="ovrGnvoVMb" />
     <title><?=$title?></title>
 
     <!-- Bootstrap core CSS -->

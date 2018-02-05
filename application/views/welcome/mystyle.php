@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <meta name="renderer" content="webkit">
-    <meta name="baidu-site-verification" content="EyAuX2bEX9" />
+    <meta name="baidu-site-verification" content="ovrGnvoVMb" />
     <title><?=$mytitle?></title>
     <meta name="keywords" content="我型我造，卷发棒，卷发器，直板夹，直发器，个人护理，卷发棒品牌，雷瓦卷发棒，雷瓦吹风机"/>
     <meta name="description" content="雷瓦始终专注私人造型领域，为每一个爱美女性提供最方便快捷的造型产品。"/>

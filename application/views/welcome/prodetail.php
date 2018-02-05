@@ -8,7 +8,7 @@
 
 	<meta name="format-detection" content="telephone=no">
 	<meta name="renderer" content="webkit">
-	<meta name="baidu-site-verification" content="EyAuX2bEX9" />
+	<meta name="baidu-site-verification" content="ovrGnvoVMb" />
 	<title><?=$mytitle?></title>
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?=base_url();?>/static/css/init.css">
