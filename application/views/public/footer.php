@@ -34,6 +34,9 @@
                     <a href="<?=base_url()?>news">雷瓦资讯</a>
                 </li>
                 <li>
+                    <a href="http://style.riwa.com">雷瓦造型</a>
+                </li>
+                <li>
                     <a href="<?=base_url()?>contactus">联系我们</a>
                 </li>
                 <li>
