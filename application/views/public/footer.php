@@ -66,4 +66,13 @@
             <img src="<?=base_url();?>/static/images/index_45.png">
         </div>
     </div>
+    <div style="display:none;"><script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c09ed52be8f2ab42b1a1c4bbce43abbd";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script></div>
     <script type="text/javascript" src="<?=base_url();?>static/js/main.js"></script>
